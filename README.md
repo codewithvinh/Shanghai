@@ -19,6 +19,7 @@ Ghi công ảnh Wikimedia Commons. Các tệp là bản thu nhỏ và có thể 
 - Vịt quay · Neodymium+Nd · [Ảnh gốc](https://commons.wikimedia.org/wiki/File:Roast_Duck_with_Rice_Noodles.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - CHAGEE tại Trường Sa · Huangdan2060 · [Ảnh gốc](https://commons.wikimedia.org/wiki/File:Chagee_store_in_Changsha_20250414N.jpg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Luckin Coffee tại Raffles City Trường Ninh · Baycrest · [Ảnh gốc](https://commons.wikimedia.org/wiki/File:Luckin_Coffee_at_Raffles_City_Changning.jpg) · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+- Bảo tàng Hàng Châu · 猫猫的日记本 · [Ảnh gốc](https://commons.wikimedia.org/wiki/File:Hangzhou_Museum_01_2018-07.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Chạy local
 
@@ -32,7 +33,11 @@ Mở [Giang Nam PWA](http://127.0.0.1:8765/trip/). Chạy `node src/build-trip.m
 
 GitHub Actions dựng và triển khai thư mục `public/` khi có thay đổi được đẩy lên `master`. Trang chủ dẫn về [Giang Nam PWA](https://codewithvinh.github.io/Shanghai/trip/).
 
-Sau lần mở đầu tiên qua HTTPS, đợi trạng thái **Dùng được ngoại tuyến** trước khi ngắt mạng. Để cài trên iPhone, mở bằng Safari và chọn **Chia sẻ → Thêm vào MH chính**. Bản đồ nền và điều hướng trong Amap Global hoặc Apple Maps phụ thuộc vào kết nối mạng và dữ liệu đã tải trong ứng dụng bản đồ.
+### Cài trên điện thoại
+
+- **iPhone** · Mở link bằng Safari, chọn **Chia sẻ → Thêm vào Màn hình chính**. Bật **Mở dưới dạng ứng dụng web** nếu có, rồi chạm **Thêm**.
+- **Android** · Mở link bằng Chrome, chọn **⋮ → Thêm vào màn hình chính → Cài đặt**.
+- Mở **Giang Nam** từ màn hình chính khi còn mạng. Đợi trạng thái **Dùng được ngoại tuyến**, sau đó bật chế độ máy bay và mở lại để thử. Bản đồ nền và chỉ đường phụ thuộc vào kết nối mạng hoặc dữ liệu đã tải trong ứng dụng bản đồ.
 
 ## Cấu trúc
 
