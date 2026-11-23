@@ -20,7 +20,7 @@ Giá khách sạn, vé Disney và giờ xe khách hiện chỉ là **giá tham k
 **Đêm đầu:** Không thuê khách sạn gần sân bay để tiết kiệm chi phí. Đi xe buýt đêm 守航夜宵线 đến Hồng Kiều, sau đó bắt tàu đi Hàng Châu. 
 **Nơi lưu trú dự kiến:** Homeinn Định An 2 đêm (08–10/01) · Tây Sách 1 đêm · khu vực Bến Thượng Hải 2 đêm — chưa đặt.
 
-> Sổ tay iPhone (sao chép địa chỉ và Amap): `public/hangzhou-trip.html`.
+> Sổ tay trên điện thoại: [Giang Nam PWA](https://codewithvinh.github.io/Shanghai/trip/).
 
 ---
 

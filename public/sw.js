@@ -1,5 +1,5 @@
 /* Hangzhou-trip PWA — multi-page shell + images */
-const CACHE = "hz-trip-v2026-11-23i";
+const CACHE = "hz-trip-v2026-11-23j";
 
 const PRECACHE = [
   "./hangzhou-days.html",
@@ -7,7 +7,6 @@ const PRECACHE = [
   "./hangzhou-budget.html",
   "./hangzhou-pins.html",
   "./hangzhou-map.html",
-  "./hangzhou-trip.html",
   "./hangzhou-trip.css",
   "./js/hangzhou-amap-config.js",
   "./js/hangzhou-data.js",
