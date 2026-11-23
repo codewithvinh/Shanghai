@@ -74,10 +74,7 @@ button:hover { border-color: var(--blue) }
 .topbar,.tools,.brand { display: flex; align-items: center; gap: 11px }
 .topbar { justify-content: space-between; min-height: 70px }
 .brand { text-decoration: none; font-size: var(--text-20); font-weight: var(--weight-bold); line-height: var(--leading-title) }
-.brand span {
-  display: grid; place-items: center; width: 37px; height: 37px;
-  border-radius: 12px; background: var(--blue); color: white;
-}
+.brand img { display: block; flex: none; border-radius: 10px }
 .tools { font-size: var(--text-detail); flex-wrap: wrap; justify-content: flex-end }
 #offline:not(:empty) {
   color: #245440; background: #e3f1e7; padding: 5px 10px;

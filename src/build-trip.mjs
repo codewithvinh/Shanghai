@@ -121,7 +121,7 @@ const images = [...new Set([
 ])];
 const assets = [...shellFiles, ...images.map((path) => 'public/' + path),
   'public/trip/fonts/InterVariable.woff2', 'public/trip/fonts/InterVariable-Italic.woff2',
-  ...['icon-192.png', 'icon-512.png', 'apple-touch-icon.png'].map((path) => 'public/icons/' + path)];
+  ...['giang-nam.svg', 'giang-nam-180.png', 'giang-nam-192.png', 'giang-nam-512.png'].map((path) => 'public/trip/icons/' + path)];
 const hash = createHash('sha256').update(json).update(worker.replace(workerPattern, ''));
 for (const asset of assets) hash.update(await readFile(new URL('../' + asset, import.meta.url)));
 const revision = hash.digest('hex').slice(0, 16);

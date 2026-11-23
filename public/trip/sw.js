@@ -1,11 +1,11 @@
 const prefix = 'giang-nam:' + self.registration.scope + ':';
-const cacheName = prefix + 'ddfb9a9b7e12e3bd';
+const cacheName = prefix + 'b72247db2e2e9120';
 const shell = new URL('./index.html', self.registration.scope).href;
 const localAssets = [
   './index.html', './trip.css', './trip.js', './data.json', './manifest.webmanifest',
   './trip-map.js', './leaflet.js', './leaflet.css',
   './fonts/InterVariable.woff2', './fonts/InterVariable-Italic.woff2',
-  '../icons/icon-192.png', '../icons/icon-512.png', '../icons/apple-touch-icon.png',
+  './icons/giang-nam.svg', './icons/giang-nam-180.png', './icons/giang-nam-192.png', './icons/giang-nam-512.png',
 ];
 
 self.addEventListener('install', (event) => {
