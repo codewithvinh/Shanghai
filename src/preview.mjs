@@ -18,6 +18,7 @@ const TYPES = {
   ".jpg": "image/jpeg",
   ".jpeg": "image/jpeg",
   ".webp": "image/webp",
+  ".woff2": "font/woff2",
   ".svg": "image/svg+xml",
   ".ico": "image/x-icon",
   ".md": "text/markdown; charset=utf-8",
@@ -27,7 +28,13 @@ const TYPES = {
 
 const server = http.createServer((req, res) => {
   const urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
-  const rel = urlPath === "/" ? "shanghai-plan.html" : urlPath.replace(/^\/+/, "");
+  if (urlPath === "/trip") {
+    res.writeHead(302, { Location: "/trip/" });
+    res.end();
+    return;
+  }
+  const rel = urlPath === "/trip/" ? "trip/index.html" :
+    urlPath === "/" ? "index.html" : urlPath.replace(/^\/+/, "");
   const file = path.normalize(path.join(publicDir, rel));
   if (!file.startsWith(publicDir)) {
     res.writeHead(403);
@@ -46,6 +53,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, "0.0.0.0", () => {
+  console.log("http://127.0.0.1:" + port + "/trip/  (Giang Nam PWA)");
   console.log(`http://127.0.0.1:${port}/hangzhou-trip.html  (PWA — cài trên điện thoại qua Wi‑Fi LAN)`);
   console.log(`http://127.0.0.1:${port}/shanghai-plan.html`);
   console.log(`http://127.0.0.1:${port}/shanghai-plan-2.html`);

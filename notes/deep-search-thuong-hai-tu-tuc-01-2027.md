@@ -148,7 +148,7 @@ Nguồn: PT5 Hangzhou 2026, ExploreWithShanghai 2-day, Qunar winter Hangzhou, Fu
 ## 7. Ô Trấn Tây Sách (10–11/01)
 
 ### Vé & ở trong trấn
-Từ **16/03/2025**: ở hầu hết KS/homestay **trong Tây Sách** (trừ 水巷青年旅馆) → **miễn vé Tây Sách theo số người thực tế**.
+Đã có thông báo ưu đãi vé cho khách lưu trú từ **16/03/2025**. Khi đặt phòng cho tháng 1/2027, xác nhận với chỗ ở hoặc kênh bán rằng gói phòng trong Tây Sách gồm **hai vé vào lần đầu** và hỏi quy định ra vào sau khi nhận phòng.
 - Check-in tại **西栅游客服务中心** bằng passport.
 - Ở trong trấn: ra vào nhiều lần bằng thẻ phòng; checkout 12:00 vẫn vào được tới giờ đó (theo guide gần đây).
 - Hành lý: gửi/đưa từ visitor center (không kéo vali trên đá suốt).
@@ -215,7 +215,7 @@ Nguồn: vssaigon.com DIY SH 2026, YuGarden.org / Shanghaitourism lantern pages.
 **Tips vận hành**
 - Metro **line 11** → Disney; cửa 1 hoặc 2/4 tùy biển.
 - App official: hours, wait, reservation Mickey’s Storybook Journey khi đông.
-- Cấm: selfie stick, chai nước >600ml, ghế gấp lớn, vali lớn…
+- Disney cấm gậy chụp ảnh, hành lý có bánh xe và vật dụng quá kích thước quy định. Có thể mang đồ ăn nhẹ không cần hâm nóng hoặc giữ lạnh và không có mùi nồng. [Nội quy chính thức của Disney](https://www.shanghaidisneyresort.com/en/legal/park-rules)
 - Mang: passport, áo ấm, ô, powerbank trong giới hạn, snack nhẹ, đệm ngồi fireworks.
 - Sau fireworks: taxi đông — một tip hay dùng điểm đón gần khách sạn phía đông bắc resort.
 

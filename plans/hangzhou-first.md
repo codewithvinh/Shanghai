@@ -27,7 +27,7 @@ Giá khách sạn, vé Disney và giờ xe khách hiện chỉ là **giá tham k
 ## 4 trải nghiệm nhất định phải có
 
 1. **Hai ngày Hàng Châu** — 08/01 Hồ Tây lúc vừa đáp. 09/01 ngủ bù, lụa, trà, tối Vũ Lâm. Không nhồi Linh Ẩn.
-2. **Đêm đèn Tây Sách** — ngủ trong Ô Trấn nghĩa là miễn vé 150 tệ. Sáng hôm sau vẫn vào được, vắng người.
+2. **Đêm đèn Tây Sách** — ở một đêm trong trấn để dạo cả tối lẫn sáng hôm sau. Xác nhận gói phòng có hai vé vào khu.
 3. **Disney một ngày** — thứ Ba 12/01. Tron sớm, Zootopia, ILLUMINATE! ~20:00 rồi tàu điện ngầm về.
 4. **Dự Viên lên đèn** — phố chợ miễn phí. Thứ Tư vườn cổ đóng — chỉ đi thương thành.
 
@@ -36,8 +36,8 @@ Giá khách sạn, vé Disney và giờ xe khách hiện chỉ là **giá tham k
 | Trải nghiệm | Thành phố | Buổi | Vì sao giữ | Mức |
 | --- | --- | --- | --- | --- |
 | Hồ Tây (西湖 / West Lake) | Hàng Châu | Sáng | Bờ đông miễn phí sáng 08/01, vắng, hợp đúng lúc vừa bay đêm. | Giữ |
-| Ô Trấn Tây Sách (乌镇西栅) | Ô Trấn | Chiều–sáng | Ngủ trong trấn khỏi mua vé; sáng sớm phố vắng hoe. | Giữ |
-| Disneyland và ILLUMINATE! | Thượng Hải | Cả ngày | Ngày 12/01 đã chốt hướng. Show xong tàu điện ngầm, chuyến cuối 22:30. | Giữ |
+| Ô Trấn Tây Sách (乌镇西栅) | Ô Trấn | Chiều–sáng | Ở trong trấn để dạo phố sáng sớm. Kiểm tra vé trong gói phòng. | Giữ |
+| Disneyland và ILLUMINATE! | Thượng Hải | Cả ngày | Giữ ngày 12/01, tra lịch show và tàu về gần ngày đi. | Giữ |
 | Bến Thượng Hải (外滩) | Thượng Hải | Tối | Đi bộ từ khách sạn Nam Kinh Lộ ra là tới, ngắm lên đèn. | Nên |
 | Phố chợ Dự Viên (豫园商城) | Thượng Hải | Tối | Đèn đẹp, khỏi vé vườn. Ghim cổng 5. | Giữ |
 
@@ -47,7 +47,8 @@ Giá khách sạn, vé Disney và giờ xe khách hiện chỉ là **giá tham k
 
 **Hà Nội đến sân bay Phố Đông, không thuê khách sạn gần sân bay**
 
-Thượng Hải Phố Đông · trên đường. Bay tối 07/01, đáp sáng 08/01 sân bay Phố Đông. Nhập cảnh xong ~03:00 bắt xe buýt đêm, lên tàu Hàng Châu.
+- Bay từ Hà Nội tối 07/01, đến sân bay Phố Đông rạng sáng 08/01.
+- Sau khi nhập cảnh, dự kiến khoảng 03:00, đi xe buýt đêm đến Hồng Kiều để đón tàu đi Hàng Châu.
 
 | Thời gian | Hoạt động |
 | --- | --- |
@@ -62,7 +63,9 @@ Thượng Hải Phố Đông · trên đường. Bay tối 07/01, đáp sáng 08
 
 **Hàng Châu · Hồ Tây, Thanh Hà Phường**
 
-Tàu ~06:20–06:45 tới Hàng Châu Đông. Gửi vali, 14:00 nhận phòng. Sáng bờ đông, trưa cơm Hàng Châu, chiều phố cổ, tối IN77 rồi ngủ. Vũ Lâm để ngày mai.
+- Đón tàu đi Hàng Châu Đông trong khung 06:20–06:45. Gửi vali tại khách sạn và nhận phòng từ 14:00.
+- Sáng dạo bờ đông Hồ Tây. Trưa ăn món Hàng Châu, chiều ghé Thanh Hà Phường.
+- Tối ăn ở IN77 rồi về nghỉ. Để Vũ Lâm sang hôm sau.
 
 | Thời gian | Hoạt động |
 | --- | --- |
@@ -79,7 +82,11 @@ Tàu ~06:20–06:45 tới Hàng Châu Đông. Gửi vali, 14:00 nhận phòng. S
 
 **Hàng Châu · lụa, trà, Vũ Lâm**
 
-Có thêm thời gian nghỉ ngơi. Sáng ngủ bù cho lại sức, sau đó đi mua lụa và trà. Trưa ăn 新周记, chiều chọn Lôi Phong hoặc Hồ Tân, tối mới thong thả sang Vũ Lâm thưởng thức món cua.
+- Sáng nghỉ thêm, sau đó đi mua lụa và trà.
+- Trưa ăn tại Tân Châu Ký (新周记). Chiều chọn ghé Lôi Phong Tháp hoặc dạo Hồ Tân.
+- Tối sang Vũ Lâm ăn món cua.
+
+- Nếu trời mưa hoặc muốn dành buổi chiều trong nhà, có thể thay Lôi Phong Tháp hoặc Hồ Tân bằng **Bảo tàng Hàng Châu (杭州博物馆)** ở số 18 Lương Đạo Sơn, gần Ngô Sơn. Kiểm tra giờ mở cửa và yêu cầu đặt chỗ cho ngày 09/01. [Thông tin từ thành phố Hàng Châu](https://www.ehangzhou.gov.cn/2022-03/18/c_280117.htm)
 
 | Thời gian | Hoạt động |
 | --- | --- |
@@ -94,15 +101,16 @@ Có thêm thời gian nghỉ ngơi. Sáng ngủ bù cho lại sức, sau đó đ
 
 **Hàng Châu đến Ô Trấn Tây Sách**
 
-Ăn sáng gần khách sạn, trưa nhẹ, 12:00 trả phòng. **Đi xe khách thẳng tới Tây Sách** — khỏi đổi tàu, khỏi gọi Didi lòng vòng. Ở ngay trong trấn còn được miễn vé vào cửa, quá hời!
+- Ăn sáng gần khách sạn, ăn trưa nhẹ và trả phòng lúc 12:00.
+- Đi xe khách thẳng tới Tây Sách. Xác nhận gói lưu trú có hai vé vào cửa khi đặt phòng.
 
 | Thời gian | Hoạt động |
 | --- | --- |
 | **08:00–12:00** | **Ăn sáng và trả phòng** — 新丰小吃 gần khách sạn: tiểu long bao và sinh tiễn. Trưa nhẹ Qiantangli / mì. Lụa và trà đã làm 09/01. Trả phòng 12:00. Didi/tàu điện ngầm 1 ga ra bến 城站. |
 | **13:45** | **Xe khách 城站 đến Tây Sách** — bến **杭州城站汽车客运站** (`杭州市上城区环城东路12号杭州城站汽车客运站`). Vé ghi **乌镇西栅**, ~35–45 tệ, ~90 phút. Chốt **13:45**, dự phòng 14:45. Mua quầy bằng hộ chiếu; ứng dụng hay chỉ nhận CMND Trung Quốc. Tới trước 45 phút. Lịch mẫu — mua gần ngày. Hết chuyến thì sang bến ga Đông tầng G (`杭州火车东站东广场G层北侧杭州长运公路汽车站`). Xuống trung tâm khách, không cổng Nam. `浙江省桐乡市乌镇西栅游客服务中心` |
-| **15:00–22:00** | **Nhận phòng và Tây Sách lên đèn** — nhà dân trong trấn ~1.861k/đêm (Trip.com, chưa đặt). Đừng dại mua vé 150 tệ ở ngoài cổng nhé — đã ngủ trong trấn thì tận dụng quyền lợi miễn vé! Nhất định nên trải nghiệm: thuyền Tây Sách ~60 tệ lúc hoàng hôn. Đền Nguyệt Lão và cây Phu Thê 20 tệ nếu muốn. Tối: vịt quay 大茶饭 hoặc mì cừu 书生灯面. `浙江省桐乡市乌镇石佛南路18号西栅景区` · `浙江省桐乡市乌镇西栅大街612号大茶饭` · `乌镇西栅大街216号书生灯面` |
+| **15:00–22:00** | **Nhận phòng và dạo Tây Sách về đêm** — nhà dân trong trấn khoảng 1.861.000 ₫/đêm theo báo giá tham khảo, chưa đặt. Xác nhận có hai vé vào Tây Sách trước khi mua vé lẻ. Có thể đi thuyền lúc hoàng hôn, khoảng 60 tệ. Đền Nguyệt Lão và cây Phu Thê là điểm tùy chọn, khoảng 20 tệ. Tối ăn vịt quay 大茶饭 hoặc mì cừu 书生灯面. `浙江省桐乡市乌镇石佛南路18号西栅景区` · `浙江省桐乡市乌镇西栅大街612号大茶饭` · `乌镇西栅大街216号书生灯面` |
 
-**Plan B lỡ xe:** Didi ra ga Đồng Hương và tàu và Didi vào Tây Sách. `桐乡站`
+**Nếu lỡ xe:** Đi tàu từ Hàng Châu Đông đến Đồng Hương, rồi gọi xe từ ga Đồng Hương vào Tây Sách. `桐乡站`
 
 ---
 
@@ -110,7 +118,9 @@ Có thêm thời gian nghỉ ngơi. Sáng ngủ bù cho lại sức, sau đó đ
 
 **Ô Trấn đến Thượng Hải, Bến Thượng Hải**
 
-Dậy sớm chụp Tây Sách khi phố còn vắng tanh — đây mới là lúc lên hình đẹp nhất. 12:00 trả phòng, **xe khách 12:50** về bến Nam — hai chiều Ô Trấn đều đi buýt. Tối mì cua và Lục Gia Chủy.
+- Dậy sớm dạo và chụp ảnh Tây Sách khi phố còn vắng.
+- Trả phòng lúc 12:00. Dự kiến đón xe khách 12:50 về bến Nam Thượng Hải.
+- Tối ăn món cua và ghé Lục Gia Chủy.
 
 | Thời gian | Hoạt động |
 | --- | --- |
@@ -125,12 +135,13 @@ Dậy sớm chụp Tây Sách khi phố còn vắng tanh — đây mới là lú
 
 **Thượng Hải · Disneyland**
 
-Tàu điện ngầm tuyến 2, chuyển sang tuyến 11, ~7 tệ, 70–90 phút. Vé ~499 tệ weekday — giá động, mua gần ngày. Giờ mở cửa 12/01/2027 chưa công bố.
+- Đi tàu điện ngầm tuyến 2, chuyển sang tuyến 11. Dự kiến mất 70–90 phút và khoảng 7 tệ.
+- Vé ngày thường dự kiến khoảng 499 tệ. Kiểm tra lại giá vé và giờ mở cửa ngày 12/01/2027 gần ngày đi.
 
 | Thời gian | Hoạt động |
 | --- | --- |
 | **07:45–09:00** | **Từ Nam Kinh Đông đến Disneyland** — Luckin gần khách sạn cho tỉnh. Mua vé tàu điện ngầm khứ hồi cho đỡ xếp hàng. `上海市浦东新区申迪西路753号上海迪士尼乐园` |
-| **08:30–20:30** | **Trong công viên** — Vào công viên là ưu tiên TRON trước tiên. Sau đó ghé Zootopia chụp ảnh cùng Judy và Nick. Soaring, Pirates. ILLUMINATE! ~20:00, đứng trước lâu đài trước 45 phút. Đồ ăn trong công viên khá đắt, nên thủ sẵn ít đồ ăn vặt mua ở 7-Eleven từ tối hôm trước. Xong show đi bộ 15–20 phút ra ga ngay. Tuyến 11 chuyến cuối 22:30 hướng 嘉定北. Nếu lỡ chuyến cuối thì gọi Didi, dự trù 80–150 tệ. Tuyệt đối đừng bắt mấy xe taxi chèo kéo ngay cổng. |
+| **Theo giờ công viên** | **TRON, Zootopia và ILLUMINATE!** — Ưu tiên TRON và Zootopia. Chọn thêm Soaring hoặc Pirates tùy thời gian chờ. Tra suất ILLUMINATE! và giờ tàu cuối của tuyến 11 cùng tuyến cần đổi trên đường về. Có thể mang đồ ăn nhẹ không cần hâm nóng hoặc giữ lạnh và không có mùi nồng. Sau show, chừa khoảng 15–20 phút đi bộ ra ga. Nếu lỡ tàu, gọi Didi và dự trù 80–150 tệ. |
 | **22:00** | **Ăn đêm nếu còn sức** — 富小馆 黄河路85: canh bò và xiên. Không thì 7-Eleven. `上海市黄浦区黄河路85号富小馆` |
 
 ---
@@ -139,15 +150,17 @@ Tàu điện ngầm tuyến 2, chuyển sang tuyến 11, ~7 tệ, 70–90 phút.
 
 **Dự Viên đêm · về Hà Nội**
 
-Trả phòng, gửi vali khách sạn. Gửi vali ở khách sạn nhé, đừng kéo nguyên cái vali đi dạo Vũ Khang. Việc này vừa gây mệt mỏi vừa bất tiện khi chụp ảnh. Tối lấy đồ, tàu điện ngầm tuyến 2 ra sân bay Phố Đông cho chuyến 02:20 ngày 14/01.
+- Trả phòng và gửi vali tại khách sạn trước khi đi dạo Vũ Khang.
+- Tối ghé phố chợ Dự Viên, quay lại lấy vali rồi đi tàu điện ngầm tuyến 2 ra sân bay Phố Đông.
+- Chuyến bay về dự kiến cất cánh lúc 02:20 ngày 14/01.
 
 | Thời gian | Hoạt động |
 | --- | --- |
 | **07:30** | **小杨生煎 Ninh Ba Lộ** — Nên thử Thượng Hải. Vỏ dưới giòn, nhân thịt và súp. 12–18 tệ/4 cái. Gần khách sạn. `上海市黄浦区宁波路178号小杨生煎` |
 | **08:30–13:00** | **Vũ Khang · An Phúc · mì lươn** — tòa Vũ Khang chụp góc chéo. Phố An Phúc cafe. Trưa 瀚祥本帮面馆 淮海中路1861. `上海市徐汇区武康路武康大楼` · `上海市徐汇区淮海中路1861号瀚祥本帮面馆` |
-| **13:00–16:30** | **Tân Thiên Địa · Điền Tử Phường** — chụp là chính, mua quà nhỏ nếu thích. Harmay nếu muốn mỹ phẩm. `上海市黄浦区太仓路181弄新天地` · `上海市黄浦区泰康路210弄田子坊` |
-| **17:00–19:30** | **Dự Viên phố chợ** — ghim **豫园商城5号门**. Tàu điện ngầm 10 cửa 7 sát phố chợ. Lưu ý: thứ Tư vườn cổ và miếu đóng cửa, nên hôm đó mình chỉ dạo khu thương thành thôi. Cửu Khúc Kiều và Hồ Tâm Đình lên đèn. Thịt xiên, 南翔馒头店. `上海市黄浦区豫园商城5号门` |
-| **20:00–02:20** | **Lấy hành lý, di chuyển đến sân bay Phố Đông và làm thủ tục chuyến VJ6011** — vali to: rời khách sạn muộn nhất 21:30. Tàu điện ngầm 2 ~1 giờ, 7 tệ. Tới 21:15–22:00 là dư. CHAGEE tại nhà ga 2 uống ly cuối. Bay 02:20 đến Hà Nội 05:15. `上海浦东国际机场T2航站楼` |
+| **13:00–16:30** | **Tân Thiên Địa hoặc Điền Tử Phường** — chọn một khu để dạo, chụp ảnh và mua quà. Nếu muốn ghé Harmay, ưu tiên Tân Thiên Địa. `上海市黄浦区太仓路181弄新天地` · `上海市黄浦区泰康路210弄田子坊` |
+| **17:00–19:30** | **Phố chợ Dự Viên** — ghim **豫园商城5号门**. Có thể đi tuyến 10 đến ga Dự Viên, cửa 7. Tối nay dành cho phố chợ và cảnh lên đèn quanh Cửu Khúc Kiều, Hồ Tâm Đình. Tour đêm trong vườn cổ có lịch riêng. Có thể ăn thịt xiên hoặc ghé 南翔馒头店. `上海市黄浦区豫园商城5号门` |
+| **20:00–02:20** | **Lấy hành lý và ra sân bay Phố Đông** — lấy vali và đặt mốc rời khách sạn khoảng 20:30. Tàu điện ngầm tuyến 2 mất khoảng một giờ, vé dự kiến 7 tệ. Đối chiếu nhà ga và giờ làm thủ tục trên vé. VJ6011 dự kiến bay 02:20 ngày 14/01, đến Hà Nội 05:15. `上海浦东国际机场T2航站楼` |
 
 ---
 
@@ -307,7 +320,7 @@ Tổng di chuyển nội địa ~586 tệ / 2 người, chưa kể vé bay. Vé 
 | Di chuyển | 6.464.000 | Bay 5.280k (10.560k/2 người) và tàu HQ đến HC và xe khách 2 chiều Ô Trấn và tàu điện ngầm |
 | khách sạn | 2.879.000 | Homeinn HC 2 đêm và Ô Trấn và Bến Thượng Hải — giá tham khảo |
 | Ăn | 2.680.000 | Thêm 1 ngày Hàng Châu |
-| Disney | 1.933.000 | Vé duy nhất phải mua; Ô Trấn miễn phí |
+| Disney | 1.933.000 | Ước tính vé Disney. Dự toán này giả định gói phòng Tây Sách gồm hai vé vào cửa. |
 | Mua sắm | 1.200.000 | Trà và khăn |
 | Giấy tờ | 2.550.000 | Visa 2,3tr và eSIM 250k · không BH |
 | Phát sinh | 1.000.000 | Hán phục, Didi cứu nguy |

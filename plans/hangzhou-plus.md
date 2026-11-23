@@ -24,7 +24,8 @@ Tỷ giá: **1 CNY ≈ 3.873 VND** (Trip.com). Giá KS tham chiếu Trip ~28/10/
 
 **Khu vực:** Thượng Hải Phố Đông · trên đường
 
-Bay 21:25 từ Hà Nội, 01:15 giờ Thượng Hải là đáp. Xong nhập cảnh tầm 03:00. Hai đứa bắt xe đêm sang Hồng Kiều rồi lên tàu cao tốc đi Hàng Châu Đông luôn, khỏi ngủ sân bay.
+- Bay lúc 21:25 giờ Hà Nội, đến Phố Đông lúc 01:15 giờ Thượng Hải.
+- Dự kiến nhập cảnh xong khoảng 03:00. Đi xe buýt đêm đến Hồng Kiều rồi đón tàu cao tốc đi Hàng Châu Đông.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,7 +39,9 @@ Bay 21:25 từ Hà Nội, 01:15 giờ Thượng Hải là đáp. Xong nhập c�
 
 **Khu vực:** Hàng Châu Hangzhou · Hồ Tây
 
-Tàu tầm 06:20–06:45 tới Hồ Tân, gửi vali đã. Sáng đi bờ đông, qua Đoạn Kiều cho tỉnh người. Trưa 外婆家 (Gramma House) — ngon nhất là chi nhánh 西湖断桥 北山路10号, không thì IN77 hay 南山路147. Chiều lượn Thanh Hà Phường rồi nhận phòng, tối 绿茶 ở Hồ Tân IN77. Đêm trước gần như thức trắng rồi, thôi khỏi Vũ Lâm.
+- Đón tàu đi Hàng Châu Đông trong khung 06:20–06:45. Đến nơi, gửi vali trước khi dạo bờ đông Hồ Tây và qua Đoạn Kiều.
+- Trưa ăn ở Grandma’s Home (外婆家), ưu tiên chi nhánh Đoạn Kiều ở 北山路10号. Có thể chọn IN77 hoặc 南山路147 nếu cần.
+- Chiều ghé Thanh Hà Phường rồi nhận phòng. Tối ăn tại Green Tea (绿茶) ở Hồ Tân IN77 và về nghỉ sau chuyến bay đêm.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -57,7 +60,10 @@ Tàu tầm 06:20–06:45 tới Hồ Tân, gửi vali đã. Sáng đi bờ đông
 
 **Khu vực:** Hàng Châu · Hồ Tân · Thanh Hà Phường · Bảo tàng
 
-Ngủ bù xong hai đứa chỉ lượn quanh Hàng Châu thôi — khỏi lên làng trà Long Tĩnh. Sáng dạo Hồ Tân / bờ đông nhẹ hoặc mua lụa Đô Cẩm Sinh. Trưa 新周记 gần phố cổ. Chiều vào Bảo tàng Hàng Châu (杭州博物馆, miễn phí, Chủ nhật mở cửa). Tối ăn nhẹ rồi ngủ sớm, mai đi Ô Trấn.
+- Sáng nghỉ thêm, sau đó dạo Hồ Tân hoặc bờ đông Hồ Tây. Nếu muốn mua lụa, ghé Đô Cẩm Sinh.
+- Trưa ăn tại Tân Châu Ký (新周记), gần phố cổ.
+- Chiều tham quan Bảo tàng Hàng Châu (杭州博物馆). Theo kế hoạch, bảo tàng miễn phí và mở cửa Chủ nhật.
+- Tối ăn nhẹ và nghỉ sớm để hôm sau đi Ô Trấn.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -72,7 +78,9 @@ Ngủ bù xong hai đứa chỉ lượn quanh Hàng Châu thôi — khỏi lên 
 
 **Khu vực:** Hàng Châu → Ô Trấn Tây Sách
 
-Ngủ bù cái đã, dạo phố cổ chút rồi trả phòng. Tàu từ Hàng Châu Đông sang Đồng Hương, Didi tới Trung tâm khách Tây Sách. Hai đứa ngủ trong trấn nên khỏi mua vé.
+- Sáng nghỉ thêm, dạo phố cổ rồi trả phòng.
+- Đi tàu từ Hàng Châu Đông đến Đồng Hương. Từ ga, gọi Didi đến Trung tâm khách Tây Sách.
+- Theo phương án lưu trú trong trấn, vé vào cửa đã được tính trong kế hoạch lưu trú.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -91,7 +99,9 @@ Ngủ bù cái đã, dạo phố cổ chút rồi trả phòng. Tàu từ Hàng 
 
 **Khu vực:** Ô Trấn → Thượng Hải
 
-Sáng lượn nốt Tây Sách — ngủ trong trấn nên vẫn vào được. 12:00 trả phòng, bắt xe khách ngay cổng về bến Nam Thượng Hải. Rồi metro ra Nam Kinh Lộ, tối ngắm Bến Thượng Hải.
+- Sáng dạo Tây Sách trước khi trả phòng lúc 12:00.
+- Đón xe khách tại cổng Tây Sách về bến Nam Thượng Hải, rồi đi tàu điện ngầm đến Nam Kinh Lộ.
+- Tối dạo Bến Thượng Hải.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -111,7 +121,8 @@ Sáng lượn nốt Tây Sách — ngủ trong trấn nên vẫn vào được. 
 
 **Khu vực:** Thượng Hải Shanghai · Disneyland
 
-Từ khách sạn metro tuyến 2 đổi 11 vào Disney. Chơi cả ngày luôn. Xem xong ILLUMINATE! thì metro về.
+- Từ khách sạn, đi tàu điện ngầm tuyến 2 rồi đổi sang tuyến 11 đến Disneyland.
+- Dành cả ngày trong công viên. Tối xem ILLUMINATE! rồi đi tàu điện ngầm về.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -129,7 +140,9 @@ Từ khách sạn metro tuyến 2 đổi 11 vào Disney. Chơi cả ngày luôn.
 
 **Khu vực:** Thượng Hải · Dự Viên đêm · về Hà Nội
 
-Sáng trả phòng, gửi vali lại khách sạn. Thong thả lượn Vũ Khang / An Phúc, Tân Thiên Địa. Tối ngắm Dự Viên lên đèn, quay về lấy vali rồi metro ra sân bay bay VJ6011.
+- Sáng trả phòng và gửi vali tại khách sạn.
+- Dạo Vũ Khang, An Phúc và Tân Thiên Địa.
+- Tối ghé Dự Viên, quay lại lấy vali rồi đi tàu điện ngầm ra sân bay Phố Đông cho chuyến VJ6011.
 
 | Thời gian | Hoạt động | Địa điểm | Nội dung | Chi phí | Đơn vị | Số lượng | Ghi chú | Tham khảo |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -1,10 +1,10 @@
 const prefix = 'giang-nam:' + self.registration.scope + ':';
-const cacheName = prefix + '51e357e8b7aaefdc';
+const cacheName = prefix + 'ddfb9a9b7e12e3bd';
 const shell = new URL('./index.html', self.registration.scope).href;
 const localAssets = [
   './index.html', './trip.css', './trip.js', './data.json', './manifest.webmanifest',
   './trip-map.js', './leaflet.js', './leaflet.css',
-  './fonts/BeVietnamPro-Regular.ttf', './fonts/BeVietnamPro-SemiBold.ttf', './fonts/BeVietnamPro-Bold.ttf',
+  './fonts/InterVariable.woff2', './fonts/InterVariable-Italic.woff2',
   '../icons/icon-192.png', '../icons/icon-512.png', '../icons/apple-touch-icon.png',
 ];
 

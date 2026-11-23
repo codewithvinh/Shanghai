@@ -13,9 +13,7 @@ export function amapLinks(pin, userAgent = '') {
   const params = located
     ? { position: String(pin.lng) + ',' + String(pin.lat), coordinate: 'gaode', name }
     : { keyword: name, view: 'map' };
-  url.search = new URLSearchParams({ ...params, src: 'giang-nam', callnative: '0' });
-  const web = url.href;
-  url.searchParams.set('callnative', '1');
+  url.search = new URLSearchParams({ ...params, src: 'giang-nam', callnative: '1' });
   let app = url.href;
   if (located && /Android/i.test(userAgent)) {
     const query = new URLSearchParams({
@@ -29,7 +27,11 @@ export function amapLinks(pin, userAgent = '') {
       '#Intent;scheme=androidamap;package=com.autonavi.minimap;S.browser_fallback_url=' +
       encodeURIComponent(url.href) + ';end';
   }
-  return { app, web };
+  const apple = new URL(located ? 'https://maps.apple.com/place' : 'https://maps.apple.com/search');
+  apple.search = new URLSearchParams(located
+    ? { coordinate: mapCoordinates(pin).map((value) => value.toFixed(6)).join(','), name }
+    : { query: [...new Set([name, pin.zh].filter(Boolean))].join(' ') });
+  return { app, apple: apple.href };
 }
 
 function isStandalone() {
@@ -38,10 +40,11 @@ function isStandalone() {
 }
 
 export function amapActions(pin) {
-  const { app, web } = amapLinks(pin, navigator.userAgent);
+  const { app, apple } = amapLinks(pin, navigator.userAgent);
   const primary = document.createElement('a');
   primary.className = 'amap-action';
-  primary.textContent = 'Mở Amap Global';
+  primary.textContent = 'Amap Global';
+  primary.setAttribute('aria-label', 'Mở Amap Global');
   primary.href = app;
   primary.rel = 'noopener noreferrer';
   primary.addEventListener('click', (event) => {
@@ -50,15 +53,14 @@ export function amapActions(pin) {
     const opened = window.open(app, '_blank');
     if (!opened) window.location.href = app;
   });
-  const fallback = document.createElement('a');
-  fallback.textContent = 'Amap web';
-  fallback.href = web;
-  fallback.target = '_blank';
-  fallback.rel = 'noopener noreferrer';
-  return [primary, fallback];
+  const appleLink = document.createElement('a');
+  appleLink.textContent = 'Apple Maps';
+  appleLink.setAttribute('aria-label', 'Mở Apple Maps');
+  appleLink.href = apple;
+  return [primary, appleLink];
 }
 
-// Amap pins use GCJ-02. Invert the offset for the WGS84 OSM basemap only.
+// Keep the original GCJ-02 coordinates for Amap. Convert them for WGS84 providers.
 export function mapCoordinates(pin) {
   const lat = Number(pin.lat);
   const lng = Number(pin.lng);

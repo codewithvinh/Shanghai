@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Giang Nam · Sổ tay chuyến đi",
+  "short_name": "Giang Nam",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f5ee",
+  "theme_color": "#f8f5ee",
+  "icons": [
+    {"src": "../icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "../icons/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}
