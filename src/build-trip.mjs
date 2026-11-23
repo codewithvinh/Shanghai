@@ -142,6 +142,5 @@ const redirect = `<!doctype html>
 await Promise.all([
   writeFile(new URL('../public/trip/data.json', import.meta.url), json),
   writeFile(new URL('../public/trip/sw.js', import.meta.url), worker.replace(workerPattern, "const cacheName = prefix + '" + revision + "';")),
-  ...['index.html', 'shanghai-plan.html', 'shanghai-plan-2.html'].map((file) =>
-    writeFile(new URL('../public/' + file, import.meta.url), redirect)),
+  writeFile(new URL('../public/index.html', import.meta.url), redirect),
 ]);

@@ -54,6 +54,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, "0.0.0.0", () => {
   console.log("http://127.0.0.1:" + port + "/trip/  (Giang Nam PWA)");
-  console.log(`http://127.0.0.1:${port}/shanghai-plan.html`);
-  console.log(`http://127.0.0.1:${port}/shanghai-plan-2.html`);
 });

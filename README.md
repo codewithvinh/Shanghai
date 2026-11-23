@@ -30,7 +30,7 @@ Mở [Giang Nam PWA](http://127.0.0.1:8765/trip/). Chạy `node src/build-trip.m
 
 ## Deploy (để dùng offline trên điện thoại)
 
-GitHub Actions dựng và triển khai thư mục `public/` khi có thay đổi được đẩy lên `master`. Trang chủ và hai URL kế hoạch cũ đều dẫn về [Giang Nam PWA](https://codewithvinh.github.io/Shanghai/trip/).
+GitHub Actions dựng và triển khai thư mục `public/` khi có thay đổi được đẩy lên `master`. Trang chủ dẫn về [Giang Nam PWA](https://codewithvinh.github.io/Shanghai/trip/).
 
 Sau lần mở đầu tiên qua HTTPS, đợi trạng thái **Dùng được ngoại tuyến** trước khi ngắt mạng. Để cài trên iPhone, mở bằng Safari và chọn **Chia sẻ → Thêm vào MH chính**. Bản đồ nền và điều hướng trong Amap Global hoặc Apple Maps phụ thuộc vào kết nối mạng và dữ liệu đã tải trong ứng dụng bản đồ.
 
