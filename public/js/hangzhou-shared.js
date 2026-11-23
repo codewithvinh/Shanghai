@@ -7,12 +7,32 @@
   }
   window.hzIco = ico;
 
+  /** Open AMap Global via URI API (callnative). Prefer coords over www.amap.com/?p= links. */
   function amapHref(p) {
-    if (p.amap) return p.amap;
+    const label = encodeURIComponent(p.vi || p.name || "");
     if (p.lat && p.lng) {
-      return "https://uri.amap.com/marker?position=" + p.lng + "," + p.lat + "&name=" + encodeURIComponent(p.vi || p.name || "") + "&coordinate=gaode&callnative=1";
+      return "https://uri.amap.com/marker?position=" + p.lng + "," + p.lat +
+        "&name=" + label + "&coordinate=gaode&callnative=1&src=giang-nam";
     }
-    return "https://www.amap.com/search?query=" + encodeURIComponent(p.zh || p.name || p.vi || "");
+    const raw = String(p.amap || "");
+    // www.amap.com/?p=POI,lat,lng,name,addr
+    const m = raw.match(/[?&]p=[^,&]+,([^,&]+),([^,&]+),([^,&]*)/);
+    if (m) {
+      return "https://uri.amap.com/marker?position=" + m[2] + "," + m[1] +
+        "&name=" + (m[3] || label) + "&coordinate=gaode&callnative=1&src=giang-nam";
+    }
+    if (/uri\.amap\.com|surl\.amap\.com/i.test(raw)) {
+      try {
+        const u = new URL(raw);
+        u.searchParams.set("callnative", "1");
+        return u.href;
+      } catch (_) {
+        return raw;
+      }
+    }
+    return "https://uri.amap.com/search?keyword=" +
+      encodeURIComponent(p.zh || p.name || p.vi || "") +
+      "&view=map&callnative=1&src=giang-nam";
   }
   function gmapHref(p) {
     if (p.lat && p.lng) return "https://www.google.com/maps?q=" + p.lat + "," + p.lng;
@@ -46,7 +66,7 @@
       (dishes ? '<div style="margin-top:6px">' + dishes + "</div>" : "") +
       '<div class="actions">' +
       '<button type="button" class="btn btn-copy" data-copy="' + String(p.zh || p.name || p.vi || "").replace(/"/g, "&quot;") + '" data-label="' + copyLbl + '">' + ico("copy") + copyLbl + "</button>" +
-      '<a class="btn btn-amap" href="' + amapHref(p) + '" target="_blank" rel="noopener">' + ico("map") + "Amap</a>" +
+      '<a class="btn btn-amap" href="' + amapHref(p) + '" target="_blank" rel="noopener">' + ico("map") + "Amap Global</a>" +
       '<a class="btn btn-gmap" href="' + gmapHref(p) + '" target="_blank" rel="noopener">' + ico("nav") + "Maps</a>" +
       "</div></div></article>"
     );

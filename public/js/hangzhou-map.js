@@ -54,9 +54,21 @@
   }
 
   function amapUrl(pin) {
-    if (pin.amap) return pin.amap;
     const name = encodeURIComponent(pin.vi || pin.name || "");
-    return "https://uri.amap.com/marker?position=" + pin.lng + "," + pin.lat + "&name=" + name + "&coordinate=gaode&callnative=1&src=mypage";
+    if (pin.lat && pin.lng) {
+      return "https://uri.amap.com/marker?position=" + pin.lng + "," + pin.lat +
+        "&name=" + name + "&coordinate=gaode&callnative=1&src=giang-nam";
+    }
+    if (pin.amap && /uri\.amap\.com|surl\.amap\.com/i.test(pin.amap)) {
+      try {
+        const u = new URL(pin.amap);
+        u.searchParams.set("callnative", "1");
+        return u.href;
+      } catch (_) {
+        return pin.amap;
+      }
+    }
+    return "https://uri.amap.com/search?keyword=" + name + "&view=map&callnative=1&src=giang-nam";
   }
   function appleUrl(pin) {
     return "https://maps.apple.com/?ll=" + pin.lat + "," + pin.lng + "&q=" + encodeURIComponent(pin.zh || pin.vi || "");
@@ -152,7 +164,7 @@
           (pin.zh ? '<p class="zh" lang="zh">' + pin.zh + "</p>" : "") +
           '<div class="actions">' +
           '<button type="button" class="btn btn-copy" data-copy="' + String(pin.zh || "").replace(/"/g, "&quot;") + '" data-label="Copy địa chỉ">' + hzIco("copy") + "Copy địa chỉ</button>" +
-          '<a class="btn btn-amap" href="' + amapUrl(pin) + '" rel="noopener">' + hzIco("nav") + "Amap</a>" +
+          '<a class="btn btn-amap" href="' + amapUrl(pin) + '" rel="noopener">' + hzIco("nav") + "Amap Global</a>" +
           '<a class="btn btn-gmap" href="' + appleUrl(pin) + '" rel="noopener">' + hzIco("map") + "Apple</a>" +
           "</div></article>"
         );

@@ -1,5 +1,5 @@
 /* Hangzhou-trip PWA — multi-page shell + images */
-const CACHE = "hz-trip-v2026-11-23h";
+const CACHE = "hz-trip-v2026-11-23i";
 
 const PRECACHE = [
   "./hangzhou-days.html",
@@ -51,7 +51,7 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))),
+      Promise.all(keys.filter((k) => k.startsWith("hz-trip-") && k !== CACHE).map((k) => caches.delete(k))),
     ).then(() => self.clients.claim()),
   );
 });
