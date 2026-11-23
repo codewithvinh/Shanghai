@@ -1,0 +1,33 @@
+# Dependencies / env
+node_modules/
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# Local / private
+backup/
+visa/
+*.pdf
+
+# Generated / scratch
+tools/_amap_snip.txt
+tools/vi-out-*.json
+*.tmp
+*.temp
+.cache/
+dist/
+build/
+
+# Cursor / agent local
+.cursor/
+agent-transcripts/

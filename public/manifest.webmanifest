@@ -1,0 +1,34 @@
+{
+  "id": "/hangzhou-days.html",
+  "name": "HZ–WZ–SH Trip · 07–14/01/2027",
+  "short_name": "HZ–WZ–SH",
+  "description": "Sổ tay Hàng Châu · Ô Trấn · Thượng Hải — địa chỉ, lịch, quán ăn offline.",
+  "start_url": "./hangzhou-days.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fffaf7",
+  "theme_color": "#f4783b",
+  "lang": "vi",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

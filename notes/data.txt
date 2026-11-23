@@ -1,0 +1,318 @@
+Tôi dự định như sau:
+
+Tôi dự định bay vietjet air, thông tin bên dưới:
+
+Thông tin đặt chỗ
+
+Chuyến đi
+2.880.000 VND
+Hà Nội (HAN)
+vietjet
+Thượng Hải (PVG)
+T6, 08/01/2027 | 21:25 - 01:15 | VJ6010 | Deluxe
+**Giờ địa phương từng sân bay:** 21:25 = giờ Hà Nội (UTC+7) · 01:15 = giờ Thượng Hải / Trung Quốc (UTC+8). Bay ~2 giờ 50 phút. VJ6011: 02:20 giờ TQ → 05:15 giờ VN.
+
+Chuyến về
+2.600.000 VND
+Thượng Hải (PVG)
+vietjet
+Hà Nội (HAN)
+T5, 14/01/2027 | 02:20 - 05:15 | VJ6011 | Deluxe
+Tổng tiền
+5.480.000 VND / người · 10.960.000 VND / 2 người
+
+Hành khách (bảng giá Vietjet, Deluxe, **dự kiến**):
+- Mr NGUYEN THANH VINH
+- Ms NGUYEN THI HA TRANG
+Mỗi người giống nhau: đi **2.880.000** (giá vé Deluxe 790.000 + thuế/phí 2.090.000) · về **2.600.000** (giá vé 590.000 + thuế/phí 2.010.000).
+Không chọn thêm hành lý / hành lý xách tay ưu tiên / dịch vụ nối chuyến (0₫). Deluxe vẫn gồm hành lý tiêu chuẩn — kiểm định mức kg khi xuất vé.
+
+Option — Sun PhuQuoc Airways (9G), chưa chốt
+Khứ hồi 2 người lớn, đã gồm thuế/phí/phụ thu: **12.212.000₫**
+- Mỗi người lớn **6.106.000₫** (giá vé cơ bản 2.186.000 + phụ thu nhiên liệu 2.864.000 + thuế/phí 1.056.000)
+- Thuế/phí 1.056.000 = soi chiếu VN 53.000 + phí dịch vụ HK quốc tế VN 651.000 + phí sân bay TQ 352.000
+- Lệch Vietjet: **+626.000₫/người** · **+1.252.000₫/2 người**
+- Giờ bay / số hiệu HAN–PVG chưa có trên bảng này. Đường 9G đang bay PVG là SGN–PVG 9G634/9G635; HAN–PVG công bố từ 11/2026 — **xác nhận bay thẳng**, không nối SGN. Phụ thu có thể đổi ngày xuất vé.
+
+Plan 1 (Hàng Châu trước): **không ở KS sân bay**. Ra cửa ~03:00 giờ TQ → Late Night Bus T2 → Hồng Kiều → tàu G Hàng Châu Đông ~06:20–06:45.
+Plan 2 (Ô Trấn trước): vẫn ngủ Dihang đêm 08–09, sáng 09/01 tàu Đồng Hương.
+Cả hai: 10/01 Ô Trấn hoặc Hàng Châu tùy plan, 11/01 Thượng Hải, 12/01 Disney, 13/01 tự do, đêm ra PVG về HAN.
+
+Số khách: 2 người lớn / 1 phòng
+Tỷ giá tham chiếu lúc thu thập (Trip.com): 1 CNY ≈ 3.873 VND
+Ngày thu thập giá: 27/10/2026 (làm mới từ 23/10/2026). Giá khách sạn chốt theo Trip.com “Tổng giá” đã gồm thuế & phí, 1 phòng / 2 người. Agoda/Booking.com kiểm tra cùng ngày — xem mục SO SÁNH KÊNH bên dưới.
+
+--------------------------------------------------------------------------------
+LỊCH TRÌNH CHỐT (để khớp vé máy bay)
+
+- T6 08/01/2027 **21:25 giờ VN** HAN → T7 09/01/2027 **01:15 giờ TQ** PVG (VJ6010)
+- **Plan 1:** đêm 08–09 **không Dihang**. Late Night Bus PVG T2 → Hồng Kiều Đông giao thông (~80 phút) → tàu G **Hàng Châu Đông 06:20–06:45** (không đặt 05:52). Hồ Tây sáng 09/01.
+- **Plan 2:** đêm 08–09 ngủ Dihang; T7 09/01 Airport Link → Hồng Kiều → tàu G Đồng Hương ~11:50 → Tây Sách.
+- CN 10/01: Plan 1 Hàng Châu → Ô Trấn · Plan 2 Ô Trấn → Hàng Châu
+- T2 11/01: về Thượng Hải (Nam Kinh Lộ / Bến Thượng Hải)
+- T3 12/01: Shanghai Disneyland
+- T4 13/01: tự do Thượng Hải, tối ra PVG
+- T5 14/01 **02:20 giờ TQ** PVG → **05:15 giờ VN** HAN (VJ6011)
+
+--------------------------------------------------------------------------------
+KHÁCH SẠN ĐÃ TRA CỨU TRÊN TRIP.COM (1 phòng, 2 người lớn)
+
+A. GẦN SÂN BAY PHỐ ĐÔNG | nhận 08/01 – trả 09/01 (1 đêm)
+**Plan 1 không dùng đêm này** (Late Night Bus → Hồng Kiều). Chỉ **Plan 2** + dự phòng Plan 1 nếu nhập cảnh trễ / kiệt.
+Link: https://vn.trip.com/hotels/list?city=2&searchWord=Khu%20v%E1%BB%B1c%20s%C3%A2n%20bay%20Qu%E1%BB%91c%20t%E1%BA%BF%20Ph%E1%BB%91%20%C4%90%C3%B4ng&zone=466&checkin=2027/01/08&checkout=2027/01/09&crn=1&adult=2&curr=VND&locale=vi-VN
+
+Chọn chính:
+- Dihang Boutique Hotel (Shanghai Pudong Airport) / 上海浦东国际机场迪航酒店
+  No. 653 Chenyang West Road, Pudong New Area, Thượng Hải
+  498.385₫ / đêm (đã gồm thuế phí) · Trip.com list 08–09/01, 27/10/2026
+  8.6/10 · quầy 24/7 · đưa đón sân bay miễn phí · nhận phòng từ 13:00, trả trước 14:00
+  Cách PVG ~9 km. Gọi shuttle sau khi lấy hành lý (01:15 vẫn nhận được vì lễ tân 24/7)
+  https://vn.trip.com/hotels/shanghai-hotel-detail-6870954/dihang-boutique-hotel-shanghai-pudong-airport/
+
+Phương án khác:
+- Pebble Hotel Pudong International Airport Chuanliu Highway: 480.410₫ (list 27/10/2026)
+- Homeinn Selected (PVG East Station): 809.435₫ (giá 23/10/2026, chưa làm mới)
+- Ibis Styles Shanghai Pudong Airport: 1.061.367₫ (chuỗi; giá 23/10/2026, chưa làm mới)
+- Holiday Inn Express SHANGHAI PUDONG AIRPORT: 1.662.450₫ (sát nhà ga, đi bộ có mái che; list 27/10/2026)
+- Aerotel Shanghai (trong Terminal 2): 3.835.529₫ (tiện nhất, đi bộ trong nhà ga, đắt; list 27/10/2026)
+
+B. HÀNG CHÂU – HỒ TÂY / HUBIN | Plan 1: 09–10/01 · Plan 2: 10–11/01 (1 đêm)
+Ưu tiên cụm đi bộ: Hồ Tây Hubin ↔ Thanh Hà Phường / Nam Tống Ngự Nhai ↔ metro Ding'an (line 1). Chợ đêm Vũ Lâm lệch ~15–20 phút Didi.
+Link: https://vn.trip.com/hotels/list?city=17&searchWord=Hubin&checkin=2027/01/09&checkout=2027/01/10&crn=1&adult=2&curr=VND&locale=vi-VN
+
+Chọn chính (đi bộ Hồ Tây + phố cổ, cùng khu Homeinn Plus Yintai in77 trong file tham khảo):
+- Homeinn Selected Hotel (Hangzhou West Lake Hubin Ding'an Road Subway Station)
+  如家精选酒店（杭州西湖湖滨定安路地铁站店）
+  No. 126 Yan'an Road, Yaojiang Building A, Shangcheng, Hàng Châu
+  Metro line 1 Ding'an Road exit C ~100 m · đi bộ 5 phút ra Hồ Tây, gần Hefangjie / Nam Tống Ngự Nhai
+  643.129₫ / đêm (đã gồm thuế phí) · Trip.com optionId=2330618, cả 09–10/01 và 10–11/01, 27/10/2026
+  Nhận sau 14:00 · trả trước 12:00
+  Điện thoại: 0571-86077977
+
+Phương án khác — chỉ lấy chỗ đi bộ được Hồ Tây / Hubin / Thanh Hà Phường (1 đêm, đã gồm thuế phí):
+Đi bộ Hồ Tây + Hubin (cùng cụm chọn chính):
+- Hushi Homestay (Hangzhou West Lake Hubin Intime in77): 477.744₫ · 9.2/10
+  No. 456 Qingtai Street · Nam Tống Ngự Nhai 560 m · Ding'an 770 m
+  Rẻ nhất cụm này. Tên có in77 nhưng địa chỉ Qingtai Street, không phải đúng tòa Homeinn Plus No.139 Yan'an
+  https://vn.trip.com/hotels/detail/?cityEnName=Hangzhou&cityId=17&hotelId=116551886&checkIn=2027-01-09&checkOut=2027-01-10
+- Yangshi Hotel (West Lake Scenic Area): 691.465₫ · 9.2/10
+- Zprime Hotel (Yan'an Road Hubin): 809.344₫ · 9.3/10 · gần Hubin Yintai / in77
+- Five-Star Bay Hotel (Hubin Yongjin Plaza): 980.893₫ · 9.6/10 · metro Longxiangqiao, sát hồ
+- Qiyue Song Heritage Hotel (West Lake Hubin Intime): 1.090.173₫ · 9.3/10 · sát in77
+- Zhongshan West Lake Hotel: 1.933.129₫ · 9.5/10
+- Friendship Hotel Hangzhou (West Lake): 2.122.107₫ · 9.6/10 · sát hồ, đắt
+- Homeinn Plus (West Lake Lakeside Yintai in77) — KS file tham khảo (No.139 Yan'an); trang chi tiết Trip.com bắt đăng nhập nên chưa lấy được giá đúng ngày
+
+Đi bộ phố cổ Thanh Hà Phường (Hồ Tây xa hơn một chút):
+- Homeinn · neo (Hefang Street Jiangcheng Road Subway Station): 495.675₫ · 9.3/10
+  No. 40 Doufu Second Bridge · Thanh Hà Phường 630 m · Jiangcheng Road metro line 5
+  Rẻ; phòng nhỏ 8–12 m², một số không cửa sổ. Hồ Tây không đi bộ tiện bằng Ding'an
+  https://vn.trip.com/hotels/detail/?cityEnName=Hangzhou&cityId=17&hotelId=1380303&checkIn=2027-01-09&checkOut=2027-01-10
+- Haoyi Hotel (West Lake Lakeside Southern Song Imperial Street): 884.982₫ · 9.4/10 · sát Nam Tống Ngự Nhai
+
+Lệch Vũ Lâm (tiện chợ đêm, Hồ Tây phải Didi — không ưu tiên đi bộ hồ):
+- Pudding Select (Wulin Square / Jianguo North Road): 329.159₫ · 8.9/10
+- Pod Select (Wulin Square West Lake Cultural Plaza): 480.185₫ · 9.3/10
+
+Không lấy: HanTing Grand Canal Ping'anqiao, JI Hotel Hangzhou West Railway Station (xa hồ, xa phố cổ)
+
+C. Ô TRẤN – TÂY SÁCH (XIZHA) | Plan 1: 10–11/01 · Plan 2: 09–10/01 (1 đêm)
+**Chốt: ngủ TRONG Tây Sách** để miễn vé 150 CNY/người (từ 16/03/2025: mọi KS/homestay trong Tây Sách trừ thanh niên 水巷青年旅馆). Puyi / Bannuan / MU SU ở ngoài cổng — vẫn phải mua vé ngày, vé hết hạn sáng hôm sau.
+Link: https://vn.trip.com/hotels/list?city=580&searchWord=Wuzhen%20Xizha&checkin=2027/01/10&checkout=2027/01/11&crn=1&adult=2&curr=VND&locale=vi-VN
+
+Chọn chính (trong Tây Sách, miễn vé theo số khách ở):
+- Wuzhen Guest House / 乌镇民宿
+  Nhận phòng tại **西栅游客服务中心** (Xizha Visitor Service Center). Phòng rải hai bờ sông Thị Hà trong trấn, được gán lúc check-in.
+  Plan 1 10–11/01: **1.859.650₫** · Plan 2 09–10/01 (T7): **1.975.879₫** (đã gồm thuế phí) · 9.3/10 · Trip.com hotelId=1647104
+  Nhận sau 15:00 · trả trước 12:00 · lễ tân 24/7
+  Tới sớm: quầy Hotel service → quét mặt → gửi vali (chuyển tới phòng) → vào trấn; phòng sẵn từ 15:00
+  Ăn sáng set 30 CNY ≈ 116.000₫/người (07:00–09:30)
+  Điện thoại: +86-573-88731088
+  https://vn.trip.com/hotels/tongxiang-hotel-detail-1647104/wuzhen-guest-house/
+
+So với Puyi ngoài cổng + vé 2 người (866.131 + 1.162.000 = 2.028.131₫): Guest House Plan 1 **rẻ hơn ~168.000₫**, Plan 2 **rẻ hơn ~52.000₫**, và sáng hôm sau vẫn đi trong trấn đến 12:00.
+
+Phương án khác TRONG Tây Sách (cùng chính sách miễn vé, Trip.com 10–11/01, 27/10/2026):
+- Wuzhen Tong'an Hotel / 通安客栈 (Waterside): 2.285.820₫ · 9.4–9.5/10
+- Dockside Boutique Hotel / 枕水度假酒店: 3.103.291₫ · 9.6/10
+- Dishang Resort / 堤上度假酒店: 3.896.549₫ · 9.7/10
+
+Phương án NGOÀI cổng (phải mua vé 150 CNY, vé ngày hết hạn sáng hôm sau):
+- Wuzhen Qingshuiyi Ju Homestay: 443.396₫ · 9.3/10 · gần West Gate / Wu Village
+- Wuzhen Holiday Style Homestay: 467.069₫ (giá lần tra trước, cùng ngày)
+- Bannuan Qingcheng Private Hotel / Allure·半暖倾城美宿(乌镇西栅景区店): 539.974₫ · 9.4/10
+  No. 320–328 Huanhe Road · review đi bộ ~200 m tới cổng vé Tây Sách, thuê hanfu gần
+  https://vn.trip.com/hotels/detail/?cityEnName=Tongxiang&cityId=580&hotelId=80887802&checkIn=2027-01-10&checkOut=2027-01-11
+- MU SU / 乌镇幕宿私汤设计民宿（西栅南门店）: No. 12-14 Paiqiaohui, Ganquan Road — đúng chỗ file tham khảo; giá niêm yết khoảng 971.648₫–1.532.365₫/đêm (không hiện giá chốt 10–11/01 trên list)
+- Hilton Garden Inn Tongxiang Wuzhen: 1.803.868₫ · 9.4/10 · gần West Gate, thương hiệu — ngoài cổng, phải mua vé
+- Puyi seclusion Wuzhen boutique homestay / 璞意隐居乌镇精品民宿: 866.131₫ · 9.6/10 · No. 3-5 Gong Road, cổng Nam — **ngoài** Tây Sách
+  https://vn.trip.com/hotels/tongxiang-hotel-detail-6405094/puyi-seclusion-wuzhen-boutique-homestay/
+
+Không ưu tiên:
+- Boxin Shuishe (Đông Sách): 490.717₫ — lệch khu Đông, không đi bộ sang Tây Sách tiện
+- Yizhi Hotel Tongxiang Patriotic Road — ở nội thành Đồng Hương, phải taxi ra trấn
+
+D. THƯỢNG HẢI – NAM KINH LỘ / BẾN THƯỢNG HẢI | nhận 11/01 – trả 13/01 (2 đêm)
+Ưu tiên cụm đi bộ Huangpu: Nam Kinh Lộ ↔ Bund ↔ Dự Viên / Miếu Thành Hoàng ↔ Quảng trường Nhân Dân.
+Disney + PVG: metro line 2 từ Nanjing East Road / People's Square (không cần khách sạn gần Disney).
+Link: https://vn.trip.com/hotels/list?city=2&searchWord=The%20Bund&checkin=2027/01/11&checkout=2027/01/13&crn=1&adult=2&curr=VND&locale=vi-VN
+
+Chọn chính (đi bộ Bund + Nam Kinh + Yuyuan, line 2 đi Disney):
+- Homeinn Selected Hotel (Shanghai Nanjing Road Pedestrian Street The Bund Center)
+  如家商旅酒店(上海南京路步行街外滩中心店)
+  No. 11, Lane 135 Jiangxi Middle Road, Huangpu, Thượng Hải (trong hẻm)
+  Metro line 2 Nanjing East Road exit 2 / line 10–14 Yuyuan exit 6
+  Nam Kinh Lộ 590 m · Bund 760 m · Dự Viên 1,1 km · People's Square 1,3 km
+  2.611.260₫ / 2 đêm (≈ 1.305.630₫/đêm, đã gồm thuế phí) · 9.4/10 · Trip.com optionId=1441170, 11–13/01, 27/10/2026
+  Nhận sau 14:00 · trả trước 12:00
+  Điện thoại: +86-21-63239966
+  Review VN: Bund ~5 phút đi bộ; đêm hẻm hơi tối, xe hơi không vào được
+  https://vn.trip.com/hotels/shanghai-hotel-detail-1441170/homeinn-selected-hotel/
+
+Phương án khác — xếp theo đi bộ trung tâm (1 phòng × 2 đêm, đã gồm thuế phí):
+
+Cụm đi bộ tốt nhất (Nam Kinh Lộ + Bund + metro line 2):
+- Homeinn Plus (Shanghai Nanjing Road Pedestrian Street): 3.849.224₫ · 9.6/10
+  No. 328 Nanjing East Road, sau Youngor Building, đối diện exit 3 Nanjing East Road (line 2+10)
+  Nam Kinh Lộ 110 m · Bund 770 m · metro <100 m · People's Square / Dự Viên đi bộ được
+  Khai trương 2026, sạch, xuống thang máy ra phố đi bộ. Đắt hơn chọn chính ~1.239.000₫ / 2 đêm
+  https://vn.trip.com/hotels/detail/?cityEnName=Shanghai&cityId=2&hotelId=133581280&checkIn=2027-01-11&checkOut=2027-01-13
+- Weiting R Hotel (Nanjing Road Pedestrian Street People's Square Station): 3.986.113₫ · 9.2/10
+  Tầng 7, No. 88 Fengyang Road (thang 19) · Nam Kinh 260 m · People's Square 280 m · line 1/2/8
+- Yitel Premium (People's Square Nanjing Road Pedestrian Street): 3.897.240₫ · 9.4/10
+- Youli Hotel (Shanghai People's Square): 3.130.880₫ · 9.5/10 · gần Nam Kinh + People's Square
+- Treasury Hotel (People's Square Nanjing East Road): 4.713.398₫ · 9.5/10
+- Hotel Chalet Shanghai: 4.874.648₫ · 9.5/10 · Nam Kinh + People's Square
+- Intercity Hotel (Nanjing Road Pedestrian Street The Bund): 5.864.372₫ · 9.6/10 · ~890 m trung tâm
+- Hidden Hotel (People's Square Nanjing Road): 6.366.320₫ · 9.7/10 · ~420 m trung tâm
+- Atour Hotel Nanjing East Road on the Bund: 6.467.004₫ · 9.5/10 · Bund + Dự Viên
+- Grand Ji Hotel Bund Center: 6.509.524₫ · ~1,2 km trung tâm
+- Shanghai Bund Nanjing Road Treasure Hotel: 5.280.866₫ · ~1,4 km trung tâm
+
+Cụm Quảng trường Nhân Dân / Hoàng Hà Lộ (đi bộ Nam Kinh, Bund xa hơn; Fu Xiaoguan ngay khu):
+- Tianhua Hotel Shanghai People's Square Nanjing Road Walkway: 2.470.006₫ · 9.3/10
+  天华酒店(上海人民广场长征医院店) · No. 159 Huanghe Road — đúng KS file tham khảo
+  Nam Kinh Lộ 640 m · People's Square metro · Bund 3,2 km (đi bộ lâu, nên metro 1 ga)
+  Fu Xiaoguan No.85 Huanghe Road sát KS. Tân trang 2025, lễ tân 24/7, một số phòng nhỏ / không cửa sổ
+  Rẻ hơn chọn chính ~140.000₫ / 2 đêm
+  https://vn.trip.com/hotels/detail/?cityEnName=Shanghai&cityId=2&hotelId=6738656&checkIn=2027-01-11&checkOut=2027-01-13
+- Jinjiang Inn (People's Square East Huaihai Road): 2.238.280₫ · 8.9/10
+  锦江之星(上海人民广场淮海东路店) · No. 293 Yunnan South Road
+  Dashijie metro exit 5 (line 8+14) ~3 phút · People's Square 840 m · Xintiandi 870 m · Dự Viên 1,2 km · Bund 1,5 km
+  Rẻ nhất cụm đi bộ; phòng nhỏ, cách âm trung bình; buffet sáng ~28 CNY
+  https://vn.trip.com/hotels/detail/?cityEnName=Shanghai&cityId=2&hotelId=924917&checkIn=2027-01-11&checkOut=2027-01-13
+- Jianguo Hidden Hotel (Bund Jinling East Road): 4.577.246₫ · 9.6/10
+  建国璞隐酒店(上海外滩金陵东路店) · No. 531 Jinling East Road · Dashijie metro ~100 m
+  People's Square 720 m · Xintiandi 930 m · Nam Kinh 1,2 km · Bund / Dự Viên ~1,3 km
+  Khai trương 2026, sạch; nhận phòng 15:00
+- Hi Inn (Nanjing East Road Subway Station) — KS file tham khảo, No. 201 Ningbo Road; lần tra trước phòng nhỏ 7.8/10. Ngày 11–13/01 không hiện giá chốt trên list (bị Tianhua/Yitel lấn)
+
+Không lấy (xa cụm đi bộ Bund/Nam Kinh, dù giá rẻ):
+- Shanghai Lujiazui Rezen (Fangdian / SNIEC): 2.007.480₫
+- Waiting Century (Jing'an Railway Station): 1.882.011₫
+- Yitel Collection (Shanghai Railway Station): 1.890.610₫
+- yihotel Lujiazui Riverside: 1.982.699₫ — bên Pudong, không đi bộ Nam Kinh
+- PERO Hotel (gần Disney): 1.816.954₫ — lệch lịch: Disney chỉ 1 ngày, 2 đêm vẫn ngủ Hoàng Phố
+- Wassim R Hotel: 2.253.770₫ · 8,2 km trung tâm
+
+TỔNG LƯU TRÚ CHỌN CHÍNH (1 phòng, 2 người):
+- Plan 1 (không Dihang; Guest House 10–11/01 1.859.650): 643.129 + 1.859.650 + 2.611.260 = **5.114.039₫** ≈ 2.557.020₫/người. Tiết kiệm 498.385₫ vs bản có Dihang; Late Night Bus ~132.000₫/2 người.
+- Plan 2 (Guest House 09–10/01 1.975.879, T7 đắt hơn): 498.385 + 1.975.879 + 643.129 + 2.611.260 = **5.728.653₫** ≈ 2.864.327₫/người
+Vé Tây Sách 150 CNY **không tính** vì đã gồm khi ngủ trong trấn. So Puyi+vé: Plan 1 tiết kiệm ~168k / 2 người; Plan 2 ~52k / 2 người, và được buổi sáng trong trấn.
+
+--------------------------------------------------------------------------------
+SO SÁNH KÊNH 27/10/2026 (1 phòng, 2 người lớn)
+
+Nguồn chốt ngân sách: Trip.com “Tổng giá … bao gồm thuế & phí”. Agoda “from” thường chưa gồm thuế/phí và hay là giá promo.
+
+| Khách sạn chọn chính | Đêm | Trip.com (gồm thuế) | Agoda | Booking.com |
+| --- | --- | --- | --- | --- |
+| Dihang Boutique (PVG) | 08–09/01 | 498.385₫ | from ₫393.982 “VIEW THIS DEAL” trên trang KS; bảng phòng không bung (bắt đăng nhập). Không dùng số này để so với Trip. | Không listing Dihang. Search ra KS Pudong khác. |
+| Homeinn Selected Ding'an (Hàng Châu) | 09–10 và 10–11/01 | 643.129₫ | Không có listing đúng KS No.126 Yan'an / metro Ding'an. Agoda chỉ có Home Inn Plus/Selected Hubin khác (Youdian Rd / Yongjin). | Không listing đúng KS. |
+| Wuzhen Guest House 乌镇民宿 (TRONG Tây Sách, miễn vé) | 10–11 / 09–10/01 | 1.859.650₫ (10–11) · 1.975.879₫ (09–10, T7) | Không listing đúng KS official trong trấn. | Không listing. |
+| Puyi seclusion (NGOÀI cổng Nam, phải mua vé) | 09–10 và 10–11/01 | 866.131₫ | Không listing. | Search “Puyi seclusion Wuzhen” → errorc_searchstring_not_found. |
+| Homeinn Selected Bund Center (Thượng Hải) | 11–13/01 | 2.611.260₫ / 2 đêm | Search city=Shanghai không ra đúng KS Lane 135 Jiangxi Middle. | Search đúng tên → kết quả Qiantan / West Bund (Mercure, Waldorf, MGM…) — không phải KS chọn. |
+
+Kết luận: **Plan 1 đặt 3 KS trên Trip.com** (Homeinn Hàng Châu + Guest House + Bund). **Plan 2 đặt 4 KS** (thêm Dihang). Agoda/Booking.com inventory nội địa Trung Quốc (Huazhu + homestay Ô Trấn) kém cho các ngày này; không có giá rẻ hơn đáng tin để đổi kênh.
+
+Gợi ý nếu muốn đổi vì đi bộ (chưa đổi chọn chính):
+- Hàng Châu rẻ hơn, vẫn đi bộ phố cổ: Hushi 477.744₫ hoặc Homeinn neo Hefang 495.675₫
+- Ô Trấn TRONG trấn (miễn vé): Tong'an 2.285.820₫ / Dockside 3.103.291₫ nếu muốn KS lớn hơn Guest House
+- Ô Trấn NGOÀI cổng (phải +1.162.000₫ vé 2 người): Puyi 866.131₫ · Bannuan 539.974₫ · Qingshuiyi 443.396₫ — tổng vẫn đắt hơn Guest House và mất buổi sáng trong trấn
+- Thượng Hải đi bộ Nam Kinh tốt nhất: Homeinn Plus Nanjing East 3.849.224₫ / 2 đêm (đắt hơn ~1.24 triệu)
+- Thượng Hải rẻ hơn, vẫn trung tâm: Tianhua Huanghe (file tham khảo) 2.470.006₫ hoặc Jinjiang Inn Dashijie 2.238.280₫ / 2 đêm
+
+--------------------------------------------------------------------------------
+DI CHUYỂN & VÉ (tham chiếu)
+
+TIP DI CHUYỂN (chốt ga + 2 cách Ô Trấn)
+
+Thượng Hải ↔ Hàng Châu
+- Đặt vé tàu trên app **12306** (rẻ, đúng chỗ) hoặc **Trip.com Trains**. Mang hộ chiếu; khách nước ngoài check tay — có mặt trước giờ tàu 45–60 phút.
+- Ga Thượng Hải hay dùng: **Hồng Kiều 上海虹桥站** (không phải Shanghai Station 上海站). **Plan 1 đêm đầu:** Late Night Bus PVG T2 → Hồng Kiều Đông giao thông, đi bộ sang ga tàu. Ban ngày: Airport Link → Hồng Kiều T2 rồi đi bộ sang ga tàu.
+- Ga Hàng Châu hay dùng: **Hàng Châu Đông 杭州东站** (ga Đông Hàng Châu). Tàu G ~45–60 phút, hạng 2 thường 48–73 CNY (trần 87 CNY).
+
+Hàng Châu → Ô Trấn Tây Sách — **Plan 1 đã chốt xe khách (C2)** 17/11/2026
+- **C2 (chốt):** xe khách **thẳng Tây Sách**. Bến gần KS Định An: **杭州城站汽车客运站** (环城东路12号). Vé ghi **乌镇西栅**, ~35–45 CNY, ~90 phút. Chuyến chốt **13:45**, backup 14:45 / 12:00 nếu ra sớm. Mua quầy hộ chiếu; 巴巴快巴 / 杭州长运. Bến dự phòng: **杭州长运火车东站公路汽车站** (đông quảng trường G tầng bắc).
+- **C1 (chỉ khi lỡ xe):** tàu Hàng Châu Đông → **ga Đồng Hương 桐乡站** rồi Didi tới 西栅游客服务中心.
+
+Ô Trấn → Thượng Hải — **Plan 1 đã chốt xe khách cổng Tây Sách**
+- **Mặc định:** xe khách **西栅景区1号停车场** → **上海长途客运南站**. **55 CNY** ≈ 213.000₫, ~90 phút (kẹt có thể ~2 giờ). Chuyến sau trả phòng 12:00: **12:50** (chốt) / **14:35** (dự phòng). Mua 桐乡出行 / 巴巴快巴 / quầy cổng, vé ghi tên — mang hộ chiếu. Metro line 1 → 人民广场 → line 2 南京东路 (~30–40 phút, 6–8 CNY).
+- **Dự phòng:** Didi ra **ga Đồng Hương**, tàu G về **Hồng Kiều**, metro line 2. Chỉ dùng nếu lỡ 12:50 và 14:35.
+
+PVG — bus sân bay (bảng ground transport chính thức)
+
+| Tuyến | T1 / T2 | Điểm đến | Giá | Ghi chú cho trip này |
+| --- | --- | --- | --- | --- |
+| Airport Line 4 | 07:00–23:00 / 07:03–23:03 | **Ga Thượng Hải** (North Square) 上海火车站 | 2–28 CNY | Ga tàu nội đô, **không** phải Hồng Kiều cao tốc |
+| Airport Line 7 | 07:30–23:00 / 07:35–23:05 | **Ga Nam Thượng Hải** 上海南站 | 4–20 CNY | Ban ngày mới bắt; từ Nam có bus Tây Sách (~09:17…) |
+| Airport Line 8 | 07:00–20:40 / 07:03–20:43 | Bến Nam Hối | 1–10 CNY | Không dùng |
+| Airport Circle | 08:00–19:15 | Hangcheng Garden | 2 CNY | Nội khu sân bay |
+| **Late Night Bus 守航夜宵线** | **T1 23:00–05:30 · T2 23:03–05:33** | **Hồng Kiều Đông giao thông 虹桥枢纽东交通中心** | **18–34 CNY** | **Xe đêm duy nhất.** ~80 phút, 1 chiều, chỉ lên T1/T2, dọc đường chỉ xuống. Khách đầy thì chạy, cách nhau tối đa 30 phút. Hotline 021-68346612 |
+
+Long-distance coach (khác bus sân bay): **không có PVG → Ô Trấn**. PVG → Hàng Châu Đông 08:50–19:30, 130 CNY.
+
+**Plan 1 (Hàng Châu trước):** ra cửa ~03:00 → Late Night Bus → Hồng Kiều (~04:20–04:50) → tàu G **Hàng Châu Đông 06:20–06:45** (G7331 06:13 / G7363 06:24 / G1381 06:40; số hiệu đổi). **Không đặt G7541 05:52** — check hộ chiếu 45–60 phút. Homeinn Ding'an nhận 14:00, gửi vali từ sáng, Hồ Tây ~09:00. **Không ở Dihang.**
+
+**Plan 2 (Ô Trấn trước):** Late Night Bus **không** thay Dihang. Tàu Hồng Kiều→Đồng Hương sớm nhất thường G7541 05:52–06:25; 05:52 sát. Didi tới Tây Sách ~07:30–08:30. **乌镇民宿 nhận 15:00** → ngồi chờ ~7 giờ, không giường, tháng 1 lạnh. **Vẫn chốt Dihang** cho Plan 2.
+
+PVG / nội thành ban ngày
+- PVG → Hồng Kiều: Airport Link Line ~40 phút, 26 CNY ≈ 101.000₫/người (chỗ vali). **06:00–22:15**. Metro line 2 ~90 phút, 8 CNY; đầu tiên **06:00**.
+- Nam Kinh Lộ → Disney: metro line 2 → line 11, ~1 giờ, ~7 CNY ≈ 27.000₫.
+- Nam Kinh Lộ → PVG đêm 13/01: metro line 2 ~1 giờ, 7 CNY ≈ 27.000₫.
+
+Vé tham quan:
+- Shanghai Disneyland 12/01/2027: tham chiếu lịch 12/01/2026 = 499 CNY ≈ 1.933.000₫/người (giá 2027 chưa công bố chính thức).
+- Ô Trấn Tây Sách: 150 CNY ≈ 581.000₫/người nếu ngủ NGOÀI cổng. **Ngủ Wuzhen Guest House / KS official trong Tây Sách thì miễn vé** (theo số khách ở; trừ thanh niên 水巷). Nhận phòng tại 西栅游客服务中心, hộ chiếu + booking. Đông+Tây: 190 CNY nếu vẫn muốn Đông Sách (không cần).
+- Hồ Tây: miễn phí. Phố cổ Thanh Hà Phường: miễn phí.
+
+QUÀ HÀNG CHÂU: trà Long Tĩnh + lụa (tháng 1/2027 = vụ 2026, chưa có 明前 2027)
+
+Trà
+- Mua: phố **佑圣观路** (Hựu Thánh Quán, sát Ngô Sơn / Thanh Hà Phường). Metro line 5 ga **万安桥**. Nếm 2–3 quầy, cân **250g**, hút chân không chia túi 50–100g.
+- Không mua: quầy Hồ Tây, phố cổ Thanh Hà Phường, sân bay, Ô Trấn. Làng Long Tỉnh / Mai Gia Ô đẹp nhưng mất nửa ngày — không khớp lịch hiện tại.
+- Giá / 500g (1 cân TQ, 1 CNY ≈ 3.873₫): Tiền Đường uống ngày 200–500 CNY ≈ 0,8–1,9 triệu; Tây Hồ 雨前 600–1.200 CNY ≈ 2,3–4,6 triệu; “Tây Hồ 明前” ≥1.500 CNY. Hộp quà 100g Tiền Đường ~80–200 CNY ≈ 310–775k.
+- Kiểm: tem chỉ dẫn địa lý Tây Hồ, năm vụ trên thùng gốc, nếm rồi mới cân. Báo giá theo cân = 500g.
+
+Lụa
+- Gần KS Hubin: **都锦生** Dujinsheng, 龙游路48号, 10:00–22:00, giá niêm yết. Hoặc **万事利** Wensli.
+- Chợ mặc cả: **中国丝绸城** 西健康路 / 新华路, metro 凤起路.
+- Giá khăn 100% tằm: chợ 80–300 CNY (mặc cả ~120–200) ≈ 0,3–1,2 triệu; brand 300–800 CNY ≈ 1,2–3,1 triệu. Áo/sườn xám 300–2.000+ CNY — cồng kềnh.
+- Không mua lụa Ô Trấn / Hồ Tây. Thử đốt sợi: tằm cháy mùi tóc, tàn vụn; polyester chảy cứng.
+
+Chốt **1 người: 250g trà + 1 khăn lụa** (1 CNY ≈ 3.873₫)
+- Tiền Đường 250g 100–250 CNY + khăn chợ 120–200 CNY ≈ **300 CNY ≈ 1,2 triệu** — khớp trần mua sắm.
+- Tây Hồ 雨前 250g 300–600 CNY + khăn ≈ **550 CNY ≈ 2,1 triệu**.
+- Thương hiệu khăn 300–800 CNY thì cộng thêm; đừng lấy 明前 trừ khi chấp nhận ≥750 CNY chỉ cho 250g trà.
+
+eSIM / data (2 người) — đã có trong ngân sách 250.000₫/người
+- File tham khảo ghi SIM 3GB/ngày **250.000₫/người**. Plan lấy số này làm **trần**. **2 người = 500.000₫** (mỗi máy 1 eSIM, không chia 250k cho cả đôi).
+- **Kênh chốt: Klook** (rẻ hơn mức 250k). Listing 27/10/2026: [eSIM 5G Trung Quốc | China Unicom](https://www.klook.com/vi/activity/128576-china-esim-high-speed-internet-qr-code-voucher/) từ **US$ 1.05** — đó là gói **1 ngày / dung lượng nhỏ (thường 500MB)**, không dùng cho trip này.
+- Mua **2 eSIM**, gói **7 ngày** (kích hoạt 09/01 giờ TQ, còn mạng sáng 14/01 ra PVG). Ưu tiên **1GB/ngày × 7** hoặc **10–15GB / 7 ngày**. Gói unlimited 7 ngày China–HK–Macau ~511k/cái là dư (không đi HK).
+- Cài QR trước khi bay (WiFi nhà). Giữ eSIM tắt đến khi hạ cánh, bật roaming. Chỉ data, không gọi/SMS. Klook Unicom quảng cáo Google / WhatsApp / IG / TikTok không cần VPN; vẫn tải VPN dự phòng.
+- Không hotspot 1 máy cho 2 người làm phương án chính: Alipay, Didi, 12306, Amap cần mạng riêng khi tách (Disney / WC / xếp hàng).
+
+Visa Trung Quốc (công dân VN, không phải e-visa; chiều HAN–PVG–HAN không được miễn 144 giờ):
+- **Chốt: dịch vụ visa 2.300.000₫/người** (đã gồm trong ngân sách plan). 2 người = 4.600.000₫.
+- Tự nộp CVASC trước đây ước 45 USD + phí trung tâm ~760.000₫ ≈ 1.950.000₫ — **không dùng số này nữa**.
+- Khai online nếu tự làm: https://bio.visaforchina.cn/HAN3_VI/qianzhengyewu (Hà Nội)

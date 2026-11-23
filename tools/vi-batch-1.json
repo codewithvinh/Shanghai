@@ -1,0 +1,402 @@
+[
+ {
+  "id": 0,
+  "where": "p1",
+  "vi": "Kế hoạch 1 — Hàng Châu, Ô Trấn, Thượng Hải"
+ },
+ {
+  "id": 21,
+  "where": "p1",
+  "vi": "Xe buýt đêm ra Hồng Kiều, không khách sạn sân bay."
+ },
+ {
+  "id": 32,
+  "where": "p1",
+  "vi": "Hàng Châu: bờ đông, không nhồi Linh Ẩn."
+ },
+ {
+  "id": 34,
+  "where": "p1",
+  "vi": "Ngủ trong Tây Sách, sáng hôm sau vẫn vào được."
+ },
+ {
+  "id": 36,
+  "where": "p1",
+  "vi": "Thứ 3 12/01, xem ILLUMINATE! rồi metro về."
+ },
+ {
+  "id": 38,
+  "where": "p1,p2",
+  "vi": "Phố chợ miễn phí trước khi ra sân bay."
+ },
+ {
+  "id": 47,
+  "where": "p1",
+  "vi": "Bờ đông miễn phí, sáng vắng, đúng ngày tỉnh sau đêm máy bay."
+ },
+ {
+  "id": 51,
+  "where": "p1",
+  "vi": "Ngủ trong trấn thì miễn vé; sáng sớm phố vắng."
+ },
+ {
+  "id": 54,
+  "where": "p1",
+  "vi": "Ngày đã chốt 12/01; xem pháo hoa rồi metro về."
+ },
+ {
+  "id": 57,
+  "where": "p1",
+  "vi": "Xem phố lên đèn, đi bộ từ khách sạn Nam Kinh Lộ."
+ },
+ {
+  "id": 60,
+  "where": "p1",
+  "vi": "Đèn đẹp, không mua vé vườn; thứ 4 vườn cổ đã đóng."
+ },
+ {
+  "id": 62,
+  "where": "p1,p2",
+  "vi": "Hai người lớn đi du lịch tự túc, không làm việc tại Trung Quốc. Có vé máy bay khứ hồi. Khách sạn dưới đây là dự kiến, chưa đặt."
+ },
+ {
+  "id": 65,
+  "where": "p1,p2",
+  "vi": "Hai người lớn, đi tự túc, visa du lịch L, không làm việc tại Trung Quốc."
+ },
+ {
+  "id": 66,
+  "where": "p1",
+  "vi": "Đêm đầu không ở khách sạn sân bay."
+ },
+ {
+  "id": 67,
+  "where": "p1",
+  "vi": "Ra cửa khoảng 03:00 → xe buýt đêm 守航夜宵线 ở T2 → 虹桥枢纽东交通中心 → tàu cao tốc Hàng Châu Đông 06:20–06:45. Không đặt G7541 lúc 05:52."
+ },
+ {
+  "id": 69,
+  "where": "p1,p2",
+  "vi": "Ô Trấn Tây Sách — ngủ trong trấn, được miễn vé"
+ },
+ {
+  "id": 74,
+  "where": "p1",
+  "vi": "Ngày 0–1 – Thứ 6 08/01 đêm và rạng sáng thứ 7 09/01: Hà Nội → Phố Đông → Hồng Kiều (không khách sạn sân bay)"
+ },
+ {
+  "id": 75,
+  "where": "p1",
+  "vi": "Thượng Hải Phố Đông · trên đường"
+ },
+ {
+  "id": 76,
+  "where": "p1",
+  "vi": "Máy bay 21:25 giờ Hà Nội, hạ cánh 01:15 giờ Thượng Hải. Nhập cảnh khoảng 03:00, xe buýt đêm sang Hồng Kiều, tàu cao tốc đi Hàng Châu Đông."
+ },
+ {
+  "id": 86,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Làm thủ tục ở Nội Bài trước 19:25</li><li>Cửa ra ở Trung Quốc có thể khoảng 01:45–02:00</li></ul>"
+ },
+ {
+  "id": 88,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Xuống máy bay, hải quan, lấy vali</li><li>Mang theo xác nhận khách sạn in sẵn</li></ul>"
+ },
+ {
+  "id": 89,
+  "where": "p1",
+  "vi": "Lần đầu xin visa Trung Quốc, chừa thời gian đến khoảng 03:00 giờ Thượng Hải."
+ },
+ {
+  "id": 91,
+  "where": "p1",
+  "vi": "Tìm xe 守航夜宵线; chỉ đón khách ở T1 và T2."
+ },
+ {
+  "id": 92,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>T2 chạy 23:03–05:33</li><li>Khách đầy thì đi, cách nhau không quá 30 phút</li></ul>"
+ },
+ {
+  "id": 94,
+  "where": "p1",
+  "vi": "Phố Đông → Hồng Kiều Đông giao thông"
+ },
+ {
+  "id": 95,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Khoảng 80 phút, 18–34 CNY</li><li>Xuống đúng 虹桥枢纽东交通中心</li><li>Không đi Ô Trấn</li></ul>"
+ },
+ {
+  "id": 96,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Không quá 34 CNY</li><li>Bịt mắt, mặc ấm — ngồi ghế xe, tháng 1 lạnh</li></ul>"
+ },
+ {
+  "id": 98,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Đi bộ từ trung tâm giao thông sang ga tàu</li><li>Ăn nhẹ</li><li>Soi túi và hộ chiếu</li></ul>"
+ },
+ {
+  "id": 99,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Trong nhà ga có 711/FamilyMart</li><li>Kiểm hộ chiếu mất 45–60 phút</li><li>Đừng đặt tàu 05:52</li></ul>"
+ },
+ {
+  "id": 102,
+  "where": "p1",
+  "vi": "Ngày 1 – Thứ 7 09/01: Hồng Kiều → Hàng Châu (sáng Hồ Tây, Thanh Hà Phường; chợ đêm Vũ Lâm tùy chọn)"
+ },
+ {
+  "id": 104,
+  "where": "p1",
+  "vi": "Tàu khoảng 06:20–06:45 → Hồ Tân (gửi vali, nhận phòng 14:00) → sáng Hồ Tây → ăn trưa → Thanh Hà Phường. Tối tùy sức: còn khỏe thì chợ đêm Vũ Lâm; mệt thì ăn 外婆家 / 绿茶 ở Hồ Tân (IN77) rồi về ngủ sớm — đêm trước gần như không ngủ."
+ },
+ {
+  "id": 107,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Khoảng 50–65 phút</li><li>Ví dụ: G7331 06:13 · G7363 06:24 · G1381 06:40</li></ul>"
+ },
+ {
+  "id": 108,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Hạng 2 khoảng 73 CNY</li><li>Đặt khung 06:20–06:45</li><li>Dự phòng G7501 06:45</li><li>Không lấy 05:52</li><li>Nhập cảnh trễ thì đi Airport Link lúc 06:00</li></ul>"
+ },
+ {
+  "id": 110,
+  "where": "p1",
+  "vi": "Gửi hành lý trước, nhận phòng 14:00."
+ },
+ {
+  "id": 115,
+  "where": "p1",
+  "vi": "Kiệt quá thì ngủ gật 30–45 phút trên ghế sảnh."
+ },
+ {
+  "id": 117,
+  "where": "p1",
+  "vi": "Bờ đông, cầu Tân Hoành Hà (新横河桥); miễn phí."
+ },
+ {
+  "id": 118,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Khoảng 3,5 giờ</li><li>Tháng 1 lạnh 1–8°C</li><li>Bỏ Linh Ẩn và Cung Yến</li></ul>"
+ },
+ {
+  "id": 123,
+  "where": "p1",
+  "vi": "Phố cổ: 新周记 鼓楼 十五奎巷3号 (Đông Pha, tôm xì dầu). Hồ Tân/IN77: 绿茶 延安路258号 hoặc 外婆家. Gần 柳浪闻莺: 外婆家 南山路147. 黄油与面包 chỉ ăn vặt. Hỏi trước nếu muốn 叫花鸡."
+ },
+ {
+  "id": 126,
+  "where": "p1",
+  "vi": "Tắm, đổi đồ nếu phòng đã sẵn."
+ },
+ {
+  "id": 128,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Nhận sau 14:00</li><li>Chưa sẵn thì đi tiếp Thanh Hà Phường</li></ul>"
+ },
+ {
+  "id": 130,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Chụp ảnh, ăn vặt</li><li>Kéo sang 佑圣观路 mua trà nếu còn sức</li></ul>"
+ },
+ {
+  "id": 131,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Đừng mua trà trong phố cổ</li><li>Ăn vặt: 黄油与面包 IN77 — không thay cơm trưa</li><li>Không chạy 复兴面王 (đã chuyển 河东路)</li><li>Lụa: Đô Cẩm Sinh, 龙游路, sáng 10/01</li></ul>"
+ },
+ {
+  "id": 134,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Không bắt buộc</li><li>Đêm không ngủ thì về khách sạn ngủ trước</li></ul>"
+ },
+ {
+  "id": 138,
+  "where": "p1,p2",
+  "vi": "蟹叁寳 武林路129号: 1 tô 88 CNY + 1 tiểu long bao cho 2 người. Optional 复兴面王 河东路178号 (lệch bắc). Quá mệt thì bỏ."
+ },
+ {
+  "id": 141,
+  "where": "p1",
+  "vi": "Ngày 10/01 dậy trễ — hồ đã đi sáng 09/01."
+ },
+ {
+  "id": 144,
+  "where": "p1",
+  "vi": "Ngày 2 – Chủ nhật 10/01: Sáng Hàng Châu → Ô Trấn Tây Sách"
+ },
+ {
+  "id": 146,
+  "where": "p1",
+  "vi": "Ngủ bù, dạo phố cổ nhẹ, trả phòng. Tàu Hàng Châu Đông → Đồng Hương, Didi tới Trung tâm khách Tây Sách. Ngủ trong trấn, được miễn vé."
+ },
+ {
+  "id": 149,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Buffet Homeinn khoảng 38 CNY</li><li>Không cần dậy lúc 07:00</li></ul>"
+ },
+ {
+  "id": 151,
+  "where": "p1",
+  "vi": "Mua lụa thì vào Đô Cẩm Sinh, 龙游路48号."
+ },
+ {
+  "id": 152,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Đi bộ từ Định An khoảng 10–15 phút</li><li>Trà chưa mua thì ra 佑圣观路</li></ul>"
+ },
+ {
+  "id": 155,
+  "where": "p1",
+  "vi": "Hàng Châu Đông → Đồng Hương (桐乡)"
+ },
+ {
+  "id": 157,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Hạng 2: 21–26 CNY</li><li>Cách 2: xe khách thẳng từ bến 长运火车东站 tới cổng Tây Sách</li></ul>"
+ },
+ {
+  "id": 158,
+  "where": "p1,p2",
+  "vi": "Đồng Hương → Trung tâm khách Tây Sách"
+ },
+ {
+  "id": 159,
+  "where": "p1",
+  "vi": "Tới trung tâm khách, đừng để tài xế thả ở cổng Nam."
+ },
+ {
+  "id": 160,
+  "where": "p1",
+  "vi": "Nếu đi xe khách cách 2 thì xuống thẳng cổng Tây Sách."
+ },
+ {
+  "id": 162,
+  "where": "p1",
+  "vi": "Quầy khách sạn: hộ chiếu + xác nhận đặt phòng → quét mặt → vali chuyển tới phòng."
+ },
+ {
+  "id": 163,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Nhận sau 15:00</li><li>Tới sớm vẫn vào trấn được</li><li>Đừng mua vé 150 CNY</li></ul>"
+ },
+ {
+  "id": 166,
+  "where": "p1",
+  "vi": "Miễn vé theo số khách ngủ trong trấn."
+ },
+ {
+  "id": 167,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Chính sách từ 16/03/2025</li><li>Ở khách sạn thì xe điện nội khu cũng miễn</li></ul>"
+ },
+ {
+  "id": 169,
+  "where": "p1",
+  "vi": "Dạo phố, xem đèn đêm, thuê hán phục nếu thích."
+ },
+ {
+  "id": 170,
+  "where": "p1",
+  "vi": "Makeup hán phục khoảng 500.000₫ nếu thuê."
+ },
+ {
+  "id": 173,
+  "where": "p1,p2",
+  "vi": "Dai Cha Fun (vịt quay), Shusheng Lamp Noodle (mì cừu chân giò), Đông Pha"
+ },
+ {
+  "id": 174,
+  "where": "p1",
+  "vi": "Nhóm: món Ô Trấn. Muốn nhậu thì ra ngoài cổng (nướng, 小龙虾 — tháng 1 hỏi quán)."
+ },
+ {
+  "id": 176,
+  "where": "p1",
+  "vi": "Ngày 3 – Thứ 2 11/01: Ô Trấn → Thượng Hải (Bến Thượng Hải, Nam Kinh Lộ)"
+ },
+ {
+  "id": 178,
+  "where": "p1",
+  "vi": "Sáng tiếp tục trong Tây Sách (vẫn vào được vì ngủ trong trấn), trả phòng 12:00, xe khách ngay cổng Tây Sách tới bến Nam Thượng Hải, rồi metro Nam Kinh Lộ và Bến Thượng Hải."
+ },
+ {
+  "id": 180,
+  "where": "p1",
+  "vi": "Set 30 CNY tại khách sạn (07:00–09:30)."
+ },
+ {
+  "id": 182,
+  "where": "p1",
+  "vi": "Chụp sớm, ít người; vẫn vào được."
+ },
+ {
+  "id": 183,
+  "where": "p1",
+  "vi": "Ở đến 12:00 trả phòng, không mua vé mới."
+ },
+ {
+  "id": 185,
+  "where": "p1",
+  "vi": "Trả phòng thì nhờ chủ chuyển vali ra trung tâm khách."
+ },
+ {
+  "id": 188,
+  "where": "p1",
+  "vi": "Trả phòng 12:00; lấy vali; đi bộ ra bãi 西栅1号停车场."
+ },
+ {
+  "id": 189,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>Mua vé WeChat 桐乡出行 / 巴巴快巴 hoặc quầy cổng</li><li>Mang hộ chiếu — vé ghi tên</li></ul>"
+ },
+ {
+  "id": 191,
+  "where": "p1",
+  "vi": "Tây Sách → bến Nam Thượng Hải"
+ },
+ {
+  "id": 192,
+  "where": "p1",
+  "vi": "Thẳng từ cổng, khoảng 90 phút (kẹt có thể ~2 giờ)."
+ },
+ {
+  "id": 193,
+  "where": "p1",
+  "vi": "<ul class=\"tips\"><li>55 CNY</li><li>Chốt chuyến 12:50; dự phòng 14:35</li><li>Lỡ xe: Didi ra Đồng Hương rồi tàu G Hồng Kiều</li></ul>"
+ },
+ {
+  "id": 194,
+  "where": "p1",
+  "vi": "Nam Thượng Hải → Nam Kinh Đông"
+ },
+ {
+  "id": 195,
+  "where": "p1",
+  "vi": "Tuyến 1 tới 人民广场, chuyển tuyến 2."
+ },
+ {
+  "id": 199,
+  "where": "p1,p2",
+  "vi": "Gần Bến Thượng Hải, Dự Viên; tuyến 2 đi Disney."
+ },
+ {
+  "id": 201,
+  "where": "p1,p2",
+  "vi": "Cơm cua lông (hoặc 1 tô mì chia đôi + cơm), hoặc lẩu gà."
+ },
+ {
+  "id": 202,
+  "where": "p1,p2",
+  "vi": "<ul class=\"tips\"><li>Metro 南京东路 cửa 2, đi bộ 380 m, sát khách sạn</li><li>Nhóm 10/2026: local, giá hợp lý</li><li>Dự phòng Zhuangshi Longxing</li></ul>"
+ },
+ {
+  "id": 205,
+  "where": "p1",
+  "vi": "Metro tuyến 2, cầu đi bộ chụp ba tòa tháp."
+ }
+]

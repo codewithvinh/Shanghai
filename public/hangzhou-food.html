@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="HZ–WZ–SH">
+  <meta name="application-name" content="HZ–WZ–SH">
+  <meta name="theme-color" content="#f4783b">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="description" content="Sổ tay Hàng Châu · Ô Trấn · Thượng Hải — địa chỉ, lịch, quán ăn.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./icons/icon-512.png">
+  <link rel="stylesheet" href="./hangzhou-trip.css">
+  <title>Ăn uống — Hàng Châu · Ô Trấn · Thượng Hải</title>
+  
+</head>
+<body data-page="food">
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-11a7 7 0 1 1 14 0c0 6.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-11a7 7 0 1 1 14 0c0 6.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+    <symbol id="i-food" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h16v2a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6v-2z"/><path d="M8 3v4M12 2v5M16 3v4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><path d="M9 3v15M15 6v15"/></symbol>
+    <symbol id="i-nav" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17l-3 3v-3l-4-2 4-1V9l9 4 4-6 1 1-4 7 3 1-6 2-4-1z"/></symbol>
+    <symbol id="i-hotel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-4 7 4v13"/><path d="M9 21v-6h6v6"/></symbol>
+    <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M9 17l-2 4M15 17l2 4M9 15h.01M15 15h.01"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3l2-3h8l2 3h3a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></symbol>
+    <symbol id="i-tips" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12c.6.6 1 1.4 1 2.2V17h6v-.8c0-.8.4-1.6 1-2.2A7 7 0 0 0 12 2z"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/><path d="M16 3H6a2 2 0 0 0-2 2v2h16V5a2 2 0 0 0-2-2z"/><circle cx="17" cy="14" r="1.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.1a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 9 22 9 17 14 19 21 12 17 5 21 7 14 2 9 9 9"/></symbol>
+    <symbol id="i-drink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8l1 6H7L8 2z"/><path d="M7 8l1.2 12.2A2 2 0 0 0 10.2 22h3.6a2 2 0 0 0 2-1.8L17 8"/><path d="M12 12v4"/></symbol>
+    <symbol id="i-itin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 12h6M9 16h4"/></symbol>
+    <symbol id="i-cost" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M15.5 9.5c0-1.4-1.6-2.5-3.5-2.5S8.5 8.1 8.5 9.5 10.1 12 12 12s3.5 1.1 3.5 2.5S13.9 17 12 17s-3.5-1.1-3.5-2.5"/></symbol>
+  </svg>
+
+  <div class="page">
+    <header class="mast mast-compact">
+      <div class="mast-top">
+        <div class="app-mark" aria-hidden="true"><svg class="ico"><use href="#i-mark"></use></svg></div>
+        <div class="titles">
+          <small>Kế hoạch 1 · Vinh &amp; Hà Trang</small>
+          <h1><b>HZ–WZ–SH</b> <i>07–14/01</i></h1>
+        </div>
+        <span class="mast-badge">2 người</span>
+      </div>
+    </header>
+    <div class="pwa-banner" id="pwa-banner" role="region" aria-label="Cài app" hidden>
+      <div class="pwa-ico" aria-hidden="true"><svg class="ico"><use href="#i-download"></use></svg></div>
+      <p id="pwa-banner-text">Thêm vào màn hình chính để mở nhanh trên điện thoại.</p>
+      <button type="button" class="btn" id="pwa-install">Cài</button>
+      <button type="button" class="btn btn-ghost" id="pwa-dismiss" aria-label="Đóng">✕</button>
+    </div>
+    <p class="pwa-status" id="pwa-status" hidden></p>
+
+    <div class="vault-head" id="food-pins">
+      <div>
+        <h2><span class="sec-ico" aria-hidden="true"><svg class="ico"><use href="#i-food"></use></svg></span> Quán ăn · đồ uống theo khu</h2>
+      </div>
+      <button type="button" class="btn btn-ghost" id="toggle-food-zones">Mở hết / gập</button>
+    </div>
+    <p class="note" style="margin-top:0">Gom theo địa chỉ gần nhau. Bấm dòng khu để mở/gập; Copy khu = copy hết địa chỉ tiếng Trung trong khu.</p>
+    <div id="pin-food" class="food-vault"></div>
+
+    <h2 id="food"><span class="sec-ico" aria-hidden="true"><svg class="ico"><use href="#i-food"></use></svg></span> Ăn gì — gọi món tiếng Trung</h2>
+    <p class="note">Khẩu phần món ăn ở Trung Quốc khá lớn. Hai người gọi ít món. Quán Dianping 4.2–4.8★. Order Alipay. Tháng 1 gọi món nóng.</p>
+    <div id="food-boards"></div>
+
+    <h3 style="margin:16px 16px 8px;font-size:16px">Bảng ăn uống — món, giá tham khảo</h3>
+    <p class="note">Giá món lấy từ bảng tham khảo (khoảng 1 CNY ≈ 3.858–3.873₫). Hai người gọi ít phần. Ngày khớp lịch: 08/01 Hồ Tây + 外婆家 + 绿茶; 09/01 新周记 + 蟹叁寳.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Ngày</th>
+            <th>Bữa</th>
+            <th>Địa điểm</th>
+            <th>Món</th>
+            <th class="keep-hide">CNY</th>
+            <th class="keep-hide">₫</th>
+            <th class="keep-hide">SL</th>
+            <th>Tổng</th>
+            <th>Ghi chú</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Thịt kho Đông Pha / 红烧肉</td><td class="keep-hide">35</td><td class="keep-hide money">135.034</td><td class="keep-hide">1</td><td class="money">135.034</td><td>Món No.1 của quán, thịt mềm ngọt béo, gọi 1 phần ăn kèm bánh bao là đủ cho 2 người</td></tr>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Tôm Long Tĩnh / 龙井虾仁</td><td class="keep-hide">40</td><td class="keep-hide money">154.324</td><td class="keep-hide">1</td><td class="money">154.324</td><td>Đặc sản Hàng Châu, tôm giòn thơm mùi trà, thanh đạm, không cay</td></tr>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Gà trà hương / 茶香鸡</td><td class="keep-hide">35</td><td class="keep-hide money">135.034</td><td class="keep-hide">1</td><td class="money">135.034</td><td>Gà hun khói mùi trà, xé mềm, signature</td></tr>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Tôm tỏi miến / 蒜蓉粉丝虾</td><td class="keep-hide">30</td><td class="keep-hide money">115.743</td><td class="keep-hide">1</td><td class="money">115.743</td><td>Tôm + miến + tỏi phi, thơm, ăn cuốn với cơm</td></tr>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Tiểu long bao / 杭州小笼包</td><td class="keep-hide">10</td><td class="keep-hide money">38.581</td><td class="keep-hide">1</td><td class="money">38.581</td><td>1 xửng 8 cái, ăn chơi, đừng gọi nhiều quá no</td></tr>
+          <tr><td>08/01</td><td>Trưa</td><td>外婆家 北山路10号</td><td>Cơm và nước</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">2</td><td class="money">100.311</td><td>Cơm trắng + trà / nước, tính ~25k/người</td></tr>
+          <tr><td>08/01</td><td>Vặt</td><td>Thanh Hà Phường</td><td>Bánh Định Thắng / 定胜糕</td><td class="keep-hide">8</td><td class="keep-hide money">30.865</td><td class="keep-hide">2</td><td class="money">61.730</td><td>Bánh gạo nếp hồng nhân đậu đỏ, ngọt nhẹ, mua 2 cái ăn thử, ăn nguội không ngon</td></tr>
+          <tr><td>08/01</td><td>Vặt</td><td>Thanh Hà Phường</td><td>Bánh hoa quế / 桂花糕</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">1</td><td class="money">50.155</td><td>Thơm mùi hoa quế, ăn cho biết vị Hàng Châu</td></tr>
+          <tr><td>08/01</td><td>Vặt</td><td>Thanh Hà Phường</td><td>Kẹo hồ lô / 糖葫芦</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">1</td><td class="money">50.155</td><td>Xiên sơn tra bọc đường, chua ngọt, 1 xiên chia nhau</td></tr>
+          <tr><td>08/01</td><td>Vặt</td><td>IN77 黄油与面包</td><td>Bánh bơ</td><td class="keep-hide">26</td><td class="keep-hide money">100.311</td><td class="keep-hide">1</td><td class="money">100.311</td><td>Tiệm đang hot, vỏ giòn thơm bơ, chỉ ăn vặt thôi đừng tính thay cơm</td></tr>
+          <tr><td>08/01</td><td>Tối</td><td>绿茶 IN77 延安路258号</td><td>Gà nướng trà xanh / 绿茶烤鸡</td><td class="keep-hide">45</td><td class="keep-hide money">173.615</td><td class="keep-hide">1</td><td class="money">173.615</td><td>Signature, gà + thịt heo nướng thơm mùi trà, da giòn</td></tr>
+          <tr><td>08/01</td><td>Tối</td><td>绿茶 IN77</td><td>Thịt Đông Pha / 东坡肉</td><td class="keep-hide">40</td><td class="keep-hide money">154.324</td><td class="keep-hide">1</td><td class="money">154.324</td><td>Mềm béo vừa, ăn kèm bánh bao</td></tr>
+          <tr><td>08/01</td><td>Tối</td><td>绿茶 IN77</td><td>Đậu hũ nồi đá / 石锅豆腐</td><td class="keep-hide">30</td><td class="keep-hide money">115.743</td><td class="keep-hide">1</td><td class="money">115.743</td><td>Đậu hũ + thịt băm + đậu Hà Lan, ăn với cơm nóng</td></tr>
+          <tr><td>08/01</td><td>Tối</td><td>绿茶 IN77</td><td>Bánh mì nướng kem / 面包诱惑</td><td class="keep-hide">25</td><td class="keep-hide money">96.453</td><td class="keep-hide">1</td><td class="money">96.453</td><td>Tráng miệng, bánh giòn chấm kem, 1 phần chia hai</td></tr>
+          <tr><td>08/01</td><td>Tối</td><td>绿茶 IN77</td><td>Cơm và nước</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">2</td><td class="money">100.311</td><td>Cơm + trà</td></tr>
+          <tr><td>09/01</td><td>Sáng</td><td>新丰小吃 / gần khách sạn</td><td>Tiểu long bao và sinh tiễn</td><td class="keep-hide">10</td><td class="keep-hide money">38.581</td><td class="keep-hide">2</td><td class="money">77.162</td><td>Ăn sáng local, tiểu long bao ~10 tệ/xửng, sinh tiễn ~1,5 tệ/cái</td></tr>
+          <tr><td>09/01</td><td>Sáng</td><td>MANNER COFFEE gần Định An</td><td>SOE Latte</td><td class="keep-hide">18</td><td class="keep-hide money">69.446</td><td class="keep-hide">2</td><td class="money">138.892</td><td>Cafe quốc dân, uống sáng cho tỉnh</td></tr>
+          <tr><td>09/01</td><td>Trưa</td><td>新周记 十五奎巷3号</td><td>Cơm Hàng Châu (Đông Pha, tôm xì dầu)</td><td class="keep-hide">46</td><td class="keep-hide money">177.473</td><td class="keep-hide">2</td><td class="money">354.945</td><td>Gọi 2–3 món đơn giản. Phương án dự phòng 绿茶 / 外婆家</td></tr>
+          <tr><td>09/01</td><td>Vặt</td><td>CHAGEE Hồ Tân / IN77</td><td>伯牙绝弦</td><td class="keep-hide">20</td><td class="keep-hide money">77.162</td><td class="keep-hide">2</td><td class="money">154.324</td><td>Trà ô long + sữa tươi, thơm không quá ngọt</td></tr>
+          <tr><td>09/01</td><td>Vặt</td><td>HEYTEA Hồ Tân</td><td>Brown Sugar Bobo Milk Tea</td><td class="keep-hide">22</td><td class="keep-hide money">84.878</td><td class="keep-hide">1</td><td class="money">84.878</td><td>Trân châu đường đen, 1 ly chia nhau vì ngọt</td></tr>
+          <tr><td>09/01</td><td>Tối</td><td>蟹叁寳 武林路129号</td><td>蟹黄捞饭 / mì 88 tệ</td><td class="keep-hide">88</td><td class="keep-hide money">340.824</td><td class="keep-hide">1</td><td class="money">340.824</td><td>1 tô và tiểu long bao cho 2 người. Didi ~15–20 phút từ Định An</td></tr>
+          <tr><td>10/01</td><td>Vặt</td><td>Tây Sách</td><td>Bánh Định Thắng Ô Trấn</td><td class="keep-hide">5</td><td class="keep-hide money">19.291</td><td class="keep-hide">2</td><td class="money">38.581</td><td>Làm nhỏ hơn Hàng Châu, ăn nóng ngon hơn</td></tr>
+          <tr><td>10/01</td><td>Tối</td><td>大茶饭</td><td>Vịt quay</td><td class="keep-hide">45</td><td class="keep-hide money">173.615</td><td class="keep-hide">1</td><td class="money">173.615</td><td>Da giòn, 1 phần 2 đứa ăn là vừa</td></tr>
+          <tr><td>10/01</td><td>Tối</td><td>书生灯面 西栅大街216号</td><td>Mì cừu</td><td class="keep-hide">35</td><td class="keep-hide money">135.034</td><td class="keep-hide">2</td><td class="money">270.067</td><td>Trời lạnh, 1 người 1 tô</td></tr>
+          <tr><td>10/01</td><td>Tối</td><td>Trong trấn</td><td>Thịt kho Đông Pha miếng nhỏ</td><td class="keep-hide">18</td><td class="keep-hide money">69.446</td><td class="keep-hide">1</td><td class="money">69.446</td><td>Quầy ăn vặt, béo ngậy, thử 1 phần</td></tr>
+          <tr><td>10/01</td><td>Vặt</td><td>Trong trấn</td><td>Rượu gạo nếp Ô Trấn</td><td class="keep-hide">21</td><td class="keep-hide money">81.020</td><td class="keep-hide">1</td><td class="money">81.020</td><td>Rượu ngọt nhẹ, chai nhỏ uống thử</td></tr>
+          <tr><td>10/01</td><td>Chiều</td><td>Kiều Lý Kiều Tây Sách</td><td>Trà Long Tĩnh và bánh Định Thắng</td><td class="keep-hide">30</td><td class="keep-hide money">115.743</td><td class="keep-hide">2</td><td class="money">231.486</td><td>Tầng 2 ngắm thuyền qua cầu đá</td></tr>
+          <tr><td>11/01</td><td>Sáng</td><td>Nhà dân trong trấn</td><td>Set ăn sáng 30 tệ</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">2</td><td class="money">100.311</td><td>07:00–09:30, hoặc Lawson cho nhanh</td></tr>
+          <tr><td>11/01</td><td>Sáng</td><td>早茶客</td><td>Trà cúc trắng và ăn sáng</td><td class="keep-hide">25</td><td class="keep-hide money">96.453</td><td class="keep-hide">2</td><td class="money">192.905</td><td>Sân hiên trên mặt nước — chọn 1 trong hai hướng sáng</td></tr>
+          <tr><td>11/01</td><td>Trưa</td><td>Trong trấn</td><td>Mì bò / Lawson</td><td class="keep-hide">21</td><td class="keep-hide money">81.020</td><td class="keep-hide">2</td><td class="money">162.040</td><td>Ăn nhẹ trước khi trả phòng</td></tr>
+          <tr><td>11/01</td><td>Vặt</td><td>Trong trấn</td><td>Cá khô tẩm ngũ vị</td><td class="keep-hide">40</td><td class="keep-hide money">154.324</td><td class="keep-hide">1</td><td class="money">154.324</td><td>Đặc sản mang về, mặn ngọt, 1 gói</td></tr>
+          <tr><td>11/01</td><td>Tối</td><td>裕兴记 四川中路410号</td><td>Cơm cua / 蟹粉饭 (ưu tiên hơn mì)</td><td class="keep-hide">78</td><td class="keep-hide money">300.932</td><td class="keep-hide">1</td><td class="money">300.932</td><td>~380m từ khách sạn. Đừng 2 tô mì full giá. Tô nhỏ 60–80 tệ</td></tr>
+          <tr><td>11/01</td><td>Vặt</td><td>Nam Kinh Lộ / Lục Gia Chủy</td><td>Heytea / Chagee</td><td class="keep-hide">22</td><td class="keep-hide money">84.878</td><td class="keep-hide">2</td><td class="money">169.756</td><td>18–25 tệ/ly</td></tr>
+          <tr><td>11/01</td><td>Vặt</td><td>CHAGEE Nam Kinh Đông</td><td>White Peach Oolong</td><td class="keep-hide">20</td><td class="keep-hide money">77.162</td><td class="keep-hide">2</td><td class="money">154.324</td><td>Trà đào trắng, nhẹ</td></tr>
+          <tr><td>12/01</td><td>Sáng</td><td>LUCKIN gần khách sạn</td><td>Iced Latte</td><td class="keep-hide">15</td><td class="keep-hide money">57.872</td><td class="keep-hide">2</td><td class="money">115.743</td><td>Order trên app, lấy nhanh trước Disney</td></tr>
+          <tr><td>12/01</td><td>Trưa</td><td>Trong Disney</td><td>Ăn trưa trong công viên</td><td class="keep-hide">65</td><td class="keep-hide money">250.777</td><td class="keep-hide">2</td><td class="money">501.553</td><td>Mang snack 7-Eleven từ tối trước cho đỡ tốn</td></tr>
+          <tr><td>12/01</td><td>Vặt</td><td>Disney Zootopia</td><td>Kem Zootopia</td><td class="keep-hide">45</td><td class="keep-hide money">173.615</td><td class="keep-hide">2</td><td class="money">347.229</td><td>40–50 tệ/cây</td></tr>
+          <tr><td>12/01</td><td>Vặt</td><td>HEYTEA Disney</td><td>Grape Pulp + kem cheese</td><td class="keep-hide">28</td><td class="keep-hide money">108.027</td><td class="keep-hide">1</td><td class="money">108.027</td><td>Nho tươi + kem cheese</td></tr>
+          <tr><td>12/01</td><td>Tối</td><td>Trong Disney</td><td>Ăn tối trong công viên</td><td class="keep-hide">46</td><td class="keep-hide money">177.473</td><td class="keep-hide">2</td><td class="money">354.945</td><td>Ăn nhẹ trước ILLUMINATE!</td></tr>
+          <tr><td>12/01</td><td>Đêm</td><td>富小馆 黄河路85号</td><td>Canh bò và xiên nướng</td><td class="keep-hide">39</td><td class="keep-hide money">150.466</td><td class="keep-hide">2</td><td class="money">300.932</td><td>Sau show nếu còn sức, không thì 7-Eleven</td></tr>
+          <tr><td>13/01</td><td>Sáng</td><td>小杨生煎 Ninh Ba Lộ</td><td>Sinh tiễn bao / 生煎包</td><td class="keep-hide">15</td><td class="keep-hide money">57.872</td><td class="keep-hide">2</td><td class="money">115.743</td><td>Nên thử. Vỏ dưới giòn, nhân thịt và súp, 12–18 tệ/4 cái</td></tr>
+          <tr><td>13/01</td><td>Sáng</td><td>13DE MARZO gần Vũ Khang</td><td>Iced Latte</td><td class="keep-hide">40</td><td class="keep-hide money">154.324</td><td class="keep-hide">2</td><td class="money">308.648</td><td>Ly có gấu nhỏ — option nếu đi Vũ Khang</td></tr>
+          <tr><td>13/01</td><td>Trưa</td><td>瀚祥 淮海中路1861号</td><td>Mì lươn</td><td class="keep-hide">31</td><td class="keep-hide money">119.601</td><td class="keep-hide">2</td><td class="money">239.202</td><td>Cạnh tòa Vũ Khang</td></tr>
+          <tr><td>13/01</td><td>Chiều</td><td>MOLLY TEA Tân Thiên Địa</td><td>Pistachio Coconut Jasmine</td><td class="keep-hide">22</td><td class="keep-hide money">84.878</td><td class="keep-hide">2</td><td class="money">169.756</td><td>Nhài + dừa + hạt dẻ cười</td></tr>
+          <tr><td>13/01</td><td>Chiều</td><td>Dự Viên 南翔馒头店</td><td>Tiểu long bao Thượng Hải</td><td class="keep-hide">45</td><td class="keep-hide money">173.615</td><td class="keep-hide">1</td><td class="money">173.615</td><td>1 xửng chia nhau, 30–60 tệ/xửng</td></tr>
+          <tr><td>13/01</td><td>Chiều</td><td>Dự Viên phố chợ</td><td>Thịt xiên</td><td class="keep-hide">15</td><td class="keep-hide money">57.872</td><td class="keep-hide">2</td><td class="money">115.743</td><td>10–20 tệ/xiên lúc lên đèn</td></tr>
+          <tr><td>13/01</td><td>Chiều</td><td>Nam Kinh Lộ</td><td>Đậu phụ thối</td><td class="keep-hide">13</td><td class="keep-hide money">50.155</td><td class="keep-hide">1</td><td class="money">50.155</td><td>Ai ăn được thì thử, 10–15 tệ/phần</td></tr>
+          <tr><td>13/01</td><td>Chiều</td><td>LINLEE Dự Viên</td><td>Hand-pounded Lemon Tea</td><td class="keep-hide">18</td><td class="keep-hide money">69.446</td><td class="keep-hide">1</td><td class="money">69.446</td><td>Trà chanh đấm tay, 1 ly chia nhau</td></tr>
+          <tr><td>13/01</td><td>Tối</td><td>CHAGEE sân bay Phố Đông, nhà ga 2</td><td>伯牙绝弦</td><td class="keep-hide">20</td><td class="keep-hide money">77.162</td><td class="keep-hide">2</td><td class="money">154.324</td><td>Ly cuối trước khi về, chi nhánh nhà ga 2 mở tới khuya</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <nav class="dock" aria-label="Điều hướng nhanh">
+    <a href="hangzhou-days.html"><svg class="ico"><use href="#i-itin"></use></svg><span>Lịch trình</span></a>
+    <a href="hangzhou-food.html" class="is-on" aria-current="page"><svg class="ico"><use href="#i-food"></use></svg><span>Ăn uống</span></a>
+    <a href="hangzhou-budget.html"><svg class="ico"><use href="#i-cost"></use></svg><span>Chi phí</span></a>
+    <a href="hangzhou-pins.html"><svg class="ico"><use href="#i-pin"></use></svg><span>Địa điểm</span></a>
+    <a href="hangzhou-map.html"><svg class="ico"><use href="#i-map"></use></svg><span>Bản đồ</span></a>
+  </nav>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="./js/hangzhou-data.js"></script>
+  <script src="./js/hangzhou-shared.js"></script>
+  <script src="./js/hangzhou-food.js"></script>
+
+</body>
+</html>

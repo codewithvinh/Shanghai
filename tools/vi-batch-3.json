@@ -1,0 +1,402 @@
+[
+ {
+  "id": 409,
+  "where": "p1",
+  "vi": "Mùa thấp 30 CNY. Tối không vào. Mini program 上海豫园 nằm trên WeChat."
+ },
+ {
+  "id": 411,
+  "where": "p1",
+  "vi": "Đông–xuân, thứ 6 đến Chủ nhật 18:00–21:20"
+ },
+ {
+  "id": 412,
+  "where": "p1",
+  "vi": "Thứ 4 13/01 không mở. Vé khoảng 150–218 CNY."
+ },
+ {
+  "id": 413,
+  "where": "p1",
+  "vi": "Đêm 13/01 chỉ đi phố chợ Dự Viên, không mua vé. Hoàng hôn khoảng 17:10. Hội đèn Tết 2027 gần như chắc chưa mở ngày 13/01."
+ },
+ {
+  "id": 414,
+  "where": "p1",
+  "vi": "Alipay dùng được ở phố chợ, thịt xiên, trà sữa, metro, Didi — quẹt QR nếu đã gắn Visa/Mastercard hoặc Tour Pass. Mini program mua vé vườn là WeChat. Mang vài tờ 10–20 CNY."
+ },
+ {
+  "id": 416,
+  "where": "p1,p2",
+  "vi": "Số dưới đây là dự kiến mỗi người; tiền phòng đã chia đôi. Cột thực tế để trống, điền sau khi trả tiền."
+ },
+ {
+  "id": 420,
+  "where": "p1",
+  "vi": "Vé 5.480.000 + tàu 384.000 + xe khách 213.000 + xe đêm/metro/Didi 587.000"
+ },
+ {
+  "id": 421,
+  "where": "p1",
+  "vi": "5.114.039₫ / 2 người (không Dihang); Guest House 1.861.007₫"
+ },
+ {
+  "id": 422,
+  "where": "p1",
+  "vi": "Không gồm Cung Yến; đã gồm bánh Ô Trấn 50k; tối 13/01 ăn ở Dự Viên"
+ },
+ {
+  "id": 425,
+  "where": "p1",
+  "vi": "250g trà Tiền Đường + 1 khăn ≈ 300 CNY"
+ },
+ {
+  "id": 427,
+  "where": "p1,p2",
+  "vi": "Visa 2.300.000 + eSIM 250.000. Không bảo hiểm."
+ },
+ {
+  "id": 429,
+  "where": "p1",
+  "vi": "Hán phục, Didi nếu lỡ tàu, ăn thêm"
+ },
+ {
+  "id": 431,
+  "where": "p1",
+  "vi": "Trần 20 triệu/người. Còn dư khoảng 1,66 triệu."
+ },
+ {
+  "id": 433,
+  "where": "p1",
+  "vi": "ước khoảng 36,7 triệu / 2 người"
+ },
+ {
+  "id": 434,
+  "where": "p1,p2",
+  "vi": "Hai người trần 40.000.000₫, đã gồm vé máy bay 10.960.000₫."
+ },
+ {
+  "id": 436,
+  "where": "p1",
+  "vi": "Vé máy bay đã có giá. Đặt tàu 12306 hoặc Trip: Hồng Kiều → Hàng Châu Đông 06:20–06:45 ngày 09/01 (không lấy 05:52); Hàng Châu Đông → Đồng Hương ngày 10/01. Ngày 11/01: xe khách cổng Tây Sách chuyến 12:50 (桐乡出行 / 巴巴快巴). Không đặt tàu Đồng Hương → Hồng Kiều trừ khi lỡ xe."
+ },
+ {
+  "id": 437,
+  "where": "p1",
+  "vi": "Đặt 3 khách sạn trên Trip.com, không đặt Dihang. Ô Trấn: Wuzhen Guest House, Didi tới Trung tâm khách Tây Sách, đừng thả cổng Nam. Dihang chỉ khi nhập cảnh trễ hoặc quá mệt."
+ },
+ {
+  "id": 438,
+  "where": "p1,p2",
+  "vi": "Giấy tờ: hộ chiếu, làm visa khoảng 2.300.000₫/người (hai người 4.600.000₫)."
+ },
+ {
+  "id": 439,
+  "where": "p1,p2",
+  "vi": "Alipay gắn Visa hoặc Mastercard; mang ít tiền mặt."
+ },
+ {
+  "id": 440,
+  "where": "p1,p2",
+  "vi": "Hai eSIM Klook 7 ngày, bật ngày 09/01. Đừng mua gói 1 ngày 500MB. Trần 250.000₫/người. Cài mã QR trước, hạ cánh mới bật. Ở nhà tải sẵn VPN dự phòng."
+ },
+ {
+  "id": 441,
+  "where": "p1,p2",
+  "vi": "Áo ấm: tháng 1 Hàng Châu và Thượng Hải khoảng 1–8°C, ẩm lạnh."
+ },
+ {
+  "id": 442,
+  "where": "p1,p2",
+  "vi": "Thuốc cá nhân. Không mua bảo hiểm du lịch — đã chốt."
+ },
+ {
+  "id": 443,
+  "where": "p1,p2",
+  "vi": "In xác nhận khách sạn và lịch trình này, mỗi thứ 2 bản, đưa hải quan."
+ },
+ {
+  "id": 444,
+  "where": "p1",
+  "vi": "App: Alipay, Cao Đức (高德), Metro Đại Đô Hội / MetroMan, 12306 hoặc Trip.com tàu hỏa, 桐乡出行 / 巴巴快巴, Disney Resort, Didi."
+ },
+ {
+  "id": 445,
+  "where": "p1,p2",
+  "vi": "Chân máy, túi xách tay đêm về, sạc dự phòng, bịt mắt và nút tai."
+ },
+ {
+  "id": 448,
+  "where": "p1,p2",
+  "vi": "Tháng 1 lạnh ẩm. Thượng Hải khoảng 3–9°C, Hàng Châu khoảng 1–8°C, có thể mưa hoặc tuyết nhẹ. Mang áo lông vũ, khăn, giày chống trơn."
+ },
+ {
+  "id": 450,
+  "where": "p1,p2",
+  "vi": "Chiều Hà Nội – Phố Đông – Hà Nội không được miễn thị thực 144 giờ. Phải xin visa du lịch L."
+ },
+ {
+  "id": 452,
+  "where": "p1",
+  "vi": "Thượng Hải dùng Hồng Kiều (上海虹桥), không phải ga Thượng Hải (上海站). Hàng Châu dùng Hàng Châu Đông (杭州东站). Vào Ô Trấn: ga Đồng Hương rồi Didi. Ra Ô Trấn ngày 11/01: xe khách cổng Tây Sách (1号停车场) → bến Nam Thượng Hải, 55 CNY, chuyến 12:50 / 14:35."
+ },
+ {
+  "id": 453,
+  "where": "p1",
+  "vi": "Đi tàu thì kiểm hộ chiếu tay — có mặt trước 45–60 phút."
+ },
+ {
+  "id": 455,
+  "where": "p1",
+  "vi": "Ra cửa khoảng 03:00 → xe buýt đêm 守航夜宵线 T2 (23:03–05:33) → Hồng Kiều Đông giao thông khoảng 80 phút, 18–34 CNY → tàu cao tốc Hàng Châu Đông 06:20–06:45. Không ở Dihang. Xe đêm không đi Ô Trấn. Airport Link và metro tuyến 2 từ Phố Đông đều 06:00 — chỉ dùng khi lỡ xe đêm. Không đặt G7541 lúc 05:52. Đừng ở Thượng Hải một đêm trước, không thì Ô Trấn sẽ đè lên Disney ngày 12/01."
+ },
+ {
+  "id": 457,
+  "where": "p1,p2",
+  "vi": "Mô hình tại 兴业太古汇 N129, 静安区南京西路789号, metro 南京西路 cửa 5. Nhóm 10/2026: vẫn còn, không bị tháo đầu tháng 8/2026. Optional tối 11/01 (line 2 hướng tây, bỏ Lục Gia Chủy) hoặc sáng 13/01. Miễn phí, 15–30 phút."
+ },
+ {
+  "id": 459,
+  "where": "p1,p2",
+  "vi": "Chốt 裕兴记•蟹黄面馆（外滩店）, 黄浦区四川中路410号, 南京东路 cửa 2 đi bộ 380 m — sát khách sạn. Nhóm: local, giá hợp lý. Gọi cơm cua; nhiều người thấy mì không đáng giá — muốn thử thì 1 tô chia đôi. Dự phòng Zhuangshi Longxing."
+ },
+ {
+  "id": 461,
+  "where": "p1,p2",
+  "vi": "Tối: Dai Cha Fun (vịt quay), Shusheng Lamp Noodle (mì cừu chân giò), Đông Pha, cá dưa chua, gà hầm. Ăn vặt: bánh củ cải / bánh bột gạo (Ding Sheng, nhà 320, Wuzhen Radish Cake). Quán: 利生面馆, 桥里桥烧饼铺 (~5 CNY), 栅桥砂锅庄, 二次方咖啡, 林靠靠老火锅, 万兴夹饼. Ăn sập ~300 CNY/người không vào ngân sách cốt lõi. Nhậu: ngoài cổng — nướng, 小龙虾 (tháng 1 có thể hết mùa)."
+ },
+ {
+  "id": 464,
+  "where": "p1,p2",
+  "vi": "Mặc định Vietjet Deluxe 5.480.000₫/người. Option Sun PhuQuoc 6.106.000₫/người (12.212.000₫/2 người). Chưa xuất vé."
+ },
+ {
+  "id": 466,
+  "where": "p1",
+  "vi": "Visa 2.300.000₫/người, 3 khách sạn, 2 chặng tàu, xe khách Tây Sách, Disney, 2 eSIM, ăn, Didi, xe buýt đêm. Không bảo hiểm. Giữ 乌镇民宿 thì không mua vé Tây Sách."
+ },
+ {
+  "id": 467,
+  "where": "p1",
+  "vi": "Disney ngày 12/01/2027 chưa công bố giá; tạm dùng 499 CNY của ngày 12/01/2026 (thứ 3)."
+ },
+ {
+  "id": 468,
+  "where": "p1,p2",
+  "vi": "Trà Long Tĩnh và lụa — mỗi người 250g trà + 1 khăn."
+ },
+ {
+  "id": 469,
+  "where": "p1,p2",
+  "vi": "Trà: đi phố Hựu Thánh Quán (佑圣观路), sát Ngô Sơn / Thanh Hà Phường. Metro tuyến 5, ga Vạn An Kiều (万安桥). Nếm 2–3 quán, cân 250g, hút chân không chia túi 50–100g. Đừng mua ở Hồ Tây, phố cổ hay sân bay. Tháng 1 không có trà minh tiền 2027."
+ },
+ {
+  "id": 470,
+  "where": "p1,p2",
+  "vi": "Giá theo 500g: trà Tiền Đường uống hàng ngày 200–500 CNY; Tây Hồ vũ tiền 600–1.200 CNY; chỗ nào treo “Tây Hồ minh tiền” từ 1.500 CNY. Người bán nói “một cân” là 500g."
+ },
+ {
+  "id": 471,
+  "where": "p1,p2",
+  "vi": "Lụa: Đô Cẩm Sinh (都锦生), 龙游路48号, 10:00–22:00, gần khách sạn, giá niêm yết. Hoặc Vạn Sự Lợi (万事利). Muốn mặc cả thì ra chợ lụa Trung Quốc (中国丝绸城, 西健康路, metro Phượng Khởi Lộ). Đừng mua lụa ở Ô Trấn hay Hồ Tây."
+ },
+ {
+  "id": 472,
+  "where": "p1,p2",
+  "vi": "Chốt khoảng 300 CNY ≈ 1,2 triệu (250g Tiền Đường + khăn chợ). Nếu lấy Tây Hồ vũ tiền thì khoảng 2,1 triệu. Hải quan Việt Nam thường cho mang trà khô số lượng cá nhân; giữ hóa đơn Alipay."
+ },
+ {
+  "id": 475,
+  "where": "p1,p2",
+  "vi": "đúng hướng trên thanh lộ trình."
+ },
+ {
+  "id": 477,
+  "where": "p1",
+  "vi": "Đêm máy bay hơi căng, rồi Ô Trấn chậm, Disney mạnh, về đêm."
+ },
+ {
+  "id": 479,
+  "where": "p1,p2",
+  "vi": "Không có trẻ em — hai người lớn."
+ },
+ {
+  "id": 481,
+  "where": "p1",
+  "vi": "Hồ + cổ trấn + thành phố + công viên giải trí."
+ },
+ {
+  "id": 483,
+  "where": "p1",
+  "vi": "Máy bay khứ hồi, tàu cao tốc, xe khách cổng Tây Sách, metro, Didi. Không thuê xe tự lái."
+ },
+ {
+  "id": 486,
+  "where": "p1",
+  "vi": "Hướng đi: Hà Nội → Phố Đông → Hàng Châu → Ô Trấn → Thượng Hải → Hà Nội. 08–14/01/2027, 2 người lớn, visa L. Giữ Hồ Tây, ngủ trong Tây Sách, Disney 12/01, Dự Viên đêm. Ngày 11/01 xe khách cổng Tây Sách → Nam Thượng Hải. Đêm đầu không khách sạn sân bay. Khách sạn chưa đặt.</span>\n    <span class=\"zh\">方向：河内→浦东→杭州→乌镇→上海→河内。2027年1月8–14日，两名成人，L字签证。保留西湖、西栅内住宿、1月12日迪士尼、豫园夜景。1月11日西栅门口大巴到上海南站。首晚不住机场酒店。酒店尚未下单。</span>\n    <span class=\"en\">Direction: Hanoi → Pudong → Hangzhou → Wuzhen → Shanghai → Hanoi. 8–14 Jan 2027, 2 adults, L visa. Keep West Lake, sleep inside Xizha, Disney 12 Jan, Yuyuan night. On 11 Jan, coach from the Xizha gate to Shanghai South. No airport hotel on night one. Hotels not booked yet.</span>\n  </div>\n</section>\n\n<footer><span class=\"i18n\"><span class=\"vi\">Kế hoạch du lịch tự túc · 2 người lớn · visa L. Không phải tour đoàn."
+ },
+ {
+  "id": 487,
+  "where": "p2",
+  "vi": "Kế hoạch 2 — Ô Trấn trước, Hàng Châu sau"
+ },
+ {
+  "id": 488,
+  "where": "p2",
+  "vi": "Khách sạn Dihang sân bay Phố Đông."
+ },
+ {
+  "id": 490,
+  "where": "p2",
+  "vi": "Đêm sân bay, ngày 1 chậm trong Tây Sách."
+ },
+ {
+  "id": 492,
+  "where": "p2",
+  "vi": "Hồ Tây dài hơn vì đã ngủ ở Ô Trấn."
+ },
+ {
+  "id": 493,
+  "where": "p2",
+  "vi": "Thứ 3 12/01, giống kế hoạch 1."
+ },
+ {
+  "id": 494,
+  "where": "p2",
+  "vi": "Ngày đầu nghỉ trong trấn, miễn vé, nhịp chậm."
+ },
+ {
+  "id": 496,
+  "where": "p2",
+  "vi": "Đi khi đã ngủ ở Ô Trấn, tỉnh hơn kế hoạch 1."
+ },
+ {
+  "id": 499,
+  "where": "p2",
+  "vi": "Đêm 13/01 chỉ đi phố chợ, không mua vé."
+ },
+ {
+  "id": 500,
+  "where": "p2",
+  "vi": "Đêm đầu ở Dihang, khách sạn sân bay Phố Đông."
+ },
+ {
+  "id": 501,
+  "where": "p2",
+  "vi": "Hạ cánh 01:15, ra cửa khoảng 03:00, gọi xe đưa đón +86-19145541142. Sáng 09/01 đi Ô Trấn. 乌镇民宿 nhận phòng 15:00 nên không bỏ Dihang."
+ },
+ {
+  "id": 502,
+  "where": "p2",
+  "vi": "08–09/01 khách sạn sân bay Phố Đông"
+ },
+ {
+  "id": 503,
+  "where": "p2",
+  "vi": "gọi xe đưa đón ngay khi ra cửa"
+ },
+ {
+  "id": 504,
+  "where": "p2",
+  "vi": "Kế hoạch 2 đảo thứ tự: 09/01 Ô Trấn nghỉ, 10/01 Hàng Châu, 11/01 Thượng Hải. Cùng vé máy bay, cùng Disney 12/01, cùng 乌镇民宿 (đêm thứ 7 đắt hơn kế hoạch 1)."
+ },
+ {
+  "id": 505,
+  "where": "p2",
+  "vi": "Ngày 0–1 – Thứ 6 08/01 đêm và rạng sáng thứ 7 09/01: Hà Nội → Phố Đông → khách sạn sân bay"
+ },
+ {
+  "id": 506,
+  "where": "p2",
+  "vi": "Thượng Hải Phố Đông · khách sạn sân bay"
+ },
+ {
+  "id": 507,
+  "where": "p2",
+  "vi": "Máy bay tới T2, nhập cảnh chừa đến khoảng 03:00, xe đưa đón Dihang, ngủ khoảng 5 tiếng."
+ },
+ {
+  "id": 509,
+  "where": "p2",
+  "vi": "Làm thủ tục ở Nội Bài trước 19:25."
+ },
+ {
+  "id": 510,
+  "where": "p2",
+  "vi": "Hải quan và lấy vali; mang theo xác nhận khách sạn và vé về."
+ },
+ {
+  "id": 511,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Lần đầu xin visa, đừng tính theo 45 phút</li><li>Đừng chờ tàu 06:00</li></ul>"
+ },
+ {
+  "id": 514,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Lễ tân 24/7</li><li>Chờ quá 20 phút thì Didi tới 晨阳西路653号</li></ul>"
+ },
+ {
+  "id": 516,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Ngủ khoảng 5 tiếng</li><li>Trả phòng đến 14:00 nên không cần dậy lúc 07:30</li></ul>"
+ },
+ {
+  "id": 517,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Bịt mắt</li><li>Hẹn xe đưa về sân bay khoảng 08:50</li></ul>"
+ },
+ {
+  "id": 519,
+  "where": "p2",
+  "vi": "Ngày 1 – Thứ 7 09/01: Phố Đông → Ô Trấn Tây Sách (nghỉ, dạo chậm)"
+ },
+ {
+  "id": 520,
+  "where": "p2",
+  "vi": "Ô Trấn Tây Sách Wuzhen · nghỉ"
+ },
+ {
+  "id": 521,
+  "where": "p2",
+  "vi": "Dihang → Airport Link → Hồng Kiều → tàu Đồng Hương → Didi Trung tâm khách Tây Sách → 乌镇民宿 → dạo đêm, miễn vé."
+ },
+ {
+  "id": 522,
+  "where": "p2",
+  "vi": "Tàu Hồng Kiều → Đồng Hương thưa hơn tàu đi Hàng Châu Đông. Sau 09:16, chuyến hợp lý là G1673 11:50–12:37 (62 CNY). Đừng dậy sớm để bắt 09:16."
+ },
+ {
+  "id": 524,
+  "where": "p2",
+  "vi": "Xe đưa đón khoảng 08:50; đói thì ăn 711."
+ },
+ {
+  "id": 525,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Đừng lấy buffet khách sạn</li><li>Dự phòng Didi</li></ul>"
+ },
+ {
+  "id": 527,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Airport Link khoảng 40 phút, chờ thêm 15 phút</li><li>Có chỗ để vali</li></ul>"
+ },
+ {
+  "id": 528,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>26 CNY</li><li>Chạy 06:00–22:15</li><li>Tuyến 2 rẻ hơn nhưng khoảng 90 phút — không đi</li></ul>"
+ },
+ {
+  "id": 530,
+  "where": "p2",
+  "vi": "Đi bộ từ Hồng Kiều T2 sang ga tàu; soi túi và hộ chiếu."
+ },
+ {
+  "id": 531,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Khách nước ngoài 45–60 phút</li><li>Ngồi chờ G1673</li></ul>"
+ },
+ {
+  "id": 533,
+  "where": "p2",
+  "vi": "<ul class=\"tips\"><li>Khoảng 45–50 phút</li><li>Ga Thượng Hải là Hồng Kiều, không phải ga Thượng Hải</li></ul>"
+ }
+]
