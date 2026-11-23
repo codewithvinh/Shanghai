@@ -277,9 +277,6 @@ progress::-moz-progress-bar { background: var(--blue); border-radius: 99px }
   .hero-caption { bottom: 9px; right: 10px }
   body[data-tab]:not([data-tab="lich-trinh"]) .hero { min-height: 174px }
   .overview > * { padding: 8px 11px }
-  .nav { width: calc(100% - 8px); bottom: calc(6px + env(safe-area-inset-bottom, 0px)); gap: 0; padding: 3px }
-  .nav a { gap: 3px }
-  .nav svg { width: 22px; height: 22px }
   .workspace { padding-top: 20px }
   .workspace h2 { margin-bottom: 14px }
   .route { gap: 7px; margin-bottom: 13px }
@@ -295,6 +292,17 @@ progress::-moz-progress-bar { background: var(--blue); border-radius: 99px }
   .map-results { max-height: 330px }
   .budget-figures { grid-template-columns: 1fr 1fr; gap: 8px }
   .budget-figures > div:first-child { grid-column: 1/-1 }
+}
+@media (max-width: 680px), (hover: none) and (pointer: coarse) {
+  .nav {
+    bottom: 0; width: 100%; gap: 0;
+    padding-block: 3px calc(3px + env(safe-area-inset-bottom, 0px));
+    padding-inline: max(3px, env(safe-area-inset-left, 0px)) max(3px, env(safe-area-inset-right, 0px));
+    border-inline: 0; border-bottom: 0; border-radius: 14px 14px 0 0;
+    box-shadow: 0 -4px 20px #17253a1a;
+  }
+  .nav a { gap: 3px }
+  .nav svg { width: 22px; height: 22px }
 }
 @media(prefers-reduced-motion: reduce) {
   .route-card img { transition: none }
