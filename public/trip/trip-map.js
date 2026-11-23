@@ -4,18 +4,23 @@ export function hasCoordinates({ lat, lng }) {
 }
 
 /** Build links that open AMap Global (Play: com.autonavi.minimap / iOS: AMap Global). */
-export function amapLinks(pin, userAgent = '') {
+export function amapLinks(pin, userAgent = '', touchPoints = 0) {
   const located = hasCoordinates(pin);
   const name = pin.name || pin.vi || '';
-  // Prefer HTTPS URI + callnative — reliable from Safari/PWA. Avoid iosamap:// as primary
-  // (standalone WebView often swallows custom schemes).
+  const ios = /iPhone|iPad|iPod/i.test(userAgent) || (/Macintosh/i.test(userAgent) && touchPoints > 1);
   const url = new URL(located ? 'https://uri.amap.com/marker' : 'https://uri.amap.com/search');
   const params = located
     ? { position: String(pin.lng) + ',' + String(pin.lat), coordinate: 'gaode', name }
     : { keyword: name, view: 'map' };
   url.search = new URLSearchParams({ ...params, src: 'giang-nam', callnative: '1' });
   let app = url.href;
-  if (located && /Android/i.test(userAgent)) {
+  if (ios) {
+    const destination = located
+      ? { poiname: name, lat: String(pin.lat), lon: String(pin.lng), dev: '0' }
+      : { name };
+    const query = new URLSearchParams({ sourceApplication: 'Giang Nam', ...destination });
+    app = 'iosamap://' + (located ? 'viewMap' : 'poi') + '?' + query;
+  } else if (located && /Android/i.test(userAgent)) {
     const query = new URLSearchParams({
       sourceApplication: 'Giang Nam',
       poiname: name,
@@ -40,7 +45,7 @@ function isStandalone() {
 }
 
 export function amapActions(pin) {
-  const { app, apple } = amapLinks(pin, navigator.userAgent);
+  const { app, apple } = amapLinks(pin, navigator.userAgent, navigator.maxTouchPoints);
   const primary = document.createElement('a');
   primary.className = 'amap-action';
   primary.textContent = 'Amap Global';
@@ -48,7 +53,8 @@ export function amapActions(pin) {
   primary.href = app;
   primary.rel = 'noopener noreferrer';
   primary.addEventListener('click', (event) => {
-    if (!isStandalone()) return;
+    // Let the user's tap follow the iOS scheme directly, including from the Home Screen.
+    if (app.startsWith('iosamap:') || !isStandalone()) return;
     event.preventDefault();
     const opened = window.open(app, '_blank');
     if (!opened) window.location.href = app;
