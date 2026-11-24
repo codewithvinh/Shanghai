@@ -247,6 +247,31 @@ progress::-webkit-progress-bar { background: #e4eaff }
 progress::-webkit-progress-value { background: var(--blue); border-radius: 99px }
 progress::-moz-progress-bar { background: var(--blue); border-radius: 99px }
 .budget-summary { background: #edf3ff }
+.budget-breakdown { min-width: 0 }
+.budget-breakdown table { min-width: 40rem }
+.budget-breakdown .table-wrap:has(th:nth-child(7)) table { min-width: 60rem }
+.budget-breakdown td:last-child { text-align: right; white-space: nowrap }
+.budget-cards { display: none }
+@media (max-width: 1024px) {
+  .budget-breakdown .table-wrap { display: none }
+  .budget-cards { display: grid; gap: var(--space-3) }
+  .budget-day { min-width: 0; border: 1px solid var(--line); border-radius: 16px; background: var(--white); overflow: hidden }
+  .budget-day > summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; align-items: baseline; padding: 13px; background: #edf3ff }
+  .budget-day > summary::after { content: '+'; position: static; grid-area: 1 / 2 / 3; place-self: center end; line-height: 1 }
+  .budget-day[open] > summary::after { content: '−' }
+  .budget-day > summary strong { grid-column: 1; grid-row: 2; font-size: var(--text-body) }
+  .budget-card { min-width: 0; padding: 13px; background: var(--white); overflow-wrap: anywhere }
+  .budget-cards > .budget-card { border: 1px solid var(--line); border-radius: 16px }
+  .budget-day > .budget-card + .budget-card { border-top: 1px solid var(--line) }
+  .budget-card p { margin: 0 }
+  .budget-card-title,.budget-card-amount { font-weight: var(--weight-semibold) }
+  .budget-card .budget-card-amount { margin-top: 4px; font-variant-numeric: tabular-nums }
+  .budget-card .budget-card-note { margin-top: 6px; color: var(--muted); font-size: var(--text-detail) }
+  .budget-card-specs { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0 }
+  .budget-card-specs > div { flex: 1 1 86px; min-width: 0; padding: 7px; border-radius: 8px; background: #edf3ff; font-size: var(--text-detail) }
+  .budget-card-specs dt { color: var(--muted); font-size: var(--text-label) }
+  .budget-card-specs dd { margin: 2px 0 0; font-variant-numeric: tabular-nums }
+}
 .budget-figures { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 13px }
 .budget-figures dt { color: var(--muted); font-size: var(--text-detail) }
 .budget-figures dd { color: var(--blue); font-size: var(--text-section); font-weight: var(--weight-bold); line-height: var(--leading-title) }

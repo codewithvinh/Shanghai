@@ -8,7 +8,7 @@ Chuyến đi 8 ngày 7 đêm, có cảnh đẹp, đồ ăn ngon, thời gian đ�
 
 **Thời gian:** 07/01/2027 – 14/01/2027 · Hàng Châu · Ô Trấn · Thượng Hải
 
-**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.706.000₫**, còn dư khoảng **1,29 triệu** để mua trà.
+**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.639.000₫**, còn dư khoảng **1,36 triệu** so với trần ngân sách.
 **Tỷ giá dùng trong kế hoạch:** 1 CNY ≈ 3.873₫
 
 Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này chỉ là giá tham khảo và lịch mẫu. Khi nào chưa đặt, chưa xuất vé thì mọi thứ vẫn có thể thay đổi.
@@ -317,18 +317,85 @@ Tổng di chuyển nội địa khoảng 586 tệ cho 2 người, chưa tính v�
 
 ## Chi phí cho mỗi người
 
-| Hạng mục | ₫ | Ghi chú |
-| --- | ---: | --- |
-| Di chuyển | 6.464.000 | Vé bay 5.280k (10.560k chia 2 người), tàu Hồng Kiều đến Hàng Châu, xe khách 2 chiều Ô Trấn và tàu điện ngầm |
-| Khách sạn | 2.879.000 | Homeinn Hàng Châu 2 đêm, Ô Trấn và Bến Thượng Hải, đều là giá tham khảo |
-| Ăn uống | 2.680.000 | Đã tính thêm 1 ngày ở Hàng Châu |
-| Disney | 1.933.000 | Ước tính vé Disney. Dự toán này giả định gói phòng ở Tây Sách có kèm hai vé vào cửa |
-| Mua sắm | 1.200.000 | Trà và khăn lụa |
-| Giấy tờ | 2.550.000 | Visa 2,3 triệu và eSIM 250k, chưa có bảo hiểm |
-| Phát sinh | 1.000.000 | Thuê hán phục, Didi cứu nguy |
-| **Tổng** | **18.706.000** | Trần 20 triệu, dư khoảng 1,29 triệu |
+### Chi tiết từng ngày cho 2 người
 
-Homeinn Định An 2 đêm 08–10/01, khoảng 643k/đêm. Giá Trip.com ngày 17/11, chưa mở đặt xa.
+Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được làm tròn đến nghìn đồng. Vé khứ hồi tính vào 07/01, tiền phòng tính vào ngày nhận phòng. Với bữa có nhiều món, đơn giá và số lượng theo thứ tự món.
+
+| Ngày | Khoản chi | Cách tính cho 2 người | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
+| --- | --- | --- | ---: | ---: | --- | ---: |
+| 07/01 · Hà Nội → Phố Đông | Vé Vietjet Deluxe khứ hồi | Gồm chuyến về ngày 14/01 | — | 5.280.000đ | 2 vé | 10.560.000đ |
+|  | Xe buýt đêm Phố Đông → Hồng Kiều | Dự trù mức cao nhất trong lịch | 34 | 131.682đ | 2 vé | 263.000đ |
+|  | **Tổng 07/01** |  |  |  |  | **10.823.000đ** |
+| 08/01 · Hàng Châu | Tàu Hồng Kiều → Hàng Châu Đông | Hạng 2 | 73 | 282.729đ | 2 vé | 565.000đ |
+|  | Didi từ ga về khách sạn | Đi chung một xe | 30 | 116.190đ | 1 xe | 116.000đ |
+|  | Homeinn Định An | Một phòng cho hai người | — | 643.000đ | 2 đêm | 1.286.000đ |
+|  | Trưa tại **外婆家 / Nhà Bà Ngoại** | Thịt Đông Pha, cơm và nước | 35 / 13 | 135.555đ / 50.349đ | 1 phần thịt / 2 phần cơm và nước | 236.000đ |
+|  | Ăn vặt ở Thanh Hà Phường | Bánh Định Thắng, bánh hoa quế và kẹo hồ lô | 8 / 13 / 13 | 30.984đ / 50.349đ / 50.349đ | 2 bánh / 1 phần / 1 xiên | 163.000đ |
+|  | Tối tại **绿茶 / Trà Xanh** ở IN77 | Gà nướng trà xanh, thịt Đông Pha, tráng miệng, cơm và nước | 45 / 40 / 25 / 13 | 174.285đ / 154.920đ / 96.825đ / 50.349đ | 1 phần / 1 phần / 1 phần / 2 phần | 527.000đ |
+|  | **Tổng 08/01** |  |  |  |  | **2.893.000đ** |
+| 09/01 · Hàng Châu | Sáng tại **新丰小吃 / Tiệm ăn vặt Tân Phong** | Tiểu long bao và bánh sinh tiễn | 10 | 38.730đ | 2 phần | 77.000đ |
+|  | Cà phê MANNER | Mỗi người một ly | 18 | 69.714đ | 2 ly | 139.000đ |
+|  | Trưa tại **新周记 / Tân Châu Ký** | Cơm món Hàng Châu | 46 | 178.158đ | 2 suất | 356.000đ |
+|  | Trà sữa CHAGEE | Mỗi người một ly | 20 | 77.460đ | 2 ly | 155.000đ |
+|  | Tối tại **蟹叁寳 / Cua Tam Bảo** | Cơm hoặc mì cua chia đôi | 88 | 340.824đ | 1 phần | 341.000đ |
+|  | **Tổng 09/01** |  |  |  |  | **1.069.000đ** |
+| 10/01 · Hàng Châu → Ô Trấn | Từ khách sạn ra bến xe | Dự trù cho hai người | 20 | 77.460đ | 1 chặng | 77.000đ |
+|  | Xe khách đến Tây Sách | Dự trù mức 45 tệ/người | 45 | 174.285đ | 2 vé | 349.000đ |
+|  | Nhà dân trong Tây Sách | Một phòng cho hai người | — | 1.861.000đ | 1 đêm | 1.861.000đ |
+|  | Bánh Định Thắng | Mỗi người một cái | 5 | 19.365đ | 2 cái | 39.000đ |
+|  | Trà và bánh ở Kiều Lý Kiều | Mỗi người một phần | 30 | 116.190đ | 2 phần | 232.000đ |
+|  | Tối tại **大茶饭 / Đại Trà Phạn** | Vịt quay chia đôi | 45 | 174.285đ | 1 phần | 174.000đ |
+|  | **Tổng 10/01** |  |  |  |  | **2.732.000đ** |
+| 11/01 · Ô Trấn → Thượng Hải | Ăn sáng tại chỗ ở | Dự trù 30 tệ/người theo lịch trình | 30 | 116.190đ | 2 suất | 232.000đ |
+|  | Ăn trưa nhẹ trong trấn | Mì hoặc đồ ăn ở Lawson | 21 | 81.333đ | 2 phần | 163.000đ |
+|  | Xe khách Tây Sách → Nam Thượng Hải | Mỗi người một vé | 55 | 213.015đ | 2 vé | 426.000đ |
+|  | Metro về khách sạn | Dự trù 8 tệ/người | 8 | 30.984đ | 2 vé | 62.000đ |
+|  | Homeinn Bến Thượng Hải | Giá một phòng cho cả hai đêm | — | 2.611.000đ | 1 gói 2 đêm | 2.611.000đ |
+|  | Tối tại **裕兴记 / Dụ Hưng Ký** | Cơm cua chia đôi | 78 | 302.094đ | 1 phần | 302.000đ |
+|  | Trà ở Nam Kinh Lộ hoặc Lục Gia Chủy | Mỗi người một ly | 22 | 85.206đ | 2 ly | 170.000đ |
+|  | **Tổng 11/01** |  |  |  |  | **3.967.000đ** |
+| 12/01 · Disneyland | Metro khứ hồi | Tạm tính cho hai người | 14 | 54.222đ | 1 khoản | 54.000đ |
+|  | Vé Disneyland | Giá vé ngày thường dự kiến | 499 | 1.932.627đ | 2 vé | 3.865.000đ |
+|  | Cà phê Luckin | Mỗi người một ly | 15 | 58.095đ | 2 ly | 116.000đ |
+|  | Bữa trưa trong công viên | Mỗi người một suất | 65 | 251.745đ | 2 suất | 503.000đ |
+|  | Kem Zootopia | Mỗi người một cây | 45 | 174.285đ | 2 cây | 349.000đ |
+|  | Bữa tối trong công viên | Mỗi người một suất | 46 | 178.158đ | 2 suất | 356.000đ |
+|  | **Tổng 12/01** |  |  |  |  | **5.244.000đ** |
+| 13–14/01 · Thượng Hải → Hà Nội | Sáng tại **小杨生煎 / Bánh sinh tiễn Tiểu Dương** | Mỗi người một phần | 15 | 58.095đ | 2 phần | 116.000đ |
+|  | Cà phê 13DE MARZO | Mỗi người một ly | 40 | 154.920đ | 2 ly | 310.000đ |
+|  | Trưa tại **瀚祥本帮面馆 / Quán mì Hãn Tường** | Mỗi người một tô mì lươn | 31 | 120.063đ | 2 tô | 240.000đ |
+|  | Ăn chiều tại **南翔馒头店 / Tiệm tiểu long bao Nam Tường** | Một xửng chia đôi | 45 | 174.285đ | 1 xửng | 174.000đ |
+|  | CHAGEE tại sân bay Phố Đông | Mỗi người một ly | 20 | 77.460đ | 2 ly | 155.000đ |
+|  | Metro ra sân bay | Mỗi người một vé | 7 | 27.111đ | 2 vé | 54.000đ |
+|  | **Tổng 13–14/01** |  |  |  |  | **1.050.000đ** |
+|  | **Tổng chi tiêu theo ngày** |  |  |  |  | **27.778.000đ** |
+
+### Tổng ngân sách
+
+| Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
+| --- | ---: | ---: | --- | ---: |
+| Chi tiêu theo ngày | — | — | — | 27.778.000đ |
+| Visa | — | 2.300.000đ | 2 người | 4.600.000đ |
+| eSIM | — | 250.000đ | 2 người | 500.000đ |
+| Trà và khăn lụa | — | 1.200.000đ | 2 người | 2.400.000đ |
+| Quỹ phát sinh | — | 1.000.000đ | 2 người | 2.000.000đ |
+| **Tổng dự kiến cho hai người** | | | | **37.278.000đ** |
+| **Bình quân mỗi người** | | | | **18.639.000đ** |
+| **Còn lại so với trần 40 triệu đồng** | | | | **2.722.000đ** |
+
+### Khoản tùy chọn hoặc cần xác nhận
+
+| Ngày | Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Chênh lệch cho 2 người |
+| --- | --- | ---: | ---: | --- | ---: |
+| 09/01 | Vé Lôi Phong Tháp | 40 | 154.920đ | 2 vé | +310.000đ |
+| 09/01 | Didi đi Vũ Lâm và tiểu long bao ăn kèm cơm cua | Chưa có giá | — | — | Chưa tính |
+| 10/01 | Bữa sáng hoặc trưa trước khi rời Hàng Châu | Chưa có giá | — | — | Chưa tính |
+| 10/01 | Mì cừu tại **书生灯面 / Quán mì Thư Sinh**, thay phần vịt quay | 35 | 135.555đ | 2 tô | +97.000đ |
+| 10/01 | Vé Tây Sách nếu phòng chưa kèm vé | Chờ xác nhận | — | 2 vé | Chưa tính |
+| 11/01 | Bữa sáng nếu giá thực tế là 13 tệ/suất | 13 | 50.349đ | 2 suất | −132.000đ |
+| 12/01 | Metro Disney nếu 7 tệ tính theo người và lượt | 7 | 27.111đ | 4 lượt | +54.000đ |
+| 12/01 | Ăn khuya tại **富小馆 / Phú Tiểu Quán** | 39 | 151.047đ | 2 suất | +302.000đ |
+| 13/01 | Thịt xiên và trà chanh LINLEE ở Dự Viên | 15 / 18 | 58.095đ / 69.714đ | 2 phần / 1 ly | +186.000đ |
 
 ---
 
