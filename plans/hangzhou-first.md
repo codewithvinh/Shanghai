@@ -8,7 +8,7 @@ Chuyến đi 8 ngày 7 đêm, có cảnh đẹp, đồ ăn ngon, thời gian đ�
 
 **Thời gian:** 07/01/2027 – 14/01/2027 · Hàng Châu · Ô Trấn · Thượng Hải
 
-**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.638.000₫**, còn dư khoảng **1,36 triệu** so với trần ngân sách.
+**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.840.000₫**, còn dư khoảng **1,16 triệu** so với trần ngân sách.
 **Tỷ giá dùng trong kế hoạch:** 1 CNY ≈ 3.873₫
 
 Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này chỉ là giá tham khảo và lịch mẫu. Khi nào chưa đặt, chưa xuất vé thì mọi thứ vẫn có thể thay đổi.
@@ -344,7 +344,7 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | Nhà dân trong Tây Sách | Một phòng cho hai người | — | 1.861.000đ | 1 đêm | 1.861.000đ |
 |  | Bánh Định Thắng | Mỗi người một cái | 5 | 19.365đ | 2 cái | 39.000đ |
 |  | Trà và bánh ở Kiều Lý Kiều | Mỗi người một phần | 30 | 116.190đ | 2 phần | 232.000đ |
-|  | Tối ăn lẩu bò ở Ô Trấn | Nồi hai ngăn, thịt, rau, mì và trà đá theo hóa đơn mẫu | 153 | 592.569đ | 1 bữa cho 2 người | 593.000đ |
+|  | Tối ăn lẩu bò ở Ô Trấn | Dự trù bữa lẩu cho hai người | 153 | 592.569đ | 1 bữa cho 2 người | 593.000đ |
 |  | Ăn vặt thêm ở Tây Sách | Ngoài phần trà và bánh Kiều Lý Kiều đã tính | 20 | 77.460đ | 1 khoản | 77.000đ |
 |  | **Tổng 10/01** |  |  |  |  | **3.228.000đ** |
 | 11/01 · Ô Trấn → Thượng Hải | Ăn sáng tại chỗ ở | Dự trù 30 tệ/người theo lịch trình | 30 | 116.190đ | 2 suất | 232.000đ |
@@ -371,25 +371,6 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | **Tổng 13–14/01** |  |  |  |  | **1.050.000đ** |
 |  | **Tổng chi tiêu theo ngày** |  |  |  |  | **28.023.000đ** |
 
-### Chi tiết lẩu bò tối 10/01
-
-| Món | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
-| --- | ---: | ---: | --- | ---: |
-| Đáy lẩu bò tê cay hai ngăn | 58 | 224.634đ | 1 | 224.634đ |
-| Ba chỉ bò | 28 | 108.444đ | 1 | 108.444đ |
-| Bò viên | 18 | 69.714đ | 1 | 69.714đ |
-| Lòng bò | 18 | 69.714đ | 1 | 69.714đ |
-| Rau mầm | 6 | 23.238đ | 1 | 23.238đ |
-| Khoai môn | 6 | 23.238đ | 1 | 23.238đ |
-| Đậu phụ chiên | 6 | 23.238đ | 1 | 23.238đ |
-| Rong biển | 4 | 15.492đ | 1 | 15.492đ |
-| Rau xanh | 2 | 7.746đ | 1 | 7.746đ |
-| Mì gói | 2 | 7.746đ | 1 | 7.746đ |
-| Trà đá | 5 | 19.365đ | 1 | 19.365đ |
-| **Tổng hóa đơn mẫu** | **153** | | | **592.569đ** |
-
-Rau và món chay có loại từ 1 tệ. Đồ uống và đồ chấm tự phục vụ tính riêng. Mẫu trên đã tính một phần trà đá.
-
 ### Tổng ngân sách
 
 | Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
@@ -397,11 +378,11 @@ Rau và món chay có loại từ 1 tệ. Đồ uống và đồ chấm tự ph�
 | Chi tiêu theo ngày | — | — | — | 28.023.000đ |
 | Visa | — | 2.300.000đ | 2 người | 4.600.000đ |
 | eSIM | — | 250.000đ | 2 người | 500.000đ |
-| Giỏ quà lưu niệm | 556 | 2.153.388đ | 1 giỏ | 2.153.000đ |
+| Giỏ quà lưu niệm (chưa gồm 3 hộp kem lớn) | 660 | 2.556.180đ | 1 giỏ | 2.556.000đ |
 | Quỹ phát sinh | — | 1.000.000đ | 2 người | 2.000.000đ |
-| **Tổng dự kiến cho hai người** | | | | **37.276.000đ** |
-| **Bình quân mỗi người** | | | | **18.638.000đ** |
-| **Còn lại so với trần 40 triệu đồng** | | | | **2.724.000đ** |
+| **Tổng dự kiến cho hai người** | | | | **37.679.000đ** |
+| **Bình quân mỗi người** | | | | **18.840.000đ** |
+| **Còn lại so với trần 40 triệu đồng** | | | | **2.321.000đ** |
 
 Tham khảo [vé Disneyland trên Klook](https://www.klook.com/vi/activity/2128-disney-resort-shang-hai/).
 
@@ -411,7 +392,6 @@ Tham khảo [vé Disneyland trên Klook](https://www.klook.com/vi/activity/2128-
 | --- | --- | ---: | ---: | --- | ---: |
 | 09/01 | Didi đi Vũ Lâm | Chưa có giá | — | — | Chưa tính |
 | 10/01 | Bữa sáng hoặc trưa trước khi rời Hàng Châu | Chưa có giá | — | — | Chưa tính |
-| 10/01 | Đồ uống thêm và đồ chấm lẩu tự phục vụ | Chờ giá tại quán | — | — | Tính riêng nếu lấy thêm |
 | 10/01 | Vé Tây Sách nếu phòng chưa kèm vé | Chờ xác nhận | — | 2 vé | Chưa tính |
 | 11/01 | Bữa sáng nếu giá thực tế là 13 tệ/suất | 13 | 50.349đ | 2 suất | −132.000đ |
 | 12/01 | Metro Disney nếu 7 tệ tính theo người và lượt | 7 | 27.111đ | 4 lượt | +54.000đ |
@@ -422,17 +402,18 @@ Tham khảo [vé Disneyland trên Klook](https://www.klook.com/vi/activity/2128-
 
 ### Quà lưu niệm cho 2 người
 
-Mua ở **Dự Viên / Miếu Thành Hoàng ngày 13/01**. Giỏ mẫu gồm 12 tuýp kem tay, 2 hộp bánh, 4 gói kẹo và 4 nam châm. Đơn giá trong bảng là mức dự trù.
+Mua ở **Dự Viên / Miếu Thành Hoàng ngày 13/01**. Danh sách gồm 15 hộp kem tay Qingzhi giá 10 tệ/hộp, 3 hộp lớn, 5 hộp bánh bướm, 5 gói kẹo sữa và 4 nam châm theo dự toán trước. Giá 3 hộp kem lớn chưa có nên chưa cộng vào ngân sách.
 
 | Quà | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
 | --- | ---: | ---: | --- | ---: |
-| **护手霜 / Kem dưỡng tay** · 百雀羚 / Pechoin hoặc 迷奇 / Miracle | 20 | 77.460đ | 12 tuýp | 929.520đ |
-| **蝴蝶酥 / Bánh bướm đóng hộp** | 58 | 224.634đ | 2 hộp | 449.268đ |
-| **大白兔奶糖 / Kẹo sữa Đại Bạch Thố** | 20 | 77.460đ | 4 gói | 309.840đ |
+| **护手霜 / Kem dưỡng tay Qingzhi** | 10 | 38.730đ | 15 hộp | 580.950đ |
+| **护手霜 / Kem dưỡng tay Qingzhi hộp lớn** | Chờ giá | — | 3 hộp | Chưa tính |
+| **蝴蝶酥 / Bánh bướm đóng hộp** | 58 | 224.634đ | 5 hộp | 1.123.170đ |
+| **大白兔奶糖 / Kẹo sữa Đại Bạch Thố** | 20 | 77.460đ | 5 gói | 387.300đ |
 | **冰箱贴 / Magnet tủ lạnh** · Hồ Tây, Tây Sách, Bến Thượng Hải hoặc Vũ Khang | 30 | 116.190đ | 4 cái | 464.760đ |
-| **Tổng giỏ quà** | | | | **2.153.388đ** |
+| **Tạm tính giỏ quà** | **660** | | | **2.556.180đ** |
 
-- **Cổng 1 Dự Viên:** Kem tay (护手霜), nam châm (冰箱贴), móc khóa (钥匙扣) và đồ nhỏ. Dự trù **20–50 tệ/món** theo chia sẻ bạn lưu từ Threads. Đi sâu vào chợ và so giá 2–3 quầy trước khi mua. Hỏi hộp riêng cho kem tay nếu tặng từng người. Nếu mua 15 tuýp ở mức 20 tệ, giỏ quà khoảng **2.386.000đ**.
+- **Cổng 1 Dự Viên:** Kem tay (护手霜), nam châm (冰箱贴), móc khóa (钥匙扣) và đồ nhỏ. Dự trù **20–50 tệ/món** theo chia sẻ bạn lưu từ Threads. Đi sâu vào chợ và so giá 2–3 quầy trước khi mua. Hỏi hộp riêng cho kem tay nếu tặng từng người.
 - **Dự Viên / Miếu Thành Hoàng:** Bánh bướm (蝴蝶酥) **30–60 tệ/hộp**, kẹo sữa Đại Bạch Thố (大白兔奶糖) **15–30 tệ/gói**. Ghé quầy bánh sớm, chọn loại đóng gói sẵn để dễ mang về.
 - Móc khóa và các món nhỏ mua thêm tùy giá tại quầy. Khoản này chưa nằm trong giỏ mẫu.
 - Trà Long Tỉnh và khăn lụa để tùy chọn, chưa tính vào tổng.
