@@ -61,7 +61,11 @@ var PINS = window.PINS = {
     amap: "https://www.amap.com/?p=B023B0247C,30.240389,120.156326,%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA-%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA,%E5%8D%97%E5%B1%B1%E8%B7%AF87%E5%8F%B7"
   },
   duanqiao: { group: "sight", k: "08/01 sáng", vi: "Đoạn Kiều", name: "断桥", zh: "杭州市西湖区北山路断桥残雪", img: "img/sight-westlake.jpg" },
-  leifeng: { group: "sight", k: "09/01 chiều · option", vi: "Lôi Phong Tháp", name: "雷峰塔", zh: "杭州市西湖区南山路15号雷峰塔", img: "img/sight-westlake.jpg" },
+  botanical_garden: {
+    group: "sight", k: "09/01 chiều", vi: "Vườn thực vật Hàng Châu · Cổng Bắc",
+    name: "杭州植物园(北门)", zh: "杭州市西湖区桃源岭1号杭州植物园(北门)",
+    lat: "30.255465", lng: "120.124269", amap: "https://www.amap.com/place/B0FFHKJ8LN"
+  },
   tea_street: { group: "sight", k: "09/01 mua trà", vi: "Hữu Thánh Quan Lộ", name: "佑圣观路", zh: "杭州市上城区佑圣观路", img: "img/sight-qinghefang.jpg" },
   qinghefang: {
     group: "sight", k: "08/01 chiều", vi: "Thanh Hà Phường",

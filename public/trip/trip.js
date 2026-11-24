@@ -12,7 +12,7 @@ const tabs = {
 };
 const dayLabels = ['07/01', '08/01', '09/01', '10/01', '11/01', '12/01', '13–14/01'];
 const dayThemes = ['Bay đêm', 'Hồ Tây', 'Lụa và trà', 'Tây Sách', 'Bến Thượng Hải', 'Disneyland', 'Dự Viên'];
-const estimate = 18450000;
+const estimate = 18638000;
 const money = (amount) => new Intl.NumberFormat('vi-VN').format(amount) + ' ₫';
 let data;
 let dayIndex = 0;
