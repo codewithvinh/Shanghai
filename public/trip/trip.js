@@ -12,7 +12,7 @@ const tabs = {
 };
 const dayLabels = ['07/01', '08/01', '09/01', '10/01', '11/01', '12/01', '13–14/01'];
 const dayThemes = ['Bay đêm', 'Hồ Tây', 'Lụa và trà', 'Tây Sách', 'Bến Thượng Hải', 'Disneyland', 'Dự Viên'];
-const estimate = 18639000;
+const estimate = 18450000;
 const money = (amount) => new Intl.NumberFormat('vi-VN').format(amount) + ' ₫';
 let data;
 let dayIndex = 0;
@@ -420,10 +420,12 @@ function preparation(plan) {
   workspace.append(layout);
 }
 
-function budgetCards(table, index) {
+function budgetCards(table) {
   const cards = element('div', null, 'budget-cards');
   const labels = Array.from(table.tHead.rows[0].cells, (cell) => cell.textContent);
-  const titleColumn = index === 1 ? 0 : 1;
+  const daily = labels.length === 7;
+  const hasDate = labels[0] === 'Ngày';
+  const titleColumn = hasDate ? 1 : 0;
   const lastColumn = labels.length - 1;
   let group = cards;
 
@@ -431,13 +433,13 @@ function budgetCards(table, index) {
     const values = Array.from(row.cells);
     const title = values[titleColumn];
     const amount = values[lastColumn].textContent;
-    if (index === 0 && values[0].textContent) {
+    if (daily && values[0].textContent) {
       group = element('details', null, 'budget-day');
       group.open = !cards.children.length;
       group.append(element('summary', values[0].textContent));
       cards.append(group);
     }
-    if (index === 0 && title.textContent.startsWith('Tổng ') && title.textContent !== 'Tổng chi tiêu theo ngày') {
+    if (daily && title.textContent.startsWith('Tổng ') && title.textContent !== 'Tổng chi tiêu theo ngày') {
       group.querySelector('summary').append(element('strong', amount));
       continue;
     }
@@ -446,8 +448,8 @@ function budgetCards(table, index) {
     const heading = element('p', null, 'budget-card-title');
     heading.append(...Array.from(title.childNodes, (node) => node.cloneNode(true)));
     card.append(heading, element('p', amount, 'budget-card-amount'));
-    if (index === 0 && values[2].textContent) card.append(element('p', values[2].textContent, 'budget-card-note'));
-    if (index === 2) card.append(element('p', values[0].textContent, 'budget-card-note'));
+    if (daily && values[2].textContent) card.append(element('p', values[2].textContent, 'budget-card-note'));
+    if (hasDate && !daily) card.append(element('p', values[0].textContent, 'budget-card-note'));
     const specs = element('dl', null, 'budget-card-specs');
     for (let column = lastColumn - 3; column < lastColumn; column++) {
       const value = values[column].textContent;
@@ -457,7 +459,7 @@ function budgetCards(table, index) {
       specs.append(spec);
     }
     if (specs.children.length) card.append(specs);
-    (index === 0 && title.textContent === 'Tổng chi tiêu theo ngày' ? cards : group).append(card);
+    (daily && title.textContent === 'Tổng chi tiêu theo ngày' ? cards : group).append(card);
   }
   return cards;
 }
@@ -478,8 +480,8 @@ function budget(plan) {
   summary.append(figures, meter);
   const breakdown = markdown(plan.budget);
   breakdown.classList.add('budget-breakdown');
-  breakdown.querySelectorAll('.table-wrap').forEach((wrapper, index) => {
-    wrapper.after(budgetCards(wrapper.querySelector('table'), index));
+  breakdown.querySelectorAll('.table-wrap').forEach((wrapper) => {
+    wrapper.after(budgetCards(wrapper.querySelector('table')));
   });
   workspace.append(summary, breakdown);
 }

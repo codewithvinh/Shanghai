@@ -8,7 +8,7 @@ Chuyến đi 8 ngày 7 đêm, có cảnh đẹp, đồ ăn ngon, thời gian đ�
 
 **Thời gian:** 07/01/2027 – 14/01/2027 · Hàng Châu · Ô Trấn · Thượng Hải
 
-**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.639.000₫**, còn dư khoảng **1,36 triệu** so với trần ngân sách.
+**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.450.000₫**, còn dư khoảng **1,55 triệu** so với trần ngân sách.
 **Tỷ giá dùng trong kế hoạch:** 1 CNY ≈ 3.873₫
 
 Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này chỉ là giá tham khảo và lịch mẫu. Khi nào chưa đặt, chưa xuất vé thì mọi thứ vẫn có thể thay đổi.
@@ -95,7 +95,7 @@ Nếu trời mưa, hoặc hai bạn muốn dành buổi chiều ở trong nhà, 
 | **08:00–11:00** | **Lụa và trà.** Đô Cẩm Sinh ở 龙游路48号, đi bộ 10–15 phút từ Định An. Trà Long Tỉnh nên mua ở 佑圣观路, không mua trong phố cổ. `杭州市上城区龙游路48号都锦生` · `杭州市上城区佑圣观路` |
 | **11:30** | **Trưa ở 新周记 Cổ Lâu**, 十五奎巷3号. Gọi thịt Đông Pha và tôm xì dầu. Nếu phải xếp hàng lâu thì đổi sang 绿茶 hoặc 外婆家. `杭州市上城区十五奎巷3号新周记` |
 | **13:30–17:30** | **Lôi Phong Tháp hoặc Hồ Tân.** Lôi Phong Tháp vé 40 tệ, đứng trên tháp nhìn ra Hồ Tây rất đẹp. Nếu không thì ghé IN77 hoặc CHAGEE. Linh Ẩn vẫn nằm ngoài kế hoạch, không cần ép mình đi cho đủ bộ. `杭州市西湖区南山路15号雷峰塔` |
-| **19:00** | **Tối ở Vũ Lâm, quán 蟹叁寳**, 武林路129. Một tô 88 tệ cùng tiểu long bao là đủ cho 2 người. Đi Didi khoảng 15–20 phút từ Định An. `杭州市拱墅区武林路129号蟹叁寳` |
+| **19:00** | **Tối ở Vũ Lâm, quán 蟹叁寳**, 武林路129. Gọi một mì cua lông và một cơm cua để chia nhau. Thêm một xửng tiểu long bao nếu còn bụng. Dự trù 200–240 tệ cho cả ba món. Đi Didi khoảng 15–20 phút từ Định An. `杭州市拱墅区武林路129号蟹叁寳` |
 
 ---
 
@@ -138,7 +138,7 @@ Nếu trời mưa, hoặc hai bạn muốn dành buổi chiều ở trong nhà, 
 **Thượng Hải · Disneyland**
 
 - Đi tàu điện ngầm tuyến 2, đổi sang tuyến 11. Dự kiến mất 70–90 phút, khoảng 7 tệ.
-- Vé ngày thường dự kiến khoảng 499 tệ. Gần ngày đi hãy kiểm tra lại giá vé và giờ mở cửa ngày 12/01/2027.
+- Tham khảo vé Early Bird kèm coupon bữa ăn 30 tệ trên Klook, giá từ khoảng 1,61 triệu/người. Kiểm tra giá cho ngày 12/01/2027 và giờ mở cửa trước khi đặt.
 
 | Thời gian | Hoạt động |
 | --- | --- |
@@ -196,7 +196,7 @@ Khẩu phần ở Trung Quốc khá lớn nên hai người chỉ cần gọi í
 | Sáng | 新丰小吃 / khách sạn | 小笼包 / 生煎 | Ngủ dậy muộn rồi hãy ăn |
 | Trưa | 新周记 | 东坡肉 / 油焖虾 | Ở Cổ Lâu, gần 清河坊 |
 | Trà | 佑圣观路 / CHAGEE | 龙井 / 伯牙绝弦 | Không mua trà ở phố cổ |
-| Tối | 蟹叁寳 Vũ Lâm | 蟹黄捞饭 / 面 88 tệ | 1 tô và 1 xửng tiểu long bao cho 2 người |
+| Tối | 蟹叁寳 Vũ Lâm | Cơm cua, mì cua lông và tiểu long bao | Gọi hai món chính trước, thêm tiểu long bao nếu còn bụng |
 
 ### Ô Trấn 10–11/01
 
@@ -246,7 +246,7 @@ Giá lấy từ bảng tham khảo (khoảng 1 CNY ≈ 3.858–3.873₫), chưa 
 | 09/01 | Trưa | 新周记 十五奎巷3号 | Cơm Hàng Châu | 46 | 177.473 | 2 | 354.945 | Đông Pha, tôm xì dầu. Dự phòng 绿茶 / 外婆家 |
 | 09/01 | Ăn vặt | CHAGEE | 伯牙绝弦 | 20 | 77.162 | 2 | 154.324 | Ô long pha sữa tươi |
 | 09/01 | Ăn vặt | HEYTEA | Brown Sugar Bobo | 22 | 84.878 | 1 | 84.878 | 1 ly chia nhau |
-| 09/01 | Tối | 蟹叁寳 武林路129 | 蟹黄捞饭 / mì 88 tệ | 88 | 340.824 | 1 | 340.824 | 1 tô và tiểu long bao cho 2 người |
+| 09/01 | Tối | 蟹叁寳 武林路129 | Cơm cua, mì cua lông và tiểu long bao | 220 | 852.060 | 1 | 852.060 | Dự trù cho cả bàn, chưa xác nhận giá menu |
 | 10/01 | Ăn vặt | Tây Sách | Định Thắng Ô Trấn | 5 | 19.291 | 2 | 38.581 | Ăn nóng |
 | 10/01 | Tối | 大茶饭 | Vịt quay | 45 | 173.615 | 1 | 173.615 | 1 phần cho 2 người |
 | 10/01 | Tối | 书生灯面 | Mì cừu | 35 | 135.034 | 2 | 270.067 | Mỗi người một tô |
@@ -337,8 +337,8 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | Cà phê MANNER | Mỗi người một ly | 18 | 69.714đ | 2 ly | 139.000đ |
 |  | Trưa tại **新周记 / Tân Châu Ký** | Cơm món Hàng Châu | 46 | 178.158đ | 2 suất | 356.000đ |
 |  | Trà sữa CHAGEE | Mỗi người một ly | 20 | 77.460đ | 2 ly | 155.000đ |
-|  | Tối tại **蟹叁寳 / Cua Tam Bảo** | Cơm hoặc mì cua chia đôi | 88 | 340.824đ | 1 phần | 341.000đ |
-|  | **Tổng 09/01** |  |  |  |  | **1.069.000đ** |
+|  | Tối tại **蟹叁寳 / Cua Tam Bảo** | Một cơm cua, một mì cua lông và một xửng tiểu long bao nếu còn bụng. Dự trù 200–240 tệ | 220 | 852.060đ | 1 bữa cho 2 người | 852.000đ |
+|  | **Tổng 09/01** |  |  |  |  | **1.580.000đ** |
 | 10/01 · Hàng Châu → Ô Trấn | Từ khách sạn ra bến xe | Dự trù cho hai người | 20 | 77.460đ | 1 chặng | 77.000đ |
 |  | Xe khách đến Tây Sách | Dự trù mức 45 tệ/người | 45 | 174.285đ | 2 vé | 349.000đ |
 |  | Nhà dân trong Tây Sách | Một phòng cho hai người | — | 1.861.000đ | 1 đêm | 1.861.000đ |
@@ -355,12 +355,12 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | Trà ở Nam Kinh Lộ hoặc Lục Gia Chủy | Mỗi người một ly | 22 | 85.206đ | 2 ly | 170.000đ |
 |  | **Tổng 11/01** |  |  |  |  | **3.967.000đ** |
 | 12/01 · Disneyland | Metro khứ hồi | Tạm tính cho hai người | 14 | 54.222đ | 1 khoản | 54.000đ |
-|  | Vé Disneyland | Giá vé ngày thường dự kiến | 499 | 1.932.627đ | 2 vé | 3.865.000đ |
+|  | Vé Disneyland | Giá từ của gói Early Bird Klook kèm coupon bữa ăn 30 tệ. Chưa xác nhận giá ngày 12/01 và chưa trừ coupon khỏi tiền ăn | — | 1.611.539đ | 2 vé | 3.223.000đ |
 |  | Cà phê Luckin | Mỗi người một ly | 15 | 58.095đ | 2 ly | 116.000đ |
 |  | Bữa trưa trong công viên | Mỗi người một suất | 65 | 251.745đ | 2 suất | 503.000đ |
 |  | Kem Zootopia | Mỗi người một cây | 45 | 174.285đ | 2 cây | 349.000đ |
 |  | Bữa tối trong công viên | Mỗi người một suất | 46 | 178.158đ | 2 suất | 356.000đ |
-|  | **Tổng 12/01** |  |  |  |  | **5.244.000đ** |
+|  | **Tổng 12/01** |  |  |  |  | **4.602.000đ** |
 | 13–14/01 · Thượng Hải → Hà Nội | Sáng tại **小杨生煎 / Bánh sinh tiễn Tiểu Dương** | Mỗi người một phần | 15 | 58.095đ | 2 phần | 116.000đ |
 |  | Cà phê 13DE MARZO | Mỗi người một ly | 40 | 154.920đ | 2 ly | 310.000đ |
 |  | Trưa tại **瀚祥本帮面馆 / Quán mì Hãn Tường** | Mỗi người một tô mì lươn | 31 | 120.063đ | 2 tô | 240.000đ |
@@ -368,27 +368,29 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | CHAGEE tại sân bay Phố Đông | Mỗi người một ly | 20 | 77.460đ | 2 ly | 155.000đ |
 |  | Metro ra sân bay | Mỗi người một vé | 7 | 27.111đ | 2 vé | 54.000đ |
 |  | **Tổng 13–14/01** |  |  |  |  | **1.050.000đ** |
-|  | **Tổng chi tiêu theo ngày** |  |  |  |  | **27.778.000đ** |
+|  | **Tổng chi tiêu theo ngày** |  |  |  |  | **27.647.000đ** |
 
 ### Tổng ngân sách
 
 | Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
 | --- | ---: | ---: | --- | ---: |
-| Chi tiêu theo ngày | — | — | — | 27.778.000đ |
+| Chi tiêu theo ngày | — | — | — | 27.647.000đ |
 | Visa | — | 2.300.000đ | 2 người | 4.600.000đ |
 | eSIM | — | 250.000đ | 2 người | 500.000đ |
-| Trà và khăn lụa | — | 1.200.000đ | 2 người | 2.400.000đ |
+| Giỏ quà lưu niệm | 556 | 2.153.388đ | 1 giỏ | 2.153.000đ |
 | Quỹ phát sinh | — | 1.000.000đ | 2 người | 2.000.000đ |
-| **Tổng dự kiến cho hai người** | | | | **37.278.000đ** |
-| **Bình quân mỗi người** | | | | **18.639.000đ** |
-| **Còn lại so với trần 40 triệu đồng** | | | | **2.722.000đ** |
+| **Tổng dự kiến cho hai người** | | | | **36.901.000đ** |
+| **Bình quân mỗi người** | | | | **18.450.000đ** |
+| **Còn lại so với trần 40 triệu đồng** | | | | **3.099.000đ** |
+
+Tham khảo [vé Disneyland trên Klook](https://www.klook.com/vi/activity/2128-disney-resort-shang-hai/) và [giá bánh tại cửa hàng Thẩm Đại Thành](https://detail.youzan.com/show/goods/newest?kdt_id=91123428).
 
 ### Khoản tùy chọn hoặc cần xác nhận
 
 | Ngày | Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Chênh lệch cho 2 người |
 | --- | --- | ---: | ---: | --- | ---: |
 | 09/01 | Vé Lôi Phong Tháp | 40 | 154.920đ | 2 vé | +310.000đ |
-| 09/01 | Didi đi Vũ Lâm và tiểu long bao ăn kèm cơm cua | Chưa có giá | — | — | Chưa tính |
+| 09/01 | Didi đi Vũ Lâm | Chưa có giá | — | — | Chưa tính |
 | 10/01 | Bữa sáng hoặc trưa trước khi rời Hàng Châu | Chưa có giá | — | — | Chưa tính |
 | 10/01 | Mì cừu tại **书生灯面 / Quán mì Thư Sinh**, thay phần vịt quay | 35 | 135.555đ | 2 tô | +97.000đ |
 | 10/01 | Vé Tây Sách nếu phòng chưa kèm vé | Chờ xác nhận | — | 2 vé | Chưa tính |
@@ -396,6 +398,25 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 | 12/01 | Metro Disney nếu 7 tệ tính theo người và lượt | 7 | 27.111đ | 4 lượt | +54.000đ |
 | 12/01 | Ăn khuya tại **富小馆 / Phú Tiểu Quán** | 39 | 151.047đ | 2 suất | +302.000đ |
 | 13/01 | Thịt xiên và trà chanh LINLEE ở Dự Viên | 15 / 18 | 58.095đ / 69.714đ | 2 phần / 1 ly | +186.000đ |
+
+---
+
+### Quà lưu niệm cho 2 người
+
+Giỏ mẫu gồm 12 tuýp kem tay, 2 hộp bánh, 4 gói kẹo và 4 magnet. Giá kem tay, kẹo sữa và magnet là mức dự trù khi đi mua.
+
+| Quà | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
+| --- | ---: | ---: | --- | ---: |
+| **护手霜 / Kem dưỡng tay** · 百雀羚 / Pechoin hoặc 迷奇 / Miracle | 20 | 77.460đ | 12 tuýp | 929.520đ |
+| **沈大成蝴蝶酥 / Bánh bướm Thẩm Đại Thành** | 58 | 224.634đ | 2 hộp | 449.268đ |
+| **大白兔奶糖 / Kẹo sữa Đại Bạch Thố** | 20 | 77.460đ | 4 gói | 309.840đ |
+| **冰箱贴 / Magnet tủ lạnh** · Hồ Tây, Tây Sách, Bến Thượng Hải hoặc Vũ Khang | 30 | 116.190đ | 4 cái | 464.760đ |
+| **Tổng giỏ quà** | | | | **2.153.388đ** |
+
+- Kem tay: dự trù 15–30 tệ/tuýp. Hỏi loại có hộp riêng nếu tặng từng người. Nếu lấy 15 tuýp ở mức 20 tệ, giỏ quà khoảng **2.386.000đ**.
+- Bánh và kẹo: tìm ở Nam Kinh Lộ hoặc siêu thị tại Thượng Hải. Có thể đổi sang **沈大成麻酥糖 / Kẹo mè giòn Thẩm Đại Thành** (29,9 tệ/hộp) hoặc **梨膏糖 / Kẹo lê truyền thống** ở Dự Viên (dự trù 20–40 tệ/hộp).
+- Magnet: dự trù 15–30 tệ cho mẫu đơn giản, từ 40 tệ cho mẫu cầu kỳ. Có thể mua dọc đường khi đi Hồ Tây, Tây Sách và Dự Viên.
+- Trà Long Tỉnh và khăn lụa để tùy chọn, chưa tính vào tổng.
 
 ---
 
