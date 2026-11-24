@@ -20,10 +20,15 @@ function plan(markdown) {
   const main = sections(markdown, '##');
   const section = (pattern) => main.find(({ title }) => pattern.test(title)).body;
   return {
-    days: main.filter(({ title }) => /^NGÀY /.test(title)),
-    stay: section(/^3 khách sạn/),
+    days: main.filter(({ title }) => /^Ngày /i.test(title)),
+    highlights: section(/^4 trải nghiệm/),
+    sights: section(/^Những điểm đáng ghé/),
+    stay: section(/^3 chỗ ở/),
     food: section(/^Ăn gì/),
-    budget: section(/^Tiền nong/),
+    transport: section(/^Di chuyển/),
+    apps: section(/^Ứng dụng nên cài/),
+    practical: section(/^Một số lưu ý thực tế/),
+    budget: section(/^Chi phí cho mỗi người/),
     checklist: section(/^Checklist/).split('\n').filter((line) => /^- \[ \]/.test(line)).map((line) => line.slice(6)),
   };
 }

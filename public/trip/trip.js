@@ -158,10 +158,30 @@ function disclosure(title, body) {
   return details;
 }
 
+const activityIcons = [
+  [/^(?:VJ\d+|nhập cảnh|lấy hành lý.*sân bay)/iu, '✈️', 'air'],
+  [/^(?:xe buýt|xe khách)/iu, '🚌', 'bus'],
+  [/^(?:(?:đi |chờ )?tàu|từ Nam Kinh Đông)/iu, '🚆', 'rail'],
+  [/^(?:(?:đi )?Didi|taxi)/iu, '🚕', 'taxi'],
+  [/^(?:nhận phòng|trả phòng)/iu, '🏨', 'stay'],
+  [/^(?:ăn|sáng ăn|trưa|tối|(?:小杨生煎))/iu, '🍜', 'food'],
+  [/^lụa và trà/iu, '🍵', 'tea'],
+  [/^(?:TRON|Disneyland)/iu, '🎡', 'park'],
+];
+
+function activityIcon(label) {
+  const title = label.replace(/^\*\*/, '');
+  const [, symbol, color] = activityIcons.find(([pattern]) => pattern.test(title)) || [null, '📷', 'sight'];
+  const icon = element('span', symbol, 'event-icon');
+  icon.dataset.category = color;
+  icon.setAttribute('aria-hidden', 'true');
+  return icon;
+}
+
 function schedule(plan) {
   const strip = element('div', null, 'days');
-  const panel = element('article', null, 'panel');
-  const buttons = plan.days.map((day, index) => {
+  const panel = element('article', null, 'day-plan');
+  const buttons = plan.days.map((_, index) => {
     const button = element('button');
     button.append(element('small', dayLabels[index]), element('span', dayThemes[index]));
     button.addEventListener('click', () => showDay(index));
@@ -178,7 +198,7 @@ function schedule(plan) {
     photo.src = '../' + data.photos.days[index];
     photo.alt = '';
     const banner = element('header', null, 'day-banner');
-    const caption = element('div');
+    const caption = element('div', null, 'day-caption');
     caption.append(element('p', dayLabels[index]), element('h3', dayThemes[index]));
     banner.append(photo, caption);
     panel.replaceChildren(banner);
@@ -195,9 +215,12 @@ function schedule(plan) {
       const [time, activity, place, description, price, unit, quantity, note, reference] = cells(lines[cursor++]);
       const item = element('li');
       const info = element('details', null, 'event');
-      const lead = /^\*\*([^*]+)\*\*\s*[—–-]\s*(.+)$/.exec(activity);
-      const label = lead?.[1] || activity;
-      const summary = inline(element('summary'), label);
+      const lead = /^\*\*([^*]+)\*\*(?:\s*[—–,.:;-]\s*|\s+)(.+)$/.exec(activity);
+      const label = lead ? lead[1].replace(/[.,:;]$/, '') : activity;
+      const summary = element('summary');
+      const heading = element('span', null, 'event-heading');
+      heading.append(inline(element('time'), time), inline(element('span', null, 'event-title'), label));
+      summary.append(activityIcon(label), heading);
       const detail = element('div', null, 'event-body');
       if (place) detail.append(inline(element('p', null, 'event-place'), place));
       const ideas = [lead?.[2], description, note].filter(Boolean).flatMap((line) => splitIdeas(line, true));
@@ -205,11 +228,17 @@ function schedule(plan) {
       else if (ideas.length) detail.append(inline(element('p'), ideas[0]));
       if (price && price !== '0' && /^[\d.]+$/.test(price)) detail.append(element('p', 'Dự kiến ' + price + ' ₫' + (unit ? ' / ' + unit : '') + (quantity && Number(quantity) > 1 ? ' × ' + quantity : ''), 'event-price'));
       if (reference) detail.append(inline(element('p', null, 'event-reference'), 'Tham khảo · ' + reference));
-      if (detail.childNodes.length) info.append(summary, detail);
-      item.append(inline(element('time'), time), info);
-      if (!detail.childNodes.length) item.lastChild.replaceWith(inline(element('p', null, 'event-plain'), label));
+      if (detail.childNodes.length) {
+        info.append(summary, detail);
+        item.append(info);
+      } else {
+        const plain = element('div', null, 'event-plain');
+        plain.append(...summary.childNodes);
+        item.append(plain);
+      }
       timeline.append(item);
     }
+    caption.append(element('p', timeline.childElementCount + ' hoạt động', 'day-count'));
     panel.append(timeline);
     const extra = lines.slice(cursor).join('\n').trim();
     if (extra) panel.append(markdown(extra));
@@ -230,7 +259,9 @@ function schedule(plan) {
     });
     route.append(button);
   }
-  workspace.append(route, strip, panel);
+  workspace.append(strip, panel, route,
+    disclosure('4 trải nghiệm không nên bỏ lỡ', plan.highlights),
+    disclosure('Những điểm đáng ghé', plan.sights));
 }
 
 function searchable(value) {
@@ -330,6 +361,27 @@ function places(plan) {
 function preparation(plan) {
   const key = 'giang-nam:checklist:0';
   const saved = new Set(readStorage(key, []));
+  // The wording changed, but these nine tasks are the same as in the published checklist.
+  const oldLabels = [
+    'Vé bay VJ6010 07/01 / VJ6011 14/01 — 10.560k / 2 người',
+    'Visa L và hộ chiếu gốc',
+    'Alipay gắn thẻ và WeChat và Amap và 12306',
+    'eSIM 2 cái, sạc dự phòng CCC',
+    'Tàu 08/01 Hồng Kiều đến Hàng Châu Đông 06:20–06:45',
+    'Xe khách 10/01 13:45 城站 đến Tây Sách và 11/01 12:50 Tây Sách đến bến Nam',
+    '3 khách sạn trên Trip.com — Homeinn HC 2 đêm 08–10/01',
+    'Vé Disney 12/01',
+    'In / offline: visa, boarding, đặting khách sạn',
+  ];
+  let migrated = false;
+  for (const [index, oldLabel] of oldLabels.entries()) {
+    const currentLabel = plan.checklist[index];
+    if (currentLabel && currentLabel !== oldLabel && saved.delete(oldLabel)) {
+      saved.add(currentLabel);
+      migrated = true;
+    }
+  }
+  if (migrated) saveStorage(key, [...saved]);
   const panel = element('div', null, 'panel checklist-panel');
   const status = element('p');
   status.setAttribute('role', 'status');
@@ -359,7 +411,10 @@ function preparation(plan) {
   panel.append(element('h3', 'Việc cần làm'), status, progress, list);
   const guide = element('aside', null, 'guide');
   const review = disclosure('Điểm cần chốt trước chuyến đi', data.review);
-  guide.append(element('h3', 'Cẩm nang chuyến đi'), review, ...data.tips.map(({ title, body }) => disclosure(title.replace(/^\d+\.\s+/, ''), body)));
+  guide.append(element('h3', 'Cẩm nang chuyến đi'), review,
+    disclosure('Ứng dụng nên cài trước khi bay', plan.apps),
+    disclosure('Một số lưu ý thực tế', plan.practical),
+    ...data.tips.map(({ title, body }) => disclosure(title.replace(/^\d+\.\s+/, ''), body)));
   const layout = element('div', null, 'prep-grid');
   layout.append(panel, guide);
   workspace.append(layout);
@@ -396,7 +451,10 @@ function render() {
   disposeMap = undefined;
   workspace.replaceChildren(element('h2', tabs[tab]));
   if (tab === 'lich-trinh') schedule(plan);
-  if (tab === 'ban-do') disposeMap = mapView(workspace, data.pins, { element, searchable, categories: placeCategories });
+  if (tab === 'ban-do') {
+    disposeMap = mapView(workspace, data.pins, { element, searchable, categories: placeCategories });
+    workspace.append(disclosure('Di chuyển cho 2 người', plan.transport));
+  }
   if (tab === 'dia-diem') places(plan);
   if (tab === 'an-uong') {
     const guides = element('div', null, 'food-grid');
