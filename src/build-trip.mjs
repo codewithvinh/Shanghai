@@ -53,6 +53,7 @@ const contextualPhotos = {
   homeinn_hz: westLakeArea,
   wuzhen_visitor: wuzhenArea,
   homeinn_sh: shanghaiArea,
+  sushi_sh: shanghaiArea,
   hongqiao_hub: ['img/trip-hongqiao.jpg', 'Ga Hồng Kiều nhìn từ phía tây · ảnh khu đầu mối'],
   hz_chengzhan_bus: ['img/sight-qinghefang.jpg', 'Thanh Hà Phường · ảnh khu vực trung tâm Hàng Châu'],
   hz_east_bus: ['img/trip-hangzhou-east.jpg', 'Sảnh ga Hàng Châu Đông · ảnh khu vực'],
@@ -94,7 +95,8 @@ const photos = {
     C: { path: 'img/trip-shengjian.jpg', caption: 'Bánh sinh tiễn · ảnh minh họa món ăn' },
   },
 };
-const pins = Object.entries(context.window.PINS).map(([id, { img, ...pin }]) => {
+const pins = Object.entries(context.window.PINS).map(([id, { img, ...details }]) => {
+  const pin = { id, ...details };
   if (locationPhotos.has(id)) return { ...pin, img };
   if (verifiedPhotos[id]) return { ...pin, img: verifiedPhotos[id] };
   if (contextualPhotos[id]) {
@@ -110,6 +112,15 @@ const pins = Object.entries(context.window.PINS).map(([id, { img, ...pin }]) => 
 const data = {
   plan: plan(first),
   pins,
+  routes: {
+    '07-01': [['pvg', '01:15 · Rạng sáng 08/01'], ['hongqiao_hub', '03:00 · Xe buýt đêm', 'bus'], ['hongqiao_station', '04:40 · Chờ tàu', 'walk']],
+    '08-01': [['hongqiao_station', '06:20 · Tàu cao tốc'], ['hz_east', '07:26 · Đến Hàng Châu'], ['homeinn_hz', 'Gửi vali', 'car'], ['liulang', '09:00 · Dạo Hồ Tây', 'walk'], ['duanqiao', 'Buổi sáng', 'walk'], ['waipojia', '12:30 · Ăn trưa', 'walk'], ['qinghefang', 'Buổi chiều', 'walk'], ['greentea', '19:00 · Ăn tối', 'walk']],
+    '09-01': [['homeinn_hz', 'Buổi sáng'], ['dujinsheng', 'Nếu ghé xem lụa', 'walk'], ['tea_street', 'Nếu ghé xem trà', 'walk'], ['qixin', '11:30 · Ăn mì trộn', 'walk'], ['botanical_garden', '13:30 · Dạo vườn', 'car'], ['sanbao', '19:00 · Ăn tối', 'car']],
+    '10-01': [['homeinn_hz', '12:00 · Trả phòng'], ['hz_chengzhan_bus', '13:45 · Xe khách', 'car'], ['wuzhen_visitor', 'Đến Tây Sách'], ['wuzhen_xizha', '15:00 · Dạo phố cổ', 'walk'], ['qiaoliqiao_tea', 'Ăn vặt', 'walk']],
+    '11-01': [['wuzhen_xizha', '06:00 · Chụp ảnh'], ['wuzhen_visitor', '08:00 · Ra trung tâm xe khách', 'walk'], ['sh_south', 'Giờ xe chờ xác nhận'], ['nanjing_walk', 'Dạo phố trước khi nhận phòng', 'bus'], ['homeinn_sh', 'Nhận phòng', 'walk'], ['bund', '17:00 · Dạo Bến Thượng Hải', 'walk'], ['yuxingji', 'Ăn tối', 'walk'], ['lujiazui', 'Buổi tối', 'bus']],
+    '12-01': [['homeinn_sh', '07:45 · Khởi hành'], ['disney', 'Cả ngày ở Disneyland', 'bus'], ['homeinn_sh', 'Sau show · Về khách sạn', 'bus']],
+    '13-01': [['homeinn_sh', 'Trả phòng và gửi vali'], ['shengjian', '07:30 · Ăn sáng', 'walk'], ['wukang', '08:30 · Dạo Vũ Khang', 'bus'], ['hanxiang', 'Ăn trưa', 'walk'], ['xintiandi', '13:00 · Hoặc chọn Điền Tử Phường', 'bus'], ['yuyuan_gate1', '16:00 · Mua quà', 'bus'], ['yuyuan', 'Dạo phố chợ lên đèn', 'walk'], ['homeinn_sh', '20:00 · Lấy vali', 'walk'], ['pvg', 'Ra sân bay · Bay lúc 02:20 ngày 14/01', 'bus']],
+  },
   photos,
   food: sections(food, '##'),
   review: sections(review, '##').map(({ title, body }) => '### ' + title + '\n\n' + body).join('\n\n'),

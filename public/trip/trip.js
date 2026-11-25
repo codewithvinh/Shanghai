@@ -12,7 +12,7 @@ const tabs = {
 };
 const dayLabels = ['07/01', '08/01', '09/01', '10/01', '11/01', '12/01', '13–14/01'];
 const dayThemes = ['Bay đêm', 'Hồ Tây', 'Lụa và trà', 'Tây Sách', 'Bến Thượng Hải', 'Disneyland', 'Dự Viên'];
-const estimate = 18840000;
+const estimate = 18023000;
 const money = (amount) => new Intl.NumberFormat('vi-VN').format(amount) + ' ₫';
 let data;
 let dayIndex = 0;
@@ -501,7 +501,7 @@ function render() {
   workspace.replaceChildren(element('h2', tabs[tab]));
   if (tab === 'lich-trinh') schedule(plan);
   if (tab === 'ban-do') {
-    disposeMap = mapView(workspace, data.pins, { element, searchable, categories: placeCategories });
+    disposeMap = mapView(workspace, data.pins, { element, searchable, categories: placeCategories, routes: data.routes });
     workspace.append(disclosure('Di chuyển cho 2 người', plan.transport));
   }
   if (tab === 'dia-diem') places(plan);

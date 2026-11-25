@@ -23,19 +23,20 @@ var PINS = window.PINS = {
     amap: "https://www.amap.com/?p=B0H6ORT05Y,30.748054,120.489158,%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85%E6%99%AF%E5%8C%BA1%E5%8F%B7%E6%B8%B8%E5%AE%A2%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83,%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85%E5%A4%A7%E8%A1%97129%E5%8F%B7%E8%A5%BF%E6%A0%85%E6%99%AF%E5%8C%BA%E5%86%85"
   },
   homeinn_sh: {
-    group: "hotel",
-    k: "khách sạn Thượng Hải · 11–13/01",
-    vi: "Homeinn Bến Thượng Hải Center",
-    name: "如家商旅酒店(上海南京路步行街外滩中心店)",
-    zh: "上海市黄浦区江西中路135弄11号",
-    img: "img/sight-bund.jpg",
-    tel: "+86-21-63239966",
-    lat: "31.233775", lng: "121.486551",
-    amap: "https://www.amap.com/?p=B00155KKGY,31.233775,121.486551,%E5%A6%82%E5%AE%B6%E5%95%86%E6%97%85%E9%85%92%E5%BA%97(%E4%B8%8A%E6%B5%B7%E5%8D%97%E4%BA%AC%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%E5%A4%96%E6%BB%A9%E4%B8%AD%E5%BF%83%E5%BA%97),%E6%B1%9F%E8%A5%BF%E4%B8%AD%E8%B7%AF135%E5%BC%8411%E5%8F%B7"
+    group: "hotel", k: "Thượng Hải · 11–13/01 · Phương án chính",
+    vi: "Home Inn (Shanghai The Bund Yuyuan Metro Station Branch)",
+    name: "如家·neo(上海外滩豫园地铁站店)", zh: "上海市黄浦区福佑路338号",
+    tel: "+86-21-55697811", lat: "31.227368", lng: "121.489564"
+  },
+  sushi_sh: {
+    group: "hotel", k: "Thượng Hải · 11–13/01 · Dự phòng",
+    vi: "Sushi Light Luxury Hotel (Shanghai Bund City God Temple)",
+    name: "宿适轻奢酒店(上海外滩城隍庙店)", zh: "上海市黄浦区丽水路1号，近人民路",
+    tel: "+86-21-68800999"
   },
   pvg: { group: "transit", k: "Sân bay", vi: "sân bay Phố Đông, nhà ga 2", name: "上海浦东国际机场T2", zh: "上海浦东国际机场T2航站楼", img: "img/transit-pvg.jpg", lat: "31.144343", lng: "121.808273" },
-  hongqiao_hub: { group: "transit", k: "Xuống bus đêm", vi: "Hồng Kiều Đông giao thông", name: "虹桥枢纽东交通中心", zh: "上海市闵行区虹桥枢纽东交通中心", img: "img/transit-pvg.jpg" },
-  hongqiao_station: { group: "transit", k: "Ga tàu", vi: "Ga Hồng Kiều", name: "上海虹桥站", zh: "上海虹桥站", img: "img/transit-pvg.jpg" },
+  hongqiao_hub: { group: "transit", k: "Xuống bus đêm", vi: "Trung tâm giao thông Hồng Kiều Đông", name: "虹桥枢纽东交通中心", zh: "上海市闵行区虹桥枢纽东交通中心", img: "img/transit-pvg.jpg", lat: "31.193464", lng: "121.326675" },
+  hongqiao_station: { group: "transit", k: "Ga tàu", vi: "Ga Hồng Kiều", name: "上海虹桥站", zh: "上海虹桥站", img: "img/transit-pvg.jpg", lat: "31.193964", lng: "121.320081" },
   hz_east: { group: "transit", k: "Ga tàu 08/01", vi: "Hàng Châu Đông", name: "杭州东站", zh: "杭州东站", img: "img/sight-westlake.jpg", lat: "30.291167", lng: "120.212494" },
   hz_chengzhan_bus: {
     group: "transit", k: "10/01 lên xe khách", vi: "Bến 城站 (gần KS)",
@@ -53,14 +54,14 @@ var PINS = window.PINS = {
     name: "乌镇西栅景区1号停车场", zh: "浙江省桐乡市乌镇西栅景区1号停车场",
     img: "img/sight-wuzhen.jpg"
   },
-  sh_south: { group: "transit", k: "Xe khách tới đây", vi: "Bến Nam Thượng Hải", name: "上海长途客运南站", zh: "上海长途客运南站", img: "img/sight-lujiazui.jpg" },
+  sh_south: { group: "transit", k: "Xe khách tới đây", vi: "Bến Nam Thượng Hải", name: "上海长途客运南站", zh: "上海长途客运南站", img: "img/sight-lujiazui.jpg", lat: "31.152591", lng: "121.433298" },
   liulang: {
     group: "sight", k: "08/01 sáng", vi: "Liễu Lãng Văn Oanh",
     name: "杭州西湖风景名胜区-柳浪闻莺", zh: "杭州市西湖区南山路87号柳浪闻莺",
     img: "img/sight-westlake.jpg", lat: "30.240389", lng: "120.156326",
     amap: "https://www.amap.com/?p=B023B0247C,30.240389,120.156326,%E6%9D%AD%E5%B7%9E%E8%A5%BF%E6%B9%96%E9%A3%8E%E6%99%AF%E5%90%8D%E8%83%9C%E5%8C%BA-%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA,%E5%8D%97%E5%B1%B1%E8%B7%AF87%E5%8F%B7"
   },
-  duanqiao: { group: "sight", k: "08/01 sáng", vi: "Đoạn Kiều", name: "断桥", zh: "杭州市西湖区北山路断桥残雪", img: "img/sight-westlake.jpg" },
+  duanqiao: { group: "sight", k: "08/01 sáng", vi: "Đoạn Kiều", name: "断桥", zh: "杭州市西湖区北山路断桥残雪", img: "img/sight-westlake.jpg", lat: "30.258151", lng: "120.151347" },
   botanical_garden: {
     group: "sight", k: "09/01 chiều", vi: "Vườn thực vật Hàng Châu · Cổng Bắc",
     name: "杭州植物园(北门)", zh: "杭州市西湖区桃源岭1号杭州植物园(北门)",
@@ -93,9 +94,16 @@ var PINS = window.PINS = {
     img: "img/sight-disney.jpg", lat: "31.143212", lng: "121.660294",
     amap: "https://www.amap.com/?p=B0KDJ78DYD,31.143212,121.660294,%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B9%90%E5%9B%AD,%E7%94%B3%E8%BF%AA%E8%A5%BF%E8%B7%AF753%E5%8F%B7%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%BA%A6%E5%81%87%E5%8C%BA"
   },
-  wukang: { group: "sight", k: "13/01 sáng", vi: "Tòa Vũ Khang", name: "武康大楼", zh: "上海市徐汇区武康路武康大楼", img: "img/sight-wukang.jpg" },
-  xintiandi: { group: "sight", k: "13/01 chiều", vi: "Tân Thiên Địa", name: "新天地", zh: "上海市黄浦区太仓路181弄新天地", img: "img/sight-xintiandi.jpg" },
+  wukang: { group: "sight", k: "13/01 sáng", vi: "Tòa Vũ Khang", name: "武康大楼", zh: "上海市徐汇区武康路武康大楼", img: "img/sight-wukang.jpg", lat: "31.204430", lng: "121.438278" },
+  xintiandi: { group: "sight", k: "13/01 chiều", vi: "Tân Thiên Địa", name: "新天地", zh: "上海市黄浦区太仓路181弄新天地", img: "img/sight-xintiandi.jpg", lat: "31.220351", lng: "121.474491" },
   tianzifang: { group: "sight", k: "13/01 chiều", vi: "Điền Tử Phường", name: "田子坊", zh: "上海市黄浦区泰康路210弄田子坊", img: "img/sight-xintiandi.jpg" },
+  nanjing_walk: { group: "sight", k: "11/01 · dạo phố", vi: "Phố đi bộ Nam Kinh Lộ", name: "南京路步行街", zh: "上海市黄浦区南京东路步行街" },
+  qixin: { group: "food", k: "Trưa 09/01", vi: "Qixin Lao Nong Tang", name: "齐心老弄堂面馆", zh: "杭州市上城区湖滨 齐心老弄堂面馆" },
+  yuyuan_gate1: {
+    group: "sight", k: "13/01 · mua quà", vi: "Cổng 1 phố chợ Dự Viên",
+    name: "豫园商城(1号门)", zh: "上海市黄浦区方浜中路265号豫园商城1号门",
+    lat: "31.227691", lng: "121.491489"
+  },
   yuyuan: {
     group: "sight", k: "13/01 tối — ghim cổng 5", vi: "Dự Viên thương thành",
     name: "豫园商城5号门", zh: "上海市黄浦区豫园商城5号门",

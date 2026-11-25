@@ -94,7 +94,44 @@ export function mapCoordinates(pin) {
   return [lat - deltaLat, lng - deltaLng];
 }
 
-export function mapView(workspace, pins, { element, searchable, categories }) {
+function amapPoint(pin) {
+  return [pin.lng, pin.lat, pin.name || pin.vi].join(',');
+}
+
+export function amapRouteLink(from, to, mode) {
+  if (!mode || !hasCoordinates(from) || !hasCoordinates(to)) return null;
+  const url = new URL('https://uri.amap.com/navigation');
+  url.search = new URLSearchParams({
+    from: amapPoint(from), to: amapPoint(to), mode, coordinate: 'gaode', src: 'giang-nam', callnative: '1',
+  });
+  return url.href;
+}
+
+export function amapDayLink(pins) {
+  const first = pins[0];
+  const last = pins.at(-1);
+  if (pins.length < 3 || first === last || !pins.every(hasCoordinates)) return null;
+  const url = new URL('https://www.amap.com/ssr/embed/dir');
+  url.search = new URLSearchParams({
+    from: amapPoint(first), to: amapPoint(last), via: pins.slice(1, -1).map(amapPoint).join(';'),
+    type: 'car', platform: 'pc', src: 'giang-nam',
+  });
+  return url.href;
+}
+
+export function mapView(workspace, pins, { element, searchable, categories, routes }) {
+  const dayFilter = element('label', 'Lộ trình theo ngày', 'map-filter map-day-filter');
+  const daySelect = element('select');
+  for (const date of ['', ...Object.keys(routes || {})]) {
+    const option = element('option', date ? date.replace('-', '/') : 'Tất cả địa điểm');
+    option.value = date;
+    daySelect.append(option);
+  }
+  const address = new URL(location.href);
+  const initialDay = address.searchParams.get('day');
+  if (initialDay && Object.hasOwn(routes || {}, initialDay)) daySelect.value = initialDay;
+  dayFilter.append(daySelect);
+  workspace.append(dayFilter);
   const layout = element('div', null, 'map-layout');
   const canvas = element('div', null, 'trip-map');
   canvas.setAttribute('aria-label', 'Bản đồ các địa điểm có tọa độ');
@@ -118,12 +155,19 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
   const list = element('ul', null, 'map-results');
   const count = element('p', null, 'result-count');
   count.setAttribute('role', 'status');
-  const selected = element('div', 'Chọn một ghim hoặc địa điểm để mở trong Amap Global.', 'map-selection');
+  const selected = element('div', null, 'map-selection');
+  selected.hidden = true;
   const fit = element('button', 'Xem toàn bộ ghim');
   const controls = element('div', null, 'map-controls');
   controls.append(notice, fit);
   mapPanel.append(canvas, controls, selected);
-  sidebar.append(search, filter, count, list);
+  const directory = element('div', null, 'map-directory');
+  directory.append(search, filter, count, list);
+  const stops = element('ol', null, 'map-stops');
+  const routeHeader = element('div', null, 'map-route-header');
+  const itinerary = element('section', null, 'map-itinerary');
+  itinerary.append(routeHeader, stops);
+  sidebar.append(directory, itinerary);
   layout.append(mapPanel, sidebar);
   workspace.append(layout);
 
@@ -140,7 +184,9 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
       tileFailed = true;
       notice.textContent = 'Bản đồ nền tải chưa đầy đủ. Bạn vẫn có thể chọn ghim.';
     }).on('loading', () => { tileFailed = false; }).on('load', () => {
-      if (!tileFailed) notice.textContent = 'Chọn ghim để xem địa chỉ.';
+      if (!tileFailed) notice.textContent = daySelect.value
+        ? 'Nét đứt nối các ghim theo thứ tự.'
+        : 'Chọn ghim để xem địa chỉ.';
     }).addTo(map);
   } else {
     canvas.hidden = true;
@@ -148,7 +194,9 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
   }
 
   const entries = pins.map((pin) => {
-    const button = element('button', pin.vi || pin.name);
+    const rawName = pin.vi || pin.name;
+    const displayName = rawName.charAt(0).toLocaleUpperCase('vi') + rawName.slice(1);
+    const button = element('button', displayName);
     const item = element('li');
     const category = categories[pin.group] || 'Địa điểm';
     const located = hasCoordinates(pin);
@@ -168,12 +216,13 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
       address.lang = 'zh-CN';
       const actions = element('div', null, 'pin-actions');
       actions.append(...amapActions(pin));
-      selected.replaceChildren(element('h3', pin.vi || pin.name), address, actions);
+      selected.replaceChildren(element('h3', displayName), address, actions);
+      selected.hidden = false;
       if (fromList) {
         if (marker) map.setView(position, 15);
         selected.scrollIntoView({ block: 'nearest', behavior: 'instant' });
       } else {
-        const popup = element('div', element('strong', pin.vi || pin.name));
+        const popup = element('div', element('strong', displayName));
         const popupActions = element('div', null, 'pin-actions');
         popupActions.append(...amapActions(pin));
         popup.append(popupActions);
@@ -182,21 +231,94 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
     }
     marker?.on('click', () => choose(false));
     button.addEventListener('click', () => choose(true));
-    return { button, item, pin, marker, position, searchText };
+    return { button, item, pin, marker, position, searchText, choose, displayName };
   });
 
   let visible = entries;
+  const entriesById = new Map(entries.map((entry) => [entry.pin.id, entry]));
   function fitVisible() {
     const positions = visible.map(({ position }) => position).filter(Boolean);
     fit.disabled = !map || !positions.length;
     if (positions.length) map?.fitBounds(positions, { padding: [38, 38], maxZoom: 15 });
   }
   function refresh() {
+    const route = routes?.[daySelect.value];
+    if (map) notice.textContent = route ? 'Nét đứt nối các ghim theo thứ tự.' : 'Chọn ghim để xem địa chỉ.';
+    directory.hidden = Boolean(route);
+    itinerary.hidden = !route;
+    selected.hidden = true;
+    map?.closePopup();
+    layer?.clearLayers();
+    if (route) {
+      const ordered = route.map(([id, time, mode]) => ({ entry: entriesById.get(id), time, mode }));
+      visible = ordered.map(({ entry }) => entry);
+      const overview = amapDayLink(visible.map(({ pin }) => pin));
+      const heading = element('h3', 'Điểm dừng');
+      const count = element('span', ordered.length + ' điểm', 'map-route-count');
+      const headingRow = element('div', heading, 'map-route-heading');
+      headingRow.append(count);
+      routeHeader.replaceChildren(headingRow);
+      if (overview) {
+        const link = element('a', 'Amap · Toàn tuyến (ô tô)', 'map-route-action map-overview-link');
+        link.href = overview;
+        routeHeader.append(link);
+      }
+      stops.replaceChildren();
+      const numbers = new Map();
+      for (const [index, { entry, time, mode }] of ordered.entries()) {
+        const item = element('li');
+        const title = element('strong', entry.displayName);
+        const copy = element('span', title, 'map-stop-copy');
+        copy.prepend(element('small', time));
+        const step = element('button', copy, 'map-stop-button');
+        step.type = 'button';
+        step.prepend(element('span', String(index + 1), 'map-stop-number'));
+        step.addEventListener('click', () => entry.button.click());
+        const { app } = amapLinks(entry.pin, navigator.userAgent, navigator.maxTouchPoints);
+        const from = ordered[index - 1]?.entry.pin;
+        const direction = from && amapRouteLink(from, entry.pin, mode);
+        const link = element('a', 'Mở địa điểm', 'map-route-action');
+        link.href = app;
+        const actions = element('div', null, 'map-stop-actions');
+        if (from) {
+          const labels = { bus: 'Công cộng', walk: 'Đi bộ', car: 'Ô tô' };
+          const label = index + ' → ' + (index + 1);
+          if (direction) {
+            const action = element('a', 'Amap · ' + label + ' · ' + labels[mode], 'map-route-action map-leg-action');
+            action.href = direction;
+            action.setAttribute('aria-label', 'Amap: ' + (from.vi || from.name) + ' đến ' + (entry.pin.vi || entry.pin.name) + ' · ' + labels[mode]);
+            actions.append(action);
+          } else {
+            actions.append(element('small', label + ' · Mở điểm đến để tra đường'));
+          }
+        }
+        actions.append(link);
+        item.append(step, actions);
+        stops.append(item);
+        if (entry.position) numbers.set(entry, [...(numbers.get(entry) || []), index + 1]);
+      }
+      if (map) {
+        const positions = visible.map((entry) => entry.position).filter(Boolean);
+        if (positions.length > 1) L.polyline(positions, { dashArray: '5 8', weight: 3, interactive: false }).addTo(layer);
+        for (const [entry, steps] of numbers) {
+          const label = steps.join('·');
+          const marker = L.marker(entry.position, {
+            title: entry.pin.vi, alt: entry.pin.vi,
+            icon: L.divIcon({ className: 'map-route-marker', html: label, iconSize: [34, 28], iconAnchor: [17, 14] }),
+          });
+          marker.on('click', () => entry.choose(false)).addTo(layer);
+        }
+      }
+      canvas.setAttribute('aria-label', 'Lộ trình ngày ' + daySelect.value.replace('-', '/') + ' với các điểm dừng đánh số');
+      fit.textContent = 'Xem cả ngày';
+      fitVisible();
+      return;
+    }
+    canvas.setAttribute('aria-label', 'Bản đồ các địa điểm có tọa độ');
+    fit.textContent = 'Xem toàn bộ ghim';
     const query = searchable(input.value.trim());
     visible = entries.filter(({ pin, searchText }) => (!select.value || pin.group === select.value) && searchText.includes(query));
     const matching = new Set(visible);
-    map?.closePopup();
-    layer?.clearLayers();
     for (const entry of entries) {
       entry.item.hidden = !matching.has(entry);
       if (!entry.item.hidden && entry.marker) layer.addLayer(entry.marker);
@@ -205,6 +327,13 @@ export function mapView(workspace, pins, { element, searchable, categories }) {
     count.textContent = visible.length + ' địa điểm · ' + located + ' ghim trên bản đồ';
     fitVisible();
   }
+  daySelect.addEventListener('change', () => {
+    const url = new URL(location.href);
+    if (daySelect.value) url.searchParams.set('day', daySelect.value);
+    else url.searchParams.delete('day');
+    history.replaceState(history.state, '', url);
+    refresh();
+  });
   input.addEventListener('input', refresh);
   select.addEventListener('change', refresh);
   fit.addEventListener('click', fitVisible);

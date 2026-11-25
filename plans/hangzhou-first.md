@@ -8,7 +8,7 @@ Chuyến đi 8 ngày 7 đêm, có cảnh đẹp, đồ ăn ngon, thời gian đ�
 
 **Thời gian:** 07/01/2027 – 14/01/2027 · Hàng Châu · Ô Trấn · Thượng Hải
 
-**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.840.000₫**, còn dư khoảng **1,16 triệu** so với trần ngân sách.
+**Ngân sách:** trần 20 triệu/người, dự kiến chi **18.023.000₫**, còn dư khoảng **1.977.000đ** so với trần ngân sách.
 **Tỷ giá dùng trong kế hoạch:** 1 CNY ≈ 3.873₫
 
 Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này chỉ là giá tham khảo và lịch mẫu. Khi nào chưa đặt, chưa xuất vé thì mọi thứ vẫn có thể thay đổi.
@@ -20,7 +20,7 @@ Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này ch�
 
 **Lộ trình:** Hà Nội → sân bay Phố Đông (Thượng Hải) → Hàng Châu → Ô Trấn → Thượng Hải → Hà Nội
 **Đêm đầu tiên:** Mình không thuê khách sạn gần sân bay cho đỡ tốn. Hai bạn đi xe buýt đêm 守航夜宵线 đến Hồng Kiều, rồi bắt tàu đi Hàng Châu.
-**Nơi ở dự kiến:** Homeinn Định An 2 đêm (08–10/01) · một đêm trong Tây Sách · khu Bến Thượng Hải 2 đêm. Cả ba chỗ đều chưa đặt.
+**Nơi ở dự kiến:** Homeinn Định An 2 đêm (08–10/01) · một đêm trong Tây Sách · Home Inn chi nhánh ga Dự Viên 2 đêm (11–13/01), Sushi Light Luxury Hotel là phương án dự phòng. Cả ba chỗ đều chưa đặt.
 
 > Sổ tay xem trên điện thoại: [Giang Nam PWA](https://codewithvinh.github.io/Shanghai/trip/)
 
@@ -40,7 +40,7 @@ Lưu ý: giá khách sạn, vé Disney và giờ xe khách trong bản này ch�
 | Hồ Tây (西湖 / West Lake) | Hàng Châu | Sáng | Bờ đông không mất phí, sáng 08/01 khá vắng, hợp với lúc vừa bay đêm xuống. | Nên giữ |
 | Ô Trấn Tây Sách (乌镇西栅) | Ô Trấn | Chiều đến sáng hôm sau | Ở ngay trong trấn để đi dạo lúc sớm. Nhớ kiểm tra vé có trong gói phòng chưa. | Nên giữ |
 | Disneyland và ILLUMINATE! | Thượng Hải | Cả ngày | Giữ ngày 12/01. Gần ngày đi hãy xem lại lịch show và giờ tàu về. | Nên giữ |
-| Bến Thượng Hải (外滩) | Thượng Hải | Tối | Từ khách sạn ở Nam Kinh Lộ đi bộ ra là tới, vừa kịp ngắm lên đèn. | Nên đi |
+| Bến Thượng Hải (外滩) | Thượng Hải | Tối | Đi từ khu Dự Viên ra Bến Thượng Hải để ngắm lên đèn. | Nên đi |
 | Phố chợ Dự Viên (豫园商城) | Thượng Hải | Tối | Đèn đẹp, không cần mua vé vào vườn. Nhớ ghim cổng số 5. | Nên giữ |
 
 ---
@@ -129,8 +129,8 @@ Nếu trời mưa, hoặc hai bạn muốn dành buổi chiều ở trong nhà, 
 | --- | --- |
 | **06:00–08:00** | **Dạo Tây Sách và chụp ảnh.** Ăn sáng tại chỗ ở hoặc mua đồ ăn nhẹ. Trả phòng trước khi ra trung tâm xe khách. |
 | **08:00 · Ra bến** | **Tìm chuyến sớm từ Tây Sách đi Nam Thượng Hải.** Giờ xe và điểm lên xe cần xác nhận khi mua vé. Tạm dự trù 55 tệ/người theo giá tham khảo của tuyến. Nếu không có chuyến thuận tiện, cân nhắc đi qua ga Đồng Hương. `浙江省桐乡市乌镇西栅游客服务中心` · `上海长途客运南站` |
-| **Sau khi đến Thượng Hải** | **Dạo phố trước khi nhận phòng.** Gửi vali nếu cần rồi ghé Nam Kinh Lộ đi dạo. Sau đó quay về Homeinn Bến Thượng Hải nhận phòng. `上海市黄浦区江西中路135弄11号` |
-| **17:00–22:00** | **Bến Thượng Hải lên đèn, ăn ở 裕兴记, rồi sang Lục Gia Chủy.** Đi bộ dọc Bến Thượng Hải từ nam lên bắc. Ăn tối ở 裕兴记 (四川中路410), cách khách sạn khoảng 380m. Nên gọi cơm cua, đừng gọi hai tô mì nguyên giá. Sau đó đi tàu điện ngầm tuyến 2 sang cầu đi bộ để chụp ba tòa tháp. `上海市黄浦区中山东一路外滩` · `上海市黄浦区四川中路410号裕兴记` · `上海市浦东新区陆家嘴环路步行桥` |
+| **Sau khi đến Thượng Hải** | **Dạo phố trước khi nhận phòng.** Gửi vali nếu cần rồi ghé Nam Kinh Lộ đi dạo. Sau đó quay về Home Inn chi nhánh ga Dự Viên nhận phòng. `上海市黄浦区福佑路338号` |
+| **17:00–22:00** | **Bến Thượng Hải lên đèn, ăn ở 裕兴记, rồi sang Lục Gia Chủy.** Đi bộ dọc Bến Thượng Hải từ nam lên bắc. Ăn tối ở 裕兴记 (四川中路410). Nên gọi cơm cua, đừng gọi hai tô mì nguyên giá. Sau đó đi tàu điện ngầm tuyến 2 sang cầu đi bộ để chụp ba tòa tháp. `上海市黄浦区中山东一路外滩` · `上海市黄浦区四川中路410号裕兴记` · `上海市浦东新区陆家嘴环路步行桥` |
 
 ---
 
@@ -138,12 +138,12 @@ Nếu trời mưa, hoặc hai bạn muốn dành buổi chiều ở trong nhà, 
 
 **Thượng Hải · Disneyland**
 
-- Đi tàu điện ngầm tuyến 2, đổi sang tuyến 11. Dự kiến mất 70–90 phút, khoảng 7 tệ.
+- Từ ga Dự Viên, đi tuyến 11 đến Disneyland sau khi đổi tuyến. Kiểm tra lộ trình trong ứng dụng bản đồ từ khách sạn đã chọn. Dự kiến mất 70–90 phút, khoảng 7 tệ.
 - Tham khảo vé Early Bird kèm coupon bữa ăn 30 tệ trên Klook, giá từ khoảng 1,61 triệu/người. Kiểm tra giá cho ngày 12/01/2027 và giờ mở cửa trước khi đặt.
 
 | Thời gian | Hoạt động |
 | --- | --- |
-| **07:45–09:00** | **Từ Nam Kinh Đông đến Disneyland.** Mua một ly Luckin gần khách sạn cho tỉnh táo. Nên mua vé tàu điện ngầm khứ hồi luôn cho đỡ phải xếp hàng. `上海市浦东新区申迪西路753号上海迪士尼乐园` |
+| **07:45–09:00** | **Từ khu Dự Viên đến Disneyland.** Mua một ly Luckin gần khách sạn cho tỉnh táo. Nên mua vé tàu điện ngầm khứ hồi luôn cho đỡ phải xếp hàng. `上海市浦东新区申迪西路753号上海迪士尼乐园` |
 | **Theo giờ công viên** | **TRON, Zootopia và ILLUMINATE!** Ưu tiên TRON và Zootopia. Sau đó chọn thêm Soaring hoặc Pirates tùy thời gian chờ. Gần ngày đi hãy tra suất chiếu ILLUMINATE!, giờ tàu cuối của tuyến 11 và tuyến cần đổi trên đường về. Hai bạn có thể mang theo đồ ăn nhẹ không cần hâm nóng hay giữ lạnh và không có mùi nồng. Sau show, chừa khoảng 15–20 phút đi bộ ra ga. Nếu lỡ tàu thì gọi Didi, dự trù 80–150 tệ. |
 | **22:00** | **Ăn khuya nếu còn sức**, quán 富小馆 ở 黄河路85 có canh bò và xiên nướng. Nếu mệt quá thì ghé 7-Eleven. `上海市黄浦区黄河路85号富小馆` |
 
@@ -173,7 +173,8 @@ Nếu trời mưa, hoặc hai bạn muốn dành buổi chiều ở trong nhà, 
 | --- | --- | --- | --- |
 | 08–10/01 · 2 đêm | Homeinn Selected Định An Lộ | `杭州市上城区延安路126号耀江大厦A座` | ~643k/đêm · giá Trip.com ngày 17/11, chưa mở đặt xa · 0571-86077977 |
 | 10–11/01 · 1 đêm | Gửi vali ở trung tâm đón khách Tây Sách | `浙江省桐乡市乌镇西栅游客服务中心` | Ngủ nhà dân trong trấn ~1.861k · +86-573-88731088 |
-| 11–13/01 · 2 đêm | Homeinn Bến Thượng Hải Center | `上海市黄浦区江西中路135弄11号` | ~2.611k cho 2 đêm · +86-21-63239966 |
+| 11–13/01 · 2 đêm · phương án chính | [Home Inn (Shanghai The Bund Yuyuan Metro Station Branch)](https://us.trip.com/hotels/shanghai-hotel-detail-135917012/home-inn-shanghai-the-bund-yuyuan-metro-station-branch/) | `上海市黄浦区福佑路338号` | Từ 489.416đ/đêm, khoảng 978.832đ/2 đêm · +86-21-55697811 |
+| 11–13/01 · 2 đêm · dự phòng | [Sushi Light Luxury Hotel (Shanghai Bund City God Temple)](https://www.trip.com/hotels/shanghai-hotel-detail-22273655/sushi-light-luxury-hotel-shanghai-bund-chenghuang-temple-branch/) | `上海市黄浦区丽水路1号，近人民路` | Mốc giá trung bình từ 1.618.799đ/đêm, khoảng 3.237.598đ/2 đêm · +86-21-68800999 |
 
 ---
 
@@ -351,10 +352,10 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | Ăn trưa nhẹ trong trấn | Mì hoặc đồ ăn ở Lawson | 21 | 81.333đ | 2 phần | 163.000đ |
 |  | Xe khách Tây Sách → Nam Thượng Hải | Mỗi người một vé | 55 | 213.015đ | 2 vé | 426.000đ |
 |  | Metro về khách sạn | Dự trù 8 tệ/người | 8 | 30.984đ | 2 vé | 62.000đ |
-|  | Homeinn Bến Thượng Hải | Giá một phòng cho cả hai đêm | — | 2.611.000đ | 1 gói 2 đêm | 2.611.000đ |
+|  | Khách sạn khu Dự Viên | Tạm tính theo giá từ của Home Inn chi nhánh ga Dự Viên | — | 489.416đ | 2 đêm | 979.000đ |
 |  | Tối tại **裕兴记 / Dụ Hưng Ký** | Cơm cua chia đôi | 78 | 302.094đ | 1 phần | 302.000đ |
 |  | Trà ở Nam Kinh Lộ hoặc Lục Gia Chủy | Mỗi người một ly | 22 | 85.206đ | 2 ly | 170.000đ |
-|  | **Tổng 11/01** |  |  |  |  | **3.967.000đ** |
+|  | **Tổng 11/01** |  |  |  |  | **2.334.000đ** |
 | 12/01 · Disneyland | Metro khứ hồi | Tạm tính cho hai người | 14 | 54.222đ | 1 khoản | 54.000đ |
 |  | Vé Disneyland | Giá từ của gói Early Bird Klook kèm coupon bữa ăn 30 tệ. Chưa xác nhận giá ngày 12/01 và chưa trừ coupon khỏi tiền ăn | — | 1.611.539đ | 2 vé | 3.223.000đ |
 |  | Cà phê Luckin | Mỗi người một ly | 15 | 58.095đ | 2 ly | 116.000đ |
@@ -369,20 +370,27 @@ Tỷ giá dự toán: **1 tệ ≈ 3.873đ**. Thành tiền và tổng được 
 |  | CHAGEE tại sân bay Phố Đông | Mỗi người một ly | 20 | 77.460đ | 2 ly | 155.000đ |
 |  | Metro ra sân bay | Mỗi người một vé | 7 | 27.111đ | 2 vé | 54.000đ |
 |  | **Tổng 13–14/01** |  |  |  |  | **1.050.000đ** |
-|  | **Tổng chi tiêu theo ngày** |  |  |  |  | **28.023.000đ** |
+|  | **Tổng chi tiêu theo ngày** |  |  |  |  | **26.391.000đ** |
+
+### Giá khách sạn Thượng Hải
+
+Giá tham khảo trên Trip.com, chưa xác minh được giá cho 1 phòng, 2 người từ 11–13/01/2027. Kiểm tra giá theo ngày, loại phòng và thuế phí khi đặt.
+
+- **Home Inn gần ga Dự Viên:** từ **489.416đ/đêm**, tương đương **978.832đ/2 đêm** nếu giữ nguyên đơn giá. Bảng chi phí dùng mức tham khảo này. [Giá từ trên Trip.com](https://vn.trip.com/hotels/shanghai-home-inn/hotels-c2b110/)
+- **Sushi Light Luxury Hotel gần Miếu Thành Hoàng:** giá trung bình từ **1.618.799đ/đêm** trên bản Trip.com tiếng Việt, tương đương **3.237.598đ/2 đêm** nếu giữ nguyên đơn giá. Nếu chọn Sushi và đặt được mức tham khảo này, tổng chuyến đi khoảng **38.306.000đ**. [Trang Trip.com tiếng Việt](https://vn.trip.com/hotels/shanghai-hotel-detail-22273655/sushi-boutique-hotel/)
 
 ### Tổng ngân sách
 
 | Khoản | Đơn giá (tệ) | Đơn giá (VNĐ) | Số lượng | Thành tiền |
 | --- | ---: | ---: | --- | ---: |
-| Chi tiêu theo ngày | — | — | — | 28.023.000đ |
+| Chi tiêu theo ngày | — | — | — | 26.391.000đ |
 | Visa | — | 2.300.000đ | 2 người | 4.600.000đ |
 | eSIM | — | 250.000đ | 2 người | 500.000đ |
 | Giỏ quà lưu niệm (chưa gồm 3 hộp kem lớn) | 660 | 2.556.180đ | 1 giỏ | 2.556.000đ |
 | Quỹ phát sinh | — | 1.000.000đ | 2 người | 2.000.000đ |
-| **Tổng dự kiến cho hai người** | | | | **37.679.000đ** |
-| **Bình quân mỗi người** | | | | **18.840.000đ** |
-| **Còn lại so với trần 40 triệu đồng** | | | | **2.321.000đ** |
+| **Tổng dự kiến cho hai người** | | | | **36.047.000đ** |
+| **Bình quân mỗi người** | | | | **18.023.000đ** |
+| **Còn lại so với trần 40 triệu đồng** | | | | **3.953.000đ** |
 
 Tham khảo [vé Disneyland trên Klook](https://www.klook.com/vi/activity/2128-disney-resort-shang-hai/).
 

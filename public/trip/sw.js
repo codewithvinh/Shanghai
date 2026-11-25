@@ -1,5 +1,5 @@
 const prefix = 'giang-nam:' + self.registration.scope + ':';
-const cacheName = prefix + 'f5b3fff8f8d5ad80';
+const cacheName = prefix + '3e4a71dd540a9a81';
 const shell = new URL('./index.html', self.registration.scope).href;
 const localAssets = [
   './index.html', './trip.css', './trip.js', './data.json', './manifest.webmanifest',

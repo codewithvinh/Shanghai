@@ -277,18 +277,78 @@ progress::-moz-progress-bar { background: var(--blue); border-radius: 99px }
 .budget-figures dd { color: var(--blue); font-size: var(--text-section); font-weight: var(--weight-bold); line-height: var(--leading-title) }
 .ticket-dates time,.ticket-costs strong,.days small,.timeline time,.budget-figures dd,table { font-variant-numeric: tabular-nums }
 .map-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 15px; align-items: start }
+.map-day-filter { max-width: 320px; margin-bottom: 12px }
+.map-route-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px }
+.map-route-heading h3 { margin: 0 }
+.map-route-count { color: var(--muted); font-size: var(--text-detail) }
+.map-route-header { padding: 0 0 12px; border-bottom: 1px solid var(--line) }
+.map-route-action {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 6px 12px;
+  border: 1px solid var(--line); border-radius: 12px; color: var(--blue); font-size: var(--text-detail);
+  font-weight: var(--weight-semibold); text-decoration: none;
+}
+.map-route-action:hover { border-color: var(--blue) }
+.map-leg-action { background: var(--blue-soft); border-color: transparent }
+.map-overview-link { margin-top: 10px; background: var(--blue-soft); border-color: transparent }
+.map-route-marker,.map-stop-number { display: grid; place-items: center; border-radius: 999px; background: var(--blue); color: white; font-weight: var(--weight-semibold) }
+.map-route-marker { border: 2px solid white; box-shadow: 0 2px 6px #10203da8 }
+.map-stops { margin: 0; padding: 0; list-style: none }
+.map-stops li { position: relative; padding: 14px 0 4px }
+.map-stops li:not(:last-child)::before {
+  content: ''; position: absolute; inset-block: 32px -24px; inset-inline-start: 13px;
+  border-inline-start: 2px solid var(--blue-soft); pointer-events: none;
+}
+.map-stop-button {
+  display: flex; width: 100%; min-height: 44px; align-items: flex-start; gap: 10px;
+  padding: 0; border: 0; border-radius: 8px; background: transparent; text-align: left;
+}
+.map-stop-button:hover .map-stop-copy strong { color: var(--blue) }
+.map-stop-number { position: relative; flex: 0 0 28px; height: 28px; font-size: var(--text-detail) }
+.map-stop-copy { display: grid; gap: 2px }
+.map-stops small { color: var(--muted); font-size: var(--text-detail); font-weight: var(--weight-regular) }
+.map-stop-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; margin: 6px 0 0 38px }
+.map-stop-actions small { width: 100% }
 .map-panel,.map-sidebar { min-width: 0; padding: 13px; border: 1px solid var(--line); border-radius: 17px; background: var(--white); box-shadow: var(--shadow) }
 .trip-map { z-index: 0; height: clamp(325px, 55vh, 545px); border-radius: 12px; background: #e5edf4; font-family: inherit }
 .trip-marker { display: grid; place-items: center; border: 2px solid white; border-radius: 50%; background: var(--blue); box-shadow: 0 2px 6px #10203da8 }
 .trip-marker::after { content: ""; width: 7px; height: 7px; border-radius: 50%; background: white }
 .map-controls { display: flex; justify-content: space-between; align-items: center; gap: 11px; padding-block: 9px }
 .map-controls button,.map-notice { font-size: var(--text-detail) }
-.map-notice { color: var(--muted) }
+.map-controls button { flex-shrink: 0; min-height: 44px }
+.map-notice { margin: 0; color: var(--muted) }
 .map-selection { padding: 11px; border-radius: 10px; background: var(--blue-soft) }
 .map-selection p { margin-top: 5px }
 .map-sidebar .search { margin-block: 0 10px }
 .map-filter { display: grid; gap: var(--space-1); font-size: var(--text-detail); font-weight: var(--weight-semibold); color: var(--muted) }
-.map-filter select { padding: 7px 25px 7px 8px; border: 1px solid var(--line); border-radius: 8px }
+.map-filter select {
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 9px 36px 9px 13px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: var(--blue);
+  background-color: var(--white);
+  background-position: right 13px center;
+  font-size: var(--text-body);
+  font-weight: var(--weight-semibold);
+}
+.map-day-filter select { background-color: var(--blue-soft) }
+.map-filter select:hover,.map-filter select:focus-visible { border-color: var(--blue) }
+@supports (appearance: base-select) and selector(select::picker(select)) {
+  .map-filter select,.map-filter select::picker(select) { appearance: base-select }
+  .map-filter select { background-image: none; padding-inline-end: 13px }
+  .map-filter select::picker-icon { color: var(--blue) }
+  .map-filter select::picker(select) {
+    margin-block: 5px;
+    padding: 4px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+  }
+  .map-filter option { min-height: 44px; padding: 8px 10px; border-radius: 8px; color: var(--blue) }
+  .map-filter option:hover,.map-filter option:focus-visible,.map-filter option:checked { background: var(--blue-soft) }
+}
 .map-results { list-style: none; margin: 0; padding: 3px; max-height: 430px; overflow: auto }
 .map-results li + li { margin-top: 6px }
 .map-results button { display: grid; width: 100%; text-align: left; padding: 7px 9px }
@@ -310,6 +370,8 @@ progress::-moz-progress-bar { background: var(--blue); border-radius: 99px }
 
   .prep-grid,.food-grid { grid-template-columns: 1fr }
   .map-layout { grid-template-columns: 1fr }
+  .map-day-filter { max-width: none }
+  .trip-map { height: clamp(250px, 40svh, 365px) }
   .map-results { max-height: 330px }
   .budget-figures { grid-template-columns: 1fr 1fr; gap: 8px }
   .budget-figures > div:first-child { grid-column: 1/-1 }
