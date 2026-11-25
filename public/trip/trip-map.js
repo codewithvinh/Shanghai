@@ -293,11 +293,13 @@ export function mapView(workspace, pins, { element, searchable, categories, rout
       }
       stops.replaceChildren();
       const numbers = new Map();
+      const transportLabels = { bus: 'Phương tiện công cộng', walk: 'Đi bộ', car: 'Ô tô', ride: 'Xe đạp' };
       for (const [index, { entry, time, mode }] of ordered.entries()) {
         const item = element('li');
         const title = element('strong', entry.displayName);
         const copy = element('span', title, 'map-stop-copy');
-        copy.prepend(element('small', time));
+        const transport = transportLabels[mode];
+        copy.prepend(element('small', transport ? time + ' · ' + transport : time));
         const step = element('button', copy, 'map-stop-button');
         step.type = 'button';
         step.prepend(element('span', String(index + 1), 'map-stop-number'));
@@ -309,12 +311,11 @@ export function mapView(workspace, pins, { element, searchable, categories, rout
         link.href = app;
         const actions = element('div', null, 'map-stop-actions');
         if (from) {
-          const labels = { bus: 'Công cộng', walk: 'Đi bộ', car: 'Ô tô' };
           const label = index + ' → ' + (index + 1);
           if (direction) {
-            const action = element('a', 'Amap · ' + label + ' · ' + labels[mode], 'map-route-action map-leg-action');
+            const action = element('a', 'Amap · ' + label, 'map-route-action map-leg-action');
             action.href = direction;
-            action.setAttribute('aria-label', 'Amap: ' + (from.vi || from.name) + ' đến ' + (entry.pin.vi || entry.pin.name) + ' · ' + labels[mode]);
+            action.setAttribute('aria-label', 'Amap: ' + (from.vi || from.name) + ' đến ' + (entry.pin.vi || entry.pin.name));
             actions.append(action);
           } else {
             actions.append(element('small', label + ' · Mở điểm đến để tra đường'));
