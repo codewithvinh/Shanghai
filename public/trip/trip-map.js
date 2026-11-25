@@ -98,8 +98,33 @@ function amapPoint(pin) {
   return [pin.lng, pin.lat, pin.name || pin.vi].join(',');
 }
 
-export function amapRouteLink(from, to, mode) {
+function nativeRouteLink(pins, mode, userAgent, touchPoints) {
+  const types = { car: '0', bus: '1', walk: '2' };
+  const ios = /iPhone|iPad|iPod/i.test(userAgent) || (/Macintosh/i.test(userAgent) && touchPoints > 1);
+  const android = /Android/i.test(userAgent);
+  if ((!ios && !android) || !types[mode]) return null;
+  const from = pins[0];
+  const to = pins.at(-1);
+  const via = pins.slice(1, -1);
+  const params = new URLSearchParams({
+    sourceApplication: 'Giang Nam', dev: '0', t: types[mode],
+    slat: from.lat, slon: from.lng, sname: from.name || from.vi,
+    dlat: to.lat, dlon: to.lng, dname: to.name || to.vi,
+  });
+  if (via.length) {
+    params.set('vian', String(via.length));
+    params.set('vialats', via.map((pin) => pin.lat).join('|'));
+    params.set('vialons', via.map((pin) => pin.lng).join('|'));
+    params.set('vianames', via.map((pin) => pin.name || pin.vi).join('|'));
+  }
+  if (ios) return 'iosamap://path?' + params;
+  return 'intent://route/plan/?' + params + '#Intent;scheme=amapuri;package=com.autonavi.minimap;end';
+}
+
+export function amapRouteLink(from, to, mode, userAgent = '', touchPoints = 0) {
   if (!mode || !hasCoordinates(from) || !hasCoordinates(to)) return null;
+  const native = nativeRouteLink([from, to], mode, userAgent, touchPoints);
+  if (native) return native;
   const url = new URL('https://uri.amap.com/navigation');
   url.search = new URLSearchParams({
     from: amapPoint(from), to: amapPoint(to), mode, coordinate: 'gaode', src: 'giang-nam', callnative: '1',
@@ -107,10 +132,12 @@ export function amapRouteLink(from, to, mode) {
   return url.href;
 }
 
-export function amapDayLink(pins) {
+export function amapDayLink(pins, userAgent = '', touchPoints = 0) {
   const first = pins[0];
   const last = pins.at(-1);
   if (pins.length < 3 || first === last || !pins.every(hasCoordinates)) return null;
+  const native = nativeRouteLink(pins, 'car', userAgent, touchPoints);
+  if (native) return native;
   const url = new URL('https://www.amap.com/ssr/embed/dir');
   url.search = new URLSearchParams({
     from: amapPoint(first), to: amapPoint(last), via: pins.slice(1, -1).map(amapPoint).join(';'),
@@ -252,7 +279,8 @@ export function mapView(workspace, pins, { element, searchable, categories, rout
     if (route) {
       const ordered = route.map(([id, time, mode]) => ({ entry: entriesById.get(id), time, mode }));
       visible = ordered.map(({ entry }) => entry);
-      const overview = amapDayLink(visible.map(({ pin }) => pin));
+      const { userAgent, maxTouchPoints } = navigator;
+      const overview = amapDayLink(visible.map(({ pin }) => pin), userAgent, maxTouchPoints);
       const heading = element('h3', 'Điểm dừng');
       const count = element('span', ordered.length + ' điểm', 'map-route-count');
       const headingRow = element('div', heading, 'map-route-heading');
@@ -274,9 +302,9 @@ export function mapView(workspace, pins, { element, searchable, categories, rout
         step.type = 'button';
         step.prepend(element('span', String(index + 1), 'map-stop-number'));
         step.addEventListener('click', () => entry.button.click());
-        const { app } = amapLinks(entry.pin, navigator.userAgent, navigator.maxTouchPoints);
+        const { app } = amapLinks(entry.pin, userAgent, maxTouchPoints);
         const from = ordered[index - 1]?.entry.pin;
-        const direction = from && amapRouteLink(from, entry.pin, mode);
+        const direction = from && amapRouteLink(from, entry.pin, mode, userAgent, maxTouchPoints);
         const link = element('a', 'Mở địa điểm', 'map-route-action');
         link.href = app;
         const actions = element('div', null, 'map-stop-actions');
