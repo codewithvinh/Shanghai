@@ -12,7 +12,7 @@ const tabs = {
 };
 const dayLabels = ['07/01', '08/01', '09/01', '10/01', '11/01', '12/01', '13–14/01'];
 const dayThemes = ['Bay đêm', 'Hồ Tây', 'Lụa và trà', 'Tây Sách', 'Bến Thượng Hải', 'Disneyland', 'Dự Viên'];
-const estimate = 18023000;
+const estimate = 19153000;
 const money = (amount) => new Intl.NumberFormat('vi-VN').format(amount) + ' ₫';
 let data;
 let dayIndex = 0;
@@ -468,7 +468,7 @@ function budget(plan) {
   const cap = 20000000;
   const summary = element('div', null, 'panel budget-summary');
   const figures = element('dl', null, 'budget-figures');
-  for (const [label, amount] of [['Dự kiến mỗi người', estimate], ['Trần mỗi người', cap], ['Còn trong ngân sách', cap - estimate]]) {
+  for (const [label, amount] of [['Tạm tính mỗi người', estimate], ['Trần mỗi người', cap], ['Còn trước khi tính các khoản chờ giá', cap - estimate]]) {
     const figure = element('div');
     figure.append(element('dt', label), element('dd', money(amount)));
     figures.append(figure);
@@ -477,7 +477,7 @@ function budget(plan) {
   meter.max = cap;
   meter.value = estimate;
   meter.setAttribute('aria-label', 'Chi phí dự kiến so với trần ngân sách');
-  summary.append(figures, meter);
+  summary.append(figures, meter, element('p', 'Đã tạm tính phòng Sushi. Chưa gồm 3 hộp kem tay lớn.'));
   const breakdown = markdown(plan.budget);
   breakdown.classList.add('budget-breakdown');
   breakdown.querySelectorAll('.table-wrap').forEach((wrapper) => {

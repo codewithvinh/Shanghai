@@ -22,17 +22,11 @@ var PINS = window.PINS = {
     lat: "30.748054", lng: "120.489158",
     amap: "https://www.amap.com/?p=B0H6ORT05Y,30.748054,120.489158,%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85%E6%99%AF%E5%8C%BA1%E5%8F%B7%E6%B8%B8%E5%AE%A2%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83,%E4%B9%8C%E9%95%87%E8%A5%BF%E6%A0%85%E5%A4%A7%E8%A1%97129%E5%8F%B7%E8%A5%BF%E6%A0%85%E6%99%AF%E5%8C%BA%E5%86%85"
   },
-  homeinn_sh: {
-    group: "hotel", k: "Thượng Hải · 11–13/01 · Phương án chính",
-    vi: "Home Inn (Shanghai The Bund Yuyuan Metro Station Branch)",
-    name: "如家·neo(上海外滩豫园地铁站店)", zh: "上海市黄浦区福佑路338号",
-    tel: "+86-21-55697811", lat: "31.227368", lng: "121.489564"
-  },
   sushi_sh: {
-    group: "hotel", k: "Thượng Hải · 11–13/01 · Dự phòng",
+    group: "hotel", k: "Thượng Hải · 11–13/01 · Đã chốt",
     vi: "Sushi Light Luxury Hotel (Shanghai Bund City God Temple)",
     name: "宿适轻奢酒店(上海外滩城隍庙店)", zh: "上海市黄浦区丽水路1号，近人民路",
-    tel: "+86-21-68800999"
+    tel: "+86-21-68800999", lat: "31.228817", lng: "121.491035"
   },
   pvg: { group: "transit", k: "Sân bay", vi: "sân bay Phố Đông, nhà ga 2", name: "上海浦东国际机场T2", zh: "上海浦东国际机场T2航站楼", img: "img/transit-pvg.jpg", lat: "31.144343", lng: "121.808273" },
   hongqiao_hub: { group: "transit", k: "Xuống bus đêm", vi: "Trung tâm giao thông Hồng Kiều Đông", name: "虹桥枢纽东交通中心", zh: "上海市闵行区虹桥枢纽东交通中心", img: "img/transit-pvg.jpg", lat: "31.193464", lng: "121.326675" },
